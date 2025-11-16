@@ -17,6 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="Styles/navbar.css">
+  <link rel="stylesheet" href="Styles/destinations.css">
   <title>Visit Albania</title>
 </head>
 <body>
@@ -35,13 +36,13 @@
     </div>
 
     <!-- Hero Section navigation arrows -->
-    <div class="hero-arrows">
+    <div class="hero-arrows d-flex justify-content-between">
       <button class="arrow-left">&#10094;</button>
       <button class="arrow-right">&#10095;</button>
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="d-flex align-items-center">
+    <nav class="d-flex align-items-center justify-content-between">
       <!-- Hamburger Menu -->
       <div class="hamburger-menu"><i class="bi bi-list" id="menu"></i></div>
 
@@ -51,9 +52,9 @@
       </div>
 
       <!-- Links -->
-      <ul id="list">
+      <ul class="d-flex align-items-center" id="list">
         <li><a href="#">Home</a></li>
-        <li><a href="#" id="firstDropdown">Destinations<i class="bi bi-caret-down-fill"></i></a>
+        <li><a href="#destinations" id="firstDropdown">Destinations<i class="bi bi-caret-down-fill"></i></a>
           <!-- Destinations Dropdown -->
           <ul class="custom-dropdown" id="destinationsDropdown">
             <li><a href="#">Beaches</a></li>
@@ -88,6 +89,63 @@
       <p>Explore a land where nature, culture, and history blend seamlessly a destination you’ll never forget.</p>
     </div>
   </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations" id="destinations">
+    <div class="destinations-headers w-100 d-flex flex-column align-items-center">
+      <h1 class="mt-5 mb-5 w-75">Destinations</h1>
+      <h3 class="mb-5 w-75">Discover the beauty beyond the ordinary</h3>
+    </div>
+
+    <div class="card-container text-light">
+      <div class="row row-wrapper">
+        <div class="custom-card w-25 col-lg-3 d-flex flex-column justify-content-center align-items-center beaches">
+          <h5 class="text-center">Beaches</h5>
+          <p class="text-center">The blue that everyone is searching for</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+
+        <div class="custom-card w-25 col-lg-3 d-flex flex-column justify-content-center align-items-center mountains">
+          <h5 class="text-center">Mountains</h5>
+          <p class="text-center">Climb higher and discover what truly matters</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+
+        <div class="custom-card w-25 col-lg-3 d-flex flex-column justify-content-center align-items-center rivers">
+          <h5 class="text-center">Rivers</h5>
+          <p class="text-center">Let the rivers guide you to nature’s hidden world</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+
+        <div class="custom-card w-25 col-lg-3 d-flex flex-column justify-content-center align-items-center lakes">
+          <h5 class="text-center">Lakes</h5>
+          <p class="text-center">Where ancient waters tell tales of time and history</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+      </div>
+
+      <div class="row row-wrapper justify-content-center">
+        <div class="custom-card col-lg-4 d-flex flex-column justify-content-center align-items-center countryside">
+          <h5 class="text-center">Countryside</h5>
+          <p class="text-center">Where hills whisper stories of the past</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+
+        <div class="custom-card col-lg-4 d-flex flex-column justify-content-center align-items-center historic-cities">
+          <h5 class="text-center">Historic Cities</h5>
+          <p class="text-center">Walk through centuries of Albanian history</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+        
+        <div class="custom-card col-lg-4 d-flex flex-column justify-content-center align-items-center national-parks">
+          <h5 class="text-center">National Parks</h5>
+          <p class="text-center">Nature’s beauty, preserved for you</p>
+          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
 

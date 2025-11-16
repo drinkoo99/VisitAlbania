@@ -1,0 +1,93 @@
+.card-container { 
+  padding: 0;
+}
+
+.destinations-headers h1 {
+  font-family: var(--heading-font);
+}
+
+.custom-card {
+  background: url(/Images/Beaches/ksamil.webp) no-repeat center center/cover;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-card h5, .custom-card p {
+  font-weight: bold;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.custom-card h5 {
+  font-size: 1.6rem;
+}
+
+.custom-card p {
+  margin-bottom: 90px;
+}
+
+.mountains {
+  background: url(/Images/Mountains/korabi.webp) no-repeat center center/cover;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.rivers {
+  background: url(/Images/Rivers/shala.webp) no-repeat center center/cover;
+}
+
+.lakes {
+  background: url(/Images/Lakes/ohrid.webp) no-repeat center center/cover;
+}
+
+.countryside {
+  background: url(/Images/Countryside/countryside.webp) no-repeat center center/cover;
+}
+
+.historic-cities {
+  background: url(/Images/Historic-Cities/historic.webp) no-repeat center center/cover;
+}
+
+.national-parks {
+  background: url(/Images/National-Parks/valbona-valley.webp) no-repeat center center/cover;
+}
+
+.row-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.explore-more-cta {
+  position: relative;
+  border: 2px solid #00e0ff;
+  width: 50%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.explore-more-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00e0ff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.explore-more-cta:hover {
+  color: white;
+}
+
+.explore-more-cta:hover::before {
+  width: 100%;
+}
