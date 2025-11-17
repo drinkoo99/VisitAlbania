@@ -308,7 +308,6 @@ nav.scrolled .logo-name {
 
 
 @media (max-width: 320px) {
-  /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -317,7 +316,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: block;
     width: 60px;
@@ -334,7 +332,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -343,7 +340,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -361,7 +357,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -369,7 +364,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -378,14 +372,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -397,7 +390,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -417,7 +409,6 @@ nav.scrolled .logo-name {
 }
 
 @media (max-width: 380px) {
-    /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -426,7 +417,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: flex;
     width: 60px;
@@ -443,7 +433,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -452,7 +441,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -470,7 +458,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -478,7 +465,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -487,14 +473,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -506,7 +491,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -526,7 +510,6 @@ nav.scrolled .logo-name {
 }
 
 @media (max-width: 480px) {
-    /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -535,7 +518,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: flex;
     width: 60px;
@@ -552,7 +534,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -561,7 +542,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -579,7 +559,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -587,7 +566,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -596,14 +574,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -615,7 +592,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -635,7 +611,6 @@ nav.scrolled .logo-name {
 }
 
 @media (max-width: 575px) {
-  /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -644,7 +619,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: flex;
     width: 60px;
@@ -661,7 +635,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -670,7 +643,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -688,7 +660,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -696,7 +667,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -705,14 +675,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -724,7 +693,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -745,7 +713,6 @@ nav.scrolled .logo-name {
 }
 
 @media (max-width: 768px) {
-        /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -754,7 +721,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: flex;
     width: 60px;
@@ -771,7 +737,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -780,7 +745,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -798,7 +762,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -806,7 +769,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -815,14 +777,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -834,7 +795,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -855,7 +815,6 @@ nav.scrolled .logo-name {
 }
 
 @media (max-width: 992px) {
-        /* make navbar a horizontal flex row: hamburger left, logo right */
   nav {
     display: flex;
     align-items: center;
@@ -864,7 +823,6 @@ nav.scrolled .logo-name {
     height: 60px;
   }
 
-  /* hamburger on the left, centered */
   .hamburger-menu {
     display: flex;
     width: 60px;
@@ -881,7 +839,6 @@ nav.scrolled .logo-name {
     line-height: 1;
   }
 
-  /* logo on the right */
   .logo-name {
     order: 2;
     margin-left: auto;
@@ -890,7 +847,6 @@ nav.scrolled .logo-name {
     text-align: right;
   }
 
-  /* mobile menu: off-canvas from the top, then slide down when shown */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -908,7 +864,6 @@ nav.scrolled .logo-name {
     transition: transform 0.32s ease, opacity 0.32s ease;
   }
 
-  /* visible state: animate from top down */
   nav ul.show-menu {
     transform: translateY(0);
     opacity: 1;
@@ -916,7 +871,6 @@ nav.scrolled .logo-name {
     animation: fadeIn 0.35s ease forwards;
   }
 
-  /* align links to the left inside the dropdown */
   nav ul li {
     width: 100%;
     text-align: left;
@@ -925,14 +879,13 @@ nav.scrolled .logo-name {
   nav ul li a {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* ensure text sits on left */
+    justify-content: flex-start;
     padding: 12px 16px;
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
   }
 
-  /* dropdown children should behave like block items */
   .custom-dropdown {
     position: relative;
     top: 0;
@@ -944,7 +897,6 @@ nav.scrolled .logo-name {
     gap: 0;
   }
 
-  /* small hero adjustments to keep layout readable on tiny screens */
   .hero-text {
     width: 92%;
   }
@@ -963,4 +915,3 @@ nav.scrolled .logo-name {
     margin-top: 40px;
   }
 }
-
