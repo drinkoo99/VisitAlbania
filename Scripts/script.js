@@ -35,9 +35,12 @@ document.addEventListener('click', (event) => {
 // HAMBURGER MENU         =====
 // ============================
 
-const menu = document.getElementById('menu');
-const list = document.getElementById('list');
+document.addEventListener('DOMContentLoaded', ()=>{
+  const menu = document.getElementById('menu');
+  const list = document.getElementById('list');
 
-menu.addEventListener('click', ()=>{
-  list.classList.toggle('show-menu');
+  menu.addEventListener('click', ()=>{
+    list.classList.toggle('show-menu');
+    console.log('eshte klikuar')
+  })
 })

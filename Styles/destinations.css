@@ -91,3 +91,15 @@
 .explore-more-cta:hover::before {
   width: 100%;
 }
+
+@media (max-width: 636px) {
+  .explore-more-cta {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .explore-more-cta {
+    width: 60%;
+  }
+}
