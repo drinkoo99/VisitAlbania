@@ -12,13 +12,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- Montserrat -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="Styles/navbar.css">
   <link rel="stylesheet" href="Styles/destinations.css">
-  <title>Visit Albania</title>
+  <title>VisitAlbania</title>
 </head>
 <body>
 
@@ -57,8 +57,8 @@
         <li><a href="#destinations" id="firstDropdown">Destinations<i class="bi bi-caret-down-fill"></i></a>
           <!-- Destinations Dropdown -->
           <ul class="custom-dropdown" id="destinationsDropdown">
-            <li><a href="#">Beaches</a></li>
-            <li><a href="#">Mountains</a></li>
+            <li><a href="#" id="beachesLink" class="destinations-beaches">Beaches</a></li>
+            <li><a href="#" id="mountainsLink" class="destinations-mountains">Mountains</a></li>
             <li><a href="#">Rivers</a></li>
             <li><a href="#">Lakes</a></li>
             <li><a href="#">Countryside</a></li>
@@ -102,13 +102,13 @@
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center beaches">
           <h5 class="text-center">Beaches</h5>
           <p class="text-center">The blue that everyone is searching for</p>
-          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+          <a href="#" class="beaches-btn explore-more-cta d-flex justify-content-center">Explore more</a>
         </div>
 
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center mountains">
           <h5 class="text-center">Mountains</h5>
           <p class="text-center">Climb higher and discover what truly matters</p>
-          <a href="#" class="explore-more-cta d-flex justify-content-center">Explore more</a>
+          <a href="#" class="mountains-btn explore-more-cta d-flex justify-content-center">Explore more</a>
         </div>
 
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center rivers">
@@ -156,5 +156,6 @@
   <!-- Scripts -->
   <script src="Scripts/script.js"></script>
   <script src="Scripts/hero-section.js"></script>
+  <script src="Scripts/destinations.js"></script>
 </body>
 </html>

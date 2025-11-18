@@ -1,0 +1,12 @@
+.nav-destinations {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo-name-destinations {
+  color: black !important;
+}
+
+.links-destinations li a {
+  color: black;
+}
