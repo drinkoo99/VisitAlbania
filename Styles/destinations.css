@@ -165,16 +165,20 @@
   width: 100%;
 }
 
-
-
-@media (max-width: 636px) {
-  .explore-more-cta {
-    width: 60%;
+@media (max-width: 320px) {
+  .destination-item img {
+    width: 90%;
   }
-}
 
-@media (max-width: 1280px) {
-  .explore-more-cta {
-    width: 60%;
+  #destinations-root h2 {
+    font-size: 1.5rem;
+  }
+
+  #destinations-root p {
+    font-size: 0.9rem;
+  }
+
+  .booking-cta {
+    width: 70%;
   }
 }

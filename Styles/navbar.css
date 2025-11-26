@@ -395,8 +395,8 @@ nav.scrolled .logo-name {
   }
 
   .hero-text h1 {
-    font-size: 1.8rem !important;
-    margin-bottom: 60px;
+    font-size: 1.4rem !important;
+    margin-bottom: 60px !important;
   }
 
   .hero-text p {
@@ -405,6 +405,14 @@ nav.scrolled .logo-name {
 
   .arrow-left, .arrow-right {
     font-size: 2rem;
+  }
+
+  #hero-section {
+    height: 150vh;
+  }
+
+  .custom-card a {
+    width: 60% !important; 
   }
 }
 
@@ -496,16 +504,22 @@ nav.scrolled .logo-name {
   }
 
   .hero-text h1 {
-    font-size: 2.5rem !important;
-    margin-bottom: 80px;
+    font-size: 1.8rem !important;
+    margin-bottom: 60px !important;
   }
 
   .hero-text p {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
+    margin-top: 90px !important;
   }
 
   .arrow-left, .arrow-right {
     font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #hero-section {
+    height: 150vh;
   }
 }
 
@@ -597,16 +611,22 @@ nav.scrolled .logo-name {
   }
 
   .hero-text h1 {
-    font-size: 3rem;
-    margin-bottom: 120px;
+    font-size: 2.3rem !important;
+    margin-bottom: 30px !important;
   }
 
   .hero-text p {
     font-size: 1.2rem;
+    margin-top: 120px !important;
   }
 
   .arrow-left, .arrow-right {
     font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  #hero-section {
+    height: 120vh !important;
   }
 }
 
@@ -698,8 +718,8 @@ nav.scrolled .logo-name {
   }
 
   .hero-text h1 {
-    font-size: 3.2rem;
-    margin-bottom: 120px;
+    font-size: 2.8rem;
+    margin-bottom: 60px !important;
   }
 
   .hero-text p {
@@ -801,7 +821,7 @@ nav.scrolled .logo-name {
 
   .hero-text h1 {
     font-size: 3.2rem;
-    margin-bottom: 120px;
+    margin-bottom: 60px !important;
   }
 
   .hero-text p {
@@ -903,7 +923,7 @@ nav.scrolled .logo-name {
 
   .hero-text h1 {
     font-size: 3.2rem;
-    margin-bottom: 120px;
+    margin-bottom: 60px !important;
   }
 
   .hero-text p {
