@@ -107,6 +107,7 @@
 
 .destination-item img {
   width: 70%; /* imazhi më i madh */
+  height: 40%; /*added 11/27/2025 */
   border-radius: 12px; /* pak më e dukshme */
   display: block;
   margin-left: auto;
