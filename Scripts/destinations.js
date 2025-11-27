@@ -212,9 +212,9 @@ const destinations = {
   mountains: mountains,     // from mountains.js
   rivers: rivers,           // add other destinations
   lakes: lakes,              // add other destinations
-  countryside: countryside,
-  historicCities: historicCities,
-  nationalParks: nationalParks
+  countryside: countryside,    // add other destinations
+  historicCities: historicCities,    // add other destinations
+  nationalParks: nationalParks   // add other destinations
 };
 
 // ========================================================
@@ -248,7 +248,7 @@ function setupRedirect(className, destinationType) {
   document.querySelectorAll(className).forEach(btn => {
     btn.addEventListener("click", (e) => {
       localStorage.setItem("destinationType", destinationType);
-      // Lejojmë href të funksionojë normalisht → pa preventDefault!
+      // this allows the href to work normally → without preventDefault!
     });
   });
 }

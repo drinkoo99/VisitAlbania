@@ -96,6 +96,11 @@
   width: 100%;
 }
 
+.destinations-logo-name a {
+  text-decoration: none;
+  color: black;
+}
+
 /* ====================== */
 /*   DESTINATIONS        */
 /* ===================== */
@@ -106,9 +111,9 @@
 }
 
 .destination-item img {
-  width: 70%; /* imazhi më i madh */
+  width: 70%;
   height: 40%; /*added 11/27/2025 */
-  border-radius: 12px; /* pak më e dukshme */
+  border-radius: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -130,7 +135,9 @@
   margin: 0 auto 2rem auto;
 }
 
-/* CTA Button për Booking */
+/* ====================== */
+/*   BOOKING CTA         */
+/* ===================== */
 .booking-cta {
   position: relative;
   border: 2px solid #00e0ff;
@@ -166,35 +173,27 @@
   width: 100%;
 }
 
-@media (max-width: 320px) {
-  .destination-item img {
-    width: 90%;
-  }
+/* ====================== */
+/*   RESPONSIVNES        */
+/* ===================== */
 
-  #destinations-root h2 {
-    font-size: 1.5rem;
-  }
-
-  #destinations-root p {
-    font-size: 0.9rem;
-  }
-
+@media (max-width: 992px) {
   .booking-cta {
-    width: 70%;
+    width: 50%;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 768px) {
   .destination-item img {
-    width: 90%;
+    width: 80%;
   }
 
   #destinations-root p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .booking-cta {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -226,22 +225,34 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 380px) {
   .destination-item img {
-    width: 80%;
+    width: 90%;
   }
 
   #destinations-root p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .booking-cta {
-    width: 50%;
+    width: 70%;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 320px) {
+  .destination-item img {
+    width: 90%;
+  }
+
+  #destinations-root h2 {
+    font-size: 1.5rem;
+  }
+
+  #destinations-root p {
+    font-size: 0.9rem;
+  }
+
   .booking-cta {
-    width: 50%;
+    width: 70%;
   }
 }

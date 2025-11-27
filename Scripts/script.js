@@ -8,7 +8,7 @@ const secondDropdown = document.getElementById('secondDropdown');
 
 // First Dropdown, open and close
 firstDropdown.addEventListener('click', (event) => {
-  event.stopPropagation(); // mos e përhape klikimin te dokumenti
+  event.stopPropagation(); // do not propagate the click to the document
   destinationsDropdown.classList.toggle('show');
   activitiesDropdown.classList.remove('show-activities'); // it closes the other if it is open
 });

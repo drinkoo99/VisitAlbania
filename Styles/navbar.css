@@ -153,6 +153,10 @@ nav.scrolled {
   z-index: 25;
 }
 
+.logo-name a {
+  text-decoration: none;
+}
+
 nav ul {
   /* display: flex; */
   /* align-items: center; */
@@ -190,7 +194,8 @@ nav ul li a:hover {
   background-color: white;
   gap: 0;
   min-width: 150px;
-  z-index: 30;
+  z-index: 999;
+  pointer-events: auto; /* added 12/27/2025 */
 }
 
 .custom-dropdown li {
@@ -214,6 +219,9 @@ nav ul li a:hover {
   animation: dropdownOpen 0.35s ease forwards;
 }
 
+/* ====================== */
+/*   DROPDOWN ANIMATIONS */
+/* ===================== */
 @keyframes dropdownOpen {
   0% {
     opacity: 0;
@@ -247,32 +255,16 @@ nav.scrolled .logo-name {
 
 .hamburger-menu {
   display: none;
-  z-index: 400; /* keep high stacking context */
+  z-index: 400; /* to be always on top */
 }
 
-/* Hide on wider screens, show only on mobiles (<=768px) */
-@media (min-width: 992px) {
-  .hamburger-menu { display: none !important; }
-}
-@media (max-width: 992px) {
-  .hamburger-menu {
-    display: flex !important;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-}
 
 /* Allow the show-menu class to make the menu visible when toggled */
 .show-menu {
   display: block !important;
 }
 /* ==========================
-   END OF HERO CSS
+  END OF HERO CSS
 ========================== */
 
 /* ==========================
@@ -306,531 +298,13 @@ nav.scrolled .logo-name {
   }
 }
 
+/* ====================== */
+/*   RESPONSIVNES        */
+/* ===================== */
 
-@media (max-width: 320px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 8px;
-    height: 60px;
-  }
-
+@media (min-width: 993px) {
   .hamburger-menu {
-    display: block;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-
-  .hamburger-menu i {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .logo-name {
-    order: 2;
-    margin-left: auto;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    margin: 0;
-    padding: 6px 0;
-    z-index: 300;
-    transform: translateY(-18px);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.32s ease, opacity 0.32s ease;
-  }
-
-  nav ul.show-menu {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
-    animation: fadeIn 0.35s ease forwards;
-  }
-
-  nav ul li {
-    width: 100%;
-    text-align: left;
-  }
-
-  nav ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    color: #333;
-    font-size: 1rem;
-    animation: linksFadeIn 0.25s ease forwards;
-  }
-
-  .custom-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: none;
-    width: 100%;
-    padding: 0;
-    gap: 0;
-  }
-
-  .hero-text {
-    width: 92%;
-  }
-
-  .hero-text h1 {
-    font-size: 1.4rem !important;
-    margin-bottom: 60px !important;
-  }
-
-  .hero-text p {
-    font-size: 1rem !important;
-  }
-
-  .arrow-left, .arrow-right {
-    font-size: 2rem;
-  }
-
-  #hero-section {
-    height: 150vh;
-  }
-
-  .custom-card a {
-    width: 60% !important; 
-  }
-}
-
-@media (max-width: 380px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 8px;
-    height: 60px;
-  }
-
-  .hamburger-menu {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-
-  .hamburger-menu i {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .logo-name {
-    order: 2;
-    margin-left: auto;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    margin: 0;
-    padding: 6px 0;
-    z-index: 300;
-    transform: translateY(-18px);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.32s ease, opacity 0.32s ease;
-  }
-
-  nav ul.show-menu {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
-    animation: fadeIn 0.35s ease forwards;
-  }
-
-  nav ul li {
-    width: 100%;
-    text-align: left;
-  }
-
-  nav ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    color: #333;
-    font-size: 1rem;
-    animation: linksFadeIn 0.25s ease forwards;
-  }
-
-  .custom-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: none;
-    width: 100%;
-    padding: 0;
-    gap: 0;
-  }
-
-  .hero-text {
-    width: 92%;
-  }
-
-  .hero-text h1 {
-    font-size: 1.8rem !important;
-    margin-bottom: 60px !important;
-  }
-
-  .hero-text p {
-    font-size: 1rem !important;
-    margin-top: 90px !important;
-  }
-
-  .arrow-left, .arrow-right {
-    font-size: 2rem;
-    margin-bottom: 30px;
-  }
-
-  #hero-section {
-    height: 150vh;
-  }
-}
-
-@media (max-width: 480px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 8px;
-    height: 60px;
-  }
-
-  .hamburger-menu {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-
-  .hamburger-menu i {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .logo-name {
-    order: 2;
-    margin-left: auto;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    margin: 0;
-    padding: 6px 0;
-    z-index: 300;
-    transform: translateY(-18px);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.32s ease, opacity 0.32s ease;
-  }
-
-  nav ul.show-menu {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
-    animation: fadeIn 0.35s ease forwards;
-  }
-
-  nav ul li {
-    width: 100%;
-    text-align: left;
-  }
-
-  nav ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    color: #333;
-    font-size: 1rem;
-    animation: linksFadeIn 0.25s ease forwards;
-  }
-
-  .custom-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: none;
-    width: 100%;
-    padding: 0;
-    gap: 0;
-  }
-
-  .hero-text {
-    width: 92%;
-  }
-
-  .hero-text h1 {
-    font-size: 2.3rem !important;
-    margin-bottom: 30px !important;
-  }
-
-  .hero-text p {
-    font-size: 1.2rem;
-    margin-top: 120px !important;
-  }
-
-  .arrow-left, .arrow-right {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-  }
-
-  #hero-section {
-    height: 120vh !important;
-  }
-}
-
-@media (max-width: 575px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 8px;
-    height: 60px;
-  }
-
-  .hamburger-menu {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-
-  .hamburger-menu i {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .logo-name {
-    order: 2;
-    margin-left: auto;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    margin: 0;
-    padding: 6px 0;
-    z-index: 300;
-    transform: translateY(-18px);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.32s ease, opacity 0.32s ease;
-  }
-
-  nav ul.show-menu {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
-    animation: fadeIn 0.35s ease forwards;
-  }
-
-  nav ul li {
-    width: 100%;
-    text-align: left;
-  }
-
-  nav ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    color: #333;
-    font-size: 1rem;
-    animation: linksFadeIn 0.25s ease forwards;
-  }
-
-  .custom-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: none;
-    width: 100%;
-    padding: 0;
-    gap: 0;
-  }
-
-  .hero-text {
-    width: 92%;
-  }
-
-  .hero-text h1 {
-    font-size: 2.8rem;
-    margin-bottom: 60px !important;
-  }
-
-  .hero-text p {
-    font-size: 1.5rem;
-  }
-
-  .arrow-left, .arrow-right {
-    font-size: 3rem;
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 8px;
-    height: 60px;
-  }
-
-  .hamburger-menu {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    order: 1;
-    z-index: 400;
-    background: transparent;
-  }
-
-  .hamburger-menu i {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .logo-name {
-    order: 2;
-    margin-left: auto;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    text-align: right;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    margin: 0;
-    padding: 6px 0;
-    z-index: 300;
-    transform: translateY(-18px);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.32s ease, opacity 0.32s ease;
-  }
-
-  nav ul.show-menu {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
-    animation: fadeIn 0.35s ease forwards;
-  }
-
-  nav ul li {
-    width: 100%;
-    text-align: left;
-  }
-
-  nav ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    color: #333;
-    font-size: 1rem;
-    animation: linksFadeIn 0.25s ease forwards;
-  }
-
-  .custom-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: none;
-    width: 100%;
-    padding: 0;
-    gap: 0;
-  }
-
-  .hero-text {
-    width: 92%;
-  }
-
-  .hero-text h1 {
-    font-size: 3.2rem;
-    margin-bottom: 60px !important;
-  }
-
-  .hero-text p {
-    font-size: 1.5rem;
-  }
-
-  .arrow-left, .arrow-right {
-    font-size: 3rem;
-    margin-top: 40px;
+    display: none !important;
   }
 }
 
@@ -933,5 +407,103 @@ nav.scrolled .logo-name {
   .arrow-left, .arrow-right {
     font-size: 3rem;
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 60px !important;
+  }
+
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+
+  .arrow-left, .arrow-right {
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 60px !important;
+  }
+
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+
+  .arrow-left, .arrow-right {
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 2.3rem !important;
+    margin-bottom: 30px !important;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-top: 120px !important;
+  }
+
+  .arrow-left, .arrow-right {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  #hero-section {
+    height: 120vh !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-text h1 {
+    font-size: 1.8rem !important;
+    margin-bottom: 60px !important;
+  }
+
+  .hero-text p {
+    font-size: 1rem !important;
+    margin-top: 90px !important;
+  }
+
+  .arrow-left, .arrow-right {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #hero-section {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-text h1 {
+    font-size: 1.4rem !important;
+    margin-bottom: 60px !important;
+  }
+
+  .hero-text p {
+    font-size: 1rem !important;
+  }
+
+  .arrow-left, .arrow-right {
+    font-size: 2rem;
+  }
+
+  #hero-section {
+    height: 150vh;
+  }
+
+  .custom-card a {
+    width: 60% !important; 
   }
 }
