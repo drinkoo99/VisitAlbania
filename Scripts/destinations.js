@@ -220,21 +220,43 @@ const destinations = {
 // ========================================================
 // RENDER FUNCTION
 // ========================================================
-function renderDestinations(array) {
+function renderDestinations(array, type) {
   const root = document.getElementById("destinations-root");
-  if (!root) return; // Prevent errors on non-destination pages
+  if (!root) return;
 
-  root.innerHTML = "";
+  root.innerHTML = ""; // clean the content of the root
 
   array.forEach(dest => {
     const item = document.createElement("div");
     item.className = "destination-item";
-    item.innerHTML = `
-      <img src="${dest.image}" alt="${dest.title}">
-      <h2>${dest.title}</h2>
-      <p>${dest.description}</p>
-      <a href="${dest.link}" target="_blank" class="booking-cta">Book Your Stay</a>
-    `;
+
+    // === Image ===
+    const img = document.createElement("img");
+    img.src = dest.image;
+    img.alt = dest.title;
+    item.appendChild(img);
+
+    // === Title ===
+    const h2 = document.createElement("h2");
+    h2.textContent = dest.title;
+    item.appendChild(h2);
+
+    // === Description ===
+    const p = document.createElement("p");
+    p.textContent = dest.description;
+    item.appendChild(p);
+
+    // === CTA Button (only for beaches) ===
+    if (type === "beaches") {
+      const a = document.createElement("a");
+      a.href = dest.link;
+      a.target = "_blank";
+      a.className = "booking-cta";
+      a.textContent = "Book Your Stay";
+      item.appendChild(a);
+    }
+
+    // add destination-item to root
     root.appendChild(item);
   });
 
@@ -281,8 +303,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const type = localStorage.getItem("destinationType");
 
   if (type && destinations[type]) {
-    renderDestinations(destinations[type]);
+    renderDestinations(destinations[type], type); // transmit the type
   } else {
-    renderDestinations(beaches); // default fallback
+    renderDestinations(beaches, "beaches"); // default fallback
   }
 });
