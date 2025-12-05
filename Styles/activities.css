@@ -1,26 +1,31 @@
 /* ========================== */
-/*   DESTINATIONS  MAIN PAGE  */
+/*   ACTIVITIES  MAIN PAGE    */
 /* ========================== */
 
 .card-container { 
   padding: 0;
 }
 
-.destinations-headers h1 {
+.activities-headers h1 {
   font-family: var(--heading-font);
 }
 
+/* ========================== */
+/*   CUSTOM CARDS (HOME PAGE) */
+/* ========================== */
+
 .custom-card {
-  background: url(/Images/Beaches/ksamil.webp) no-repeat center center/cover;
   height: 400px;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
   position: relative;
   cursor: pointer;
+  background-size: cover;
+  background-position: center;
 }
 
-.custom-card h5, .custom-card p {
+.custom-card h5, 
+.custom-card p {
   font-weight: bold;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
 }
@@ -33,28 +38,30 @@
   margin-bottom: 90px;
 }
 
-.mountains {
-  background: url(/Images/Mountains/korabi.webp) no-repeat center center/cover;
+/* Background images for each activity */
+
+.hiking {
+  background: url(/Images/Hiking/hiking-bg.webp) no-repeat center center/cover;
 }
 
-.rivers {
-  background: url(/Images/Rivers/shala.webp) no-repeat center center/cover;
+.paragliding {
+  background: url(/Images/Paragliding/llogara-paragliding-bg.webp) no-repeat center center/cover;
 }
 
-.lakes {
-  background: url(/Images/Lakes/ohrid.webp) no-repeat center center/cover;
+.kayaking {
+  background: url(/Images/Kayaking/kayaking-bg.webp) no-repeat center center/cover;
 }
 
-.countryside {
-  background: url(/Images/Countryside/countryside.webp) no-repeat center center/cover;
+.diving {
+  background: url(/Images/Diving/diving-bg.webp) no-repeat center center/cover;
 }
 
-.historic-cities {
-  background: url(/Images/Historic-Cities/historic.webp) no-repeat center center/cover;
+.cycling {
+  background: url(/Images/Cycling/cycling-bg.webp) no-repeat center center/cover;
 }
 
-.national-parks {
-  background: url(/Images/National-Parks/valbona-valley.webp) no-repeat center center/cover;
+.camping {
+  background: url(/Images/Camping/camping-bg.webp) no-repeat center center/cover;
 }
 
 .row-wrapper {
@@ -94,39 +101,32 @@
   width: 100%;
 }
 
-.destinations-logo-name a {
-  text-decoration: none;
-  color: black;
-}
-
 /* ====================== */
-/*   DESTINATIONS        */
+/*   ACTIVITIES LIST      */
 /* ===================== */
 
-.destination-item {
+.activity-item {
   margin-bottom: 5rem;
   text-align: center;
 }
 
-.destination-item img {
+.activity-item img {
   width: 70%;
-  height: 40%; /*added 11/27/2025 */
+  height: 40%;
   border-radius: 12px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
 
-.destination-item h2 {
+.activity-item h2 {
   font-family: var(--heading-font), sans-serif;
   font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #222;
 }
 
-.destination-item p {
+.activity-item p {
   font-family: 'Poppins', sans-serif;
   font-size: 1.15rem;
   line-height: 1.7;
@@ -136,9 +136,10 @@
 }
 
 /* ====================== */
-/*   BOOKING CTA         */
+/*   CTA BUTTON           */
 /* ===================== */
-.booking-cta {
+
+.explore-cta {
   position: relative;
   border: 2px solid #00e0ff;
   width: 25%;
@@ -152,7 +153,7 @@
   transition: color 0.3s;
 }
 
-.booking-cta::before {
+.explore-cta::before {
   content: "";
   position: absolute;
   top: 0;
@@ -165,108 +166,100 @@
   border-radius: 6px;
 }
 
-.booking-cta:hover {
+.explore-cta:hover {
   color: white;
 }
 
-.booking-cta:hover::before {
+.explore-cta:hover::before {
   width: 100%;
 }
 
 /* ====================== */
-/*   RESPONSIVNES        */
+/* RESPONSIVE BREAKPOINTS */
 /* ===================== */
 
 @media (max-width: 1272px) {
-  .explore-more-cta {
+  .explore-cta {
     width: 65%;
   }
 }
 
 @media (max-width: 992px) {
-  .booking-cta {
+  .explore-cta {
     width: 50%;
-  }
-
-  .explore-more-cta {
-    width: 70%;
   }
 }
 
 @media (max-width: 768px) {
-  .destination-item img {
+  .activity-item img {
     width: 80%;
   }
 
-  #destinations-root p {
+  #activities-root p {
     font-size: 1rem;
   }
 
-  .booking-cta {
-    width: 60%;
-  }
-
-  .explore-more-cta {
+  .explore-cta {
     width: 60%;
   }
 }
 
 @media (max-width: 575px) {
-  .destination-item img {
+  .activity-item img {
     width: 80%;
   }
 
-  #destinations-root p {
+  #activities-root p {
     font-size: 1rem;
   }
 
-  .booking-cta {
+  .explore-cta {
     width: 50%;
   }
 }
 
 @media (max-width: 480px) {
-  .destination-item img {
+  .activity-item img {
     width: 85%;
   }
 
-  #destinations-root p {
+  #activities-root p {
     font-size: 1rem;
   }
 
-  .booking-cta {
+  .explore-cta {
     width: 60%;
   }
 }
 
 @media (max-width: 380px) {
-  .destination-item img {
+  .activity-item img {
     width: 90%;
   }
 
-  #destinations-root p {
+  #activities-root p {
     font-size: 0.9rem;
   }
 
-  .booking-cta {
+  .explore-cta {
     width: 70%;
   }
 }
 
 @media (max-width: 320px) {
-  .destination-item img {
+  .activity-item img {
     width: 90%;
   }
 
-  #destinations-root h2 {
+  #activities-root h2 {
     font-size: 1.5rem;
   }
 
-  #destinations-root p {
+  #activities-root p {
     font-size: 0.9rem;
   }
 
-  .booking-cta {
+  .explore-cta {
     width: 70%;
   }
 }

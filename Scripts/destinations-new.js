@@ -183,83 +183,20 @@ const destinations = {
   ]
 }
 
-// =================================
-// RENDER FUNCTION FOR DESTINATIONS
-// =================================
+// ===============================
+// RENDER FUNCTION FOR ACTIVITIES
+// ===============================
+function renderActivities(array, type){
+  const root = document.getElementById('destinations-root');
+  if(!root) return;
 
-function renderDestinations(array, type) {
-  const root = document.getElementById("destinations-root");
-  if (!root) return;
-
-  // clean up previous content
-  root.textContent = "";
+  root.innerHTML = ''; // Clear previous content
 
   array.forEach(dest => {
-    const item = document.createElement("div");
-    item.className = "destination-item";
+    const item = document.createElement('div');
+    item.classList = 'destination-item';
 
-    // Imazhi
-    const img = document.createElement("img");
-    img.src = dest.image;
-    img.alt = dest.title;
-    item.appendChild(img);
-
-    // title
-    const h2 = document.createElement("h2");
-    h2.textContent = dest.title;
-    item.appendChild(h2);
-
-    // description
-    const p = document.createElement("p");
-    p.textContent = dest.description;
-    item.appendChild(p);
-
-    // button only for beaches to book stay
-    if (type === "beaches" && dest.link) {
-      const a = document.createElement("a");
-      a.href = dest.link;
-      a.target = "_blank";
-      a.className = "booking-cta";
-      a.textContent = "Book Your Stay";
-      item.appendChild(a);
-    }
-
-    // Go to destinations root
-    root.appendChild(item);
-  });
-
-  // Scroll too container
-  window.location.hash = "#destinations-root";
+    item.innerHTML = `
+    <img src="${dest.image}>`;
+  })
 }
-
-
-// ========================================================
-// REDIRECT SETUP (Navbar + Explore More buttons)
-// ========================================================
-
-function setupRedirect(selector, type) {
-  document.querySelectorAll(selector).forEach(btn => {
-    btn.addEventListener("click", () => localStorage.setItem("destinationType", type));
-  });
-}
-
-// Explore more buttons (optional, mund t’i heqësh nëse nuk përdoren)
-setupRedirect(".beaches-btn", "beaches");
-setupRedirect(".mountains-btn", "mountains");
-setupRedirect(".rivers-btn", "rivers");
-setupRedirect(".lakes-btn", "lakes");
-setupRedirect(".countryside-btn", "countryside");
-setupRedirect(".historicCities-btn", "historicCities");
-setupRedirect(".nationalParks-btn", "nationalParks");
-
-// ========================================================
-// AUTO-RENDER CORRECT CATEGORY ON PAGE LOAD
-// ========================================================
-
-document.addEventListener("DOMContentLoaded", () => {
-  const root = document.getElementById("destinations-root");
-  if (!root) return;
-
-  const type = localStorage.getItem("destinationType") || "beaches";
-  renderDestinations(destinations[type], type);
-});
