@@ -2,7 +2,7 @@
 /*   DESTINATIONS  MAIN PAGE  */
 /* ========================== */
 
-.card-container { 
+.card-container {
   padding: 0;
 }
 
@@ -15,9 +15,38 @@
   height: 400px;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
   position: relative;
   cursor: pointer;
+  overflow: hidden; /* for hover effect */
+}
+
+/* Overlay effect */
+.custom-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit; 
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.6s ease, background-color 0.6s ease;
+  z-index: 1;
+}
+
+/* When hover it zooms the backgorund image */
+.custom-card:hover::before {
+  transform: scale(1.15);
+}
+
+.custom-card > * {
+  position: relative;
+  z-index: 5;
+}
+
+.custom-card h5,
+.custom-card p,
+.custom-card a {
+  position: relative;
+  z-index: 2;
 }
 
 .custom-card h5, .custom-card p {

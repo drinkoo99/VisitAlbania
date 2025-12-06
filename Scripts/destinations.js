@@ -112,12 +112,12 @@ const destinations = {
       description: "Valbona is a breathtaking alpine valley surrounded by towering peaks, dense forests, and traditional stone houses. Popular for trekking, alpine adventures, and cultural tourism, it offers extraordinary views and a peaceful escape into nature. The trail between Valbona and Theth is considered one of the most beautiful hikes in the Balkans."
     },
     {
-      title: "Lepushe",
+      title: "Lepushë",
       image: "Images/Countryside/lepushe.webp",
       description: "Lepushe is a charming mountain village near the Montenegro border, known for its green meadows, wooden cottages, and serene countryside lifestyle. It is perfect for peaceful nature walks, photography, and winter escapes with snowy landscapes. Visitors can experience true Albanian hospitality, fresh local food, and traditional highland culture."
     },
     {
-      title: "Dardhe",
+      title: "Dardhë",
       image: "Images/Countryside/dardhe.webp",
       description: "Dardhe is a picturesque mountain village near Korça, famous for its cobblestone streets, stone houses, and cozy guesthouses. Surrounded by forests and scenic trails, it is a great destination for hiking, skiing in winter, and cultural tourism year-round. The village is known for its unique charm, tranquility, and delicious local cuisine"
     }
@@ -129,12 +129,12 @@ const destinations = {
       description: "Berat, known as the ‘City of a Thousand Windows’, is one of Albania’s most iconic destinations and a proud UNESCO World Heritage Site. The city showcases remarkable Ottoman-era homes that climb the hills beneath the ancient Berat Castle, where history comes alive with breathtaking views over the Osum River. Visitors can wander through the historic Mangalem and Gorica neighborhoods connected by a beautiful stone bridge, explore the Onufri Museum with its priceless Byzantine icons, and enjoy the peaceful atmosphere that defines Berat’s charm. With its blend of culture, architecture, and stunning nature, this city offers an unforgettable journey into Albania’s past and present."
     },
     {
-      title: "Gjirokaster",
+      title: "Gjirokastër",
       image: "Images/Historic-Cities/gjirokaster.webp",
       description: "Gjirokaster, often called the ‘Stone City’, is another UNESCO World Heritage treasure celebrated for its unique fortress-like houses with slate rooftops and steep cobblestone streets. Overlooking the city is the magnificent Gjirokaster Castle, one of the largest in the Balkans, offering panoramic views of the valley below. The city is also the birthplace of many important Albanian figures and is filled with traditional bazaars, museums, underground tunnels, and medieval structures. Visitors love the rich folklore, delicious cuisine of the region, and the cultural festivals hosted within the castle walls. Gjirokaster is a perfect blend of history, storytelling, and authentic Albanian life."
     },
     {
-      title: "Kruje",
+      title: "Krujë",
       image: "Images/Historic-Cities/kruje.webp",
       description: "Kruje is a historic city deeply connected to Albania’s national identity, as it was the center of resistance led by the national hero Skanderbeg in the 15th century. At the top of the town stands the iconic Kruje Castle, home to the Skanderbeg Museum, where visitors can explore Albania’s heroic past. The Old Bazaar below the castle is a cultural hotspot full of handcrafted goods, antiques, carpets, and souvenirs — perfect for travelers seeking authentic Albanian craftsmanship. Surrounded by mountains and stunning landscapes, Kruje offers both a cultural and scenic experience like no other."
     },
@@ -149,7 +149,7 @@ const destinations = {
       description: "Apollonia was once a major center of culture, education, and commerce during the ancient Greek and Roman eras. Today, this impressive archaeological site stands surrounded by green hills and quiet countryside, offering visitors a peaceful but fascinating historical experience. Highlights include the monumental library, amphitheater, ancient columns, and the picturesque Ardenica Monastery overlooking the park. It is a must-visit place for archaeology lovers and those seeking an escape into a serene setting filled with relics of a glorious past."
     },
     {
-      title: "Lezhe",
+      title: "Lezhë",
       image: "Images/Historic-Cities/lezhe.webp",
       description: "Lezhe is one of Albania’s most historically significant cities, home to the Memorial of Skanderbeg — the final resting place of Albania’s national hero. The city features ancient ruins, beautiful monuments, and the Lezhe Castle with incredible views over the Drin River and Adriatic coastline. Rich in heritage and strategically located between mountains and sea, Lezhe offers the perfect mix of history, culture, and easily accessible natural beauty, making it a great stop for travelers exploring northern Albania."
     },
@@ -171,7 +171,7 @@ const destinations = {
       description: "Korab-Koritnik National Park is known for its rugged beauty and majestic landscapes, home to Mount Korab — the highest peak in Albania. The park offers challenging hiking routes, alpine meadows, and breathtaking panoramic views that reward every traveler’s effort. Its diverse wildlife includes rare species of birds and mammals, making it ideal for eco-tourism and nature exploration. Untouched, wild, and tranquil, the park is a favorite destination for experienced hikers and mountain lovers seeking true adventure in Albania’s northern wilderness."
     },
     {
-      title: "Divjake-Karavatska National Park",
+      title: "Divjakë-Karavatska National Park",
       image: "Images/National-Parks/divjake-karavatska.webp",
       description: "Divjake-Karavasta National Park is one of Albania’s most important coastal ecosystems, famous for the Karavasta Lagoon — the largest lagoon in the country. The park protects diverse wildlife including the rare Dalmatian pelican, making it a paradise for birdwatchers and photographers. Sandy beaches, pine forests, and wetlands create a peaceful environment perfect for cycling, nature walks, and boat tours. Families and nature lovers can enjoy the visitor center, observation towers, and picnic areas while connecting with one of Albania’s most unique natural landscapes."
     },
