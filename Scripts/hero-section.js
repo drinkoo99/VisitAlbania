@@ -51,7 +51,7 @@ startAutoSlide();
 // ==========================
 const navbar = document.querySelector('#hero-section nav');
 window.addEventListener('scroll', () => {
-  if(window.scrollY >= 100) {
+  if(window.scrollY >= 1) {
     navbar.classList.add('scrolled');
   } else {
     navbar.classList.remove('scrolled');

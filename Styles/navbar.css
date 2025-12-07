@@ -331,6 +331,7 @@ nav.scrolled .logo-name {
   .hamburger-menu i {
     font-size: 1.8rem;
     line-height: 1;
+    cursor: pointer;
   }
 
   .logo-name {

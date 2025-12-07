@@ -1,3 +1,7 @@
+// ============================
+// DROPDOWN MENUS      
+// ============================
+
 // Destinations Dropdown Menu
 const destinationsDropdown = document.getElementById('destinationsDropdown');
 const firstDropdown = document.getElementById('firstDropdown');
@@ -8,21 +12,22 @@ const secondDropdown = document.getElementById('secondDropdown');
 
 // First Dropdown, open and close
 firstDropdown.addEventListener('click', (event) => {
-  event.stopPropagation(); // do not propagate the click to the document
+  event.preventDefault();
+  event.stopPropagation();
   destinationsDropdown.classList.toggle('show');
-  activitiesDropdown.classList.remove('show-activities'); // it closes the other if it is open
+  activitiesDropdown.classList.remove('show-activities'); // close the other dropdown
 });
 
 // Second Dropdown, open and close
 secondDropdown.addEventListener('click', (event) => {
+  event.preventDefault(); // nuk navigon askund
   event.stopPropagation();
   activitiesDropdown.classList.toggle('show-activities');
-  destinationsDropdown.classList.remove('show'); // it closes the other if it is open
+  destinationsDropdown.classList.remove('show'); // close the other dropdown
 });
 
 // Close Dropdowns when clicked outside
 document.addEventListener('click', (event) => {
-  // if you click outside the dropdowns, than close
   if (!firstDropdown.contains(event.target) && !destinationsDropdown.contains(event.target)) {
     destinationsDropdown.classList.remove('show');
   }
@@ -32,15 +37,29 @@ document.addEventListener('click', (event) => {
 });
 
 // ============================
-// HAMBURGER MENU         =====
+// HAMBURGER MENU          
 // ============================
 
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', () => {
   const menu = document.getElementById('menu');
   const list = document.getElementById('list');
 
-  menu.addEventListener('click', ()=>{
+  // open and close hamburgerr menu
+  menu.addEventListener('click', () => {
     list.classList.toggle('show-menu');
-    console.log('eshte klikuar')
-  })
-})
+  });
+
+  // Close hamburger menu when a link is clicked
+  const links = list.querySelectorAll('a');
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      // check if the link is in the dropdowns
+      if (!link.closest('#firstDropdown') && !link.closest('#secondDropdown')) {
+        list.classList.remove('show-menu'); // close hamburger menu
+        // also close dropdowns if they are open
+        destinationsDropdown.classList.remove('show');
+        activitiesDropdown.classList.remove('show-activities');
+      }
+    });
+  });
+});

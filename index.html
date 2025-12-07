@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="Styles/navbar.css">
   <link rel="stylesheet" href="Styles/destinations.css">
   <link rel="stylesheet" href="Styles/activities.css">
+  <link rel="stylesheet" href="Styles/food-culture.css">
   <title>VisitAlbania</title>
 </head>
 <body>
@@ -80,7 +81,7 @@
             <li><a href="activities.html" class="camping-btn">Camping</a></li>
           </ul>
         </li>
-        <li><a href="#">Food&Culture</a></li>
+        <li><a href="#foodAndCulture">Food&Culture</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
@@ -246,6 +247,98 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Food&Culture -->
+  <section class="foodAndCulture" id="foodAndCulture">
+    <div class="foodAndCulture-headers w-100 d-flex flex-column align-items-center">
+      <h1 class="mt-5 mb-5 w-75">Food and Culture</h1>
+      <h3 class="mb-5 w-75">A journey through Albania’s authentic flavors, stories, and traditions</h3>
+    </div>
+
+    <div id="carouselFoodCulture" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#carouselFoodCulture" data-bs-slide-to="5"></button>
+    </div>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+
+      <!-- Food 1 -->
+      <div class="carousel-item active">
+        <img src="Images/Food/fergese-tirane.jpg" class="d-block w-100" alt="Food 1">
+        <div class="carousel-caption d-md-block">
+          <h5>Tavë Kosi</h5>
+          <p>One of Albania’s most iconic dishes, combining tender lamb with a creamy yogurt and egg bake.</p>
+        </div>
+      </div>
+
+      <!-- Food 2 -->
+      <div class="carousel-item">
+        <img src="Images/Food/flija.jpg" class="d-block w-100" alt="Food 2">
+        <div class="carousel-caption d-md-block">
+          <h5>Flija</h5>
+          <p>A traditional layered dish cooked slowly over open fire, symbolizing hospitality and family gatherings.</p>
+        </div>
+      </div>
+
+      <!-- Food 3 -->
+      <div class="carousel-item">
+        <img src="Images/Food/tave-kosi.jpg" class="d-block w-100" alt="Food 3">
+        <div class="carousel-caption d-md-block">
+          <h5>Fërgesë Tirane</h5>
+          <p>A beloved Tirana specialty made with peppers, tomatoes, and creamy cottage cheese.</p>
+        </div>
+      </div>
+
+      <!-- Culture 1 -->
+      <div class="carousel-item">
+        <img src="Images/Culture/oda-shqiptare.jpg" class="d-block w-100" alt="Culture 1">
+        <div class="carousel-caption d-md-block">
+          <h5>Albanian Oda</h5>
+          <p>A traditional Albanian guest room where families welcomed visitors, celebrated events, and preserved cultural rituals.</p>
+        </div>
+      </div>
+
+      <!-- Culture 2 -->
+      <div class="carousel-item">
+        <img src="Images/Culture/theth.jpg" class="d-block w-100" alt="Culture 2">
+        <div class="carousel-caption d-md-block">
+          <h5>Theth</h5>
+          <p>The iconic church of Theth, nestled in the Albanian Alps, offers a serene glimpse into the region’s spiritual and cultural heritage.</p>
+        </div>
+      </div>
+
+      <!-- Culture 3 -->
+      <div class="carousel-item">
+        <img src="Images/Culture/valle-tradicionale.jpg" class="d-block w-100" alt="Culture 3">
+        <div class="carousel-caption d-md-block">
+          <h5>Valle Tradicionale</h5>
+          <p>Traditional Albanian folk dance, expressing community spirit, rhythm, and centuries-old cultural identity.</p>
+        </div>
+      </div>
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselFoodCulture" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselFoodCulture" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
     </div>
   </section>
 
