@@ -20,7 +20,7 @@ firstDropdown.addEventListener('click', (event) => {
 
 // Second Dropdown, open and close
 secondDropdown.addEventListener('click', (event) => {
-  event.preventDefault(); // nuk navigon askund
+  event.preventDefault();
   event.stopPropagation();
   activitiesDropdown.classList.toggle('show-activities');
   destinationsDropdown.classList.remove('show'); // close the other dropdown

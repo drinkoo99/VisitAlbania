@@ -243,7 +243,7 @@ function setupRedirect(selector, type) {
   });
 }
 
-// Explore more buttons (optional, mund t’i heqësh nëse nuk përdoren)
+// Explore more buttons
 setupRedirect(".beaches-btn", "beaches");
 setupRedirect(".mountains-btn", "mountains");
 setupRedirect(".rivers-btn", "rivers");
