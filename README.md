@@ -1,22 +1,84 @@
-# VisitAlbania
+# 🌍 VisitAlbania — Modern Tourism Website for Albania 🇦🇱
 
-## Project Description
-**VisitAlbania** is an interactive and modern website designed to promote tourism in Albania. It features multiple sections showcasing top destinations, scenic images, and options for users to explore the country's main tourist attractions. The website focuses on user-friendly navigation, visual appeal, and responsive design.
+**VisitAlbania** is a modern, visually appealing, and fully responsive website designed to promote tourism in Albania.  
+The website highlights the country’s most iconic destinations, rich cultural heritage, traditional cuisine, and popular activities.  
+It focuses on clean UI and a strong user experience.
 
-## Technologies Used
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Bootstrap**
+---
 
-## Key Features
-- **Fully responsive navbar** that adapts seamlessly to all screen sizes
-- **Hero Section** with automatically changing images and a zoom-out effect
-- **Destinations Section** highlighting Albania's key tourist locations (almost complete)
-- **Activities Section** displaying popular activities and experiences (nearing completion)
-- **Responsive design** ensuring smooth display on mobile, tablet, and desktop devices
+## 🚀 Features
 
-## Current Progress
-- Navbar, Destinations, and Activities sections are implemented and largely functional
-- Destinations and Activities sections are responsive and visually appealing, with minor details left to finalize
-- Overall website layout is fully responsive and interactive
+### 🌐 Multi-Language Support (5 Languages)
+The website currently supports:
+- Albanian  
+- English  
+- German  
+- French  
+- Italian  
+
+Language switching is handled through JavaScript objects that update text content across sections.
+
+---
+
+### 🧭 Fully Responsive Navigation Bar
+- Dropdown menus for **Destinations**, **Activities**, and **Languages**
+- Smooth mobile experience with a **hamburger menu**
+- Organized structure and clean design using Bootstrap & custom CSS
+
+---
+
+### 🖼️ Dynamic Hero Section
+- Custom JavaScript slideshow  
+- Automatic image transitions  
+- Elegant **zoom-out animation**
+
+---
+
+### 📌 Destinations & Activities Sections
+- Modern presentation of Albania’s main attractions  
+- Grid-based layout using Bootstrap  
+- Fully responsive on all screen sizes  
+- Visually consistent cards for each destination & activity category
+
+---
+
+### 🍽️ Food & Culture Section
+- Bootstrap-powered **carousel** with autoplay  
+- Includes traditional dishes, cultural symbols, and iconic locations  
+- Each slide contains an image, a title, and a meaningful description
+
+---
+
+### 📱 Fully Responsive Design
+The entire website is optimized for:
+- Mobile phones  
+- Tablets  
+- Laptops  
+- Desktop monitors  
+
+Bootstrap combined with custom CSS ensures a smooth experience on every device.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **Bootstrap 5**
+
+---
+
+## 📈 Current Progress
+All major website sections are completed and functioning:
+
+- ✓ Navigation Bar — fully responsive  
+- ✓ Hero Section — completed with transitions & animations  
+- ✓ Destinations — visually complete (translation in progress)  
+- ✓ Activities — visually complete  
+- ✓ Food & Culture — functional carousel  
+- ✓ Multi-language system — implemented (content translation ongoing)  
+- ✓ Responsive Design — complete  
+
+The project is stable, interactive, and visually refined.
+
+---
