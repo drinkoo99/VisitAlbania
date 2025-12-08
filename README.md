@@ -1,14 +1,14 @@
 # 🌍 VisitAlbania — Modern Tourism Website for Albania 🇦🇱
 
-**VisitAlbania** is a modern, visually appealing, and fully responsive website designed to promote tourism in Albania.  
+**VisitAlbania** is a modern, visually good looking, and fully responsive website designed to promote tourism in Albania.  
 The website highlights the country’s most iconic destinations, rich cultural heritage, traditional cuisine, and popular activities.  
 It focuses on clean UI and a strong user experience.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🌐 Multi-Language Support (5 Languages)
+### Multi-Language Support (5 Languages)
 The website currently supports:
 - Albanian  
 - English  
@@ -20,21 +20,21 @@ Language switching is handled through JavaScript objects that update text conten
 
 ---
 
-### 🧭 Fully Responsive Navigation Bar
+### Navigation Bar
 - Dropdown menus for **Destinations**, **Activities**, and **Languages**
 - Smooth mobile experience with a **hamburger menu**
 - Organized structure and clean design using Bootstrap & custom CSS
 
 ---
 
-### 🖼️ Dynamic Hero Section
+### Hero Section
 - Custom JavaScript slideshow  
 - Automatic image transitions  
 - Elegant **zoom-out animation**
 
 ---
 
-### 📌 Destinations & Activities Sections
+### Destinations & Activities Sections
 - Modern presentation of Albania’s main attractions  
 - Grid-based layout using Bootstrap  
 - Fully responsive on all screen sizes  
@@ -42,14 +42,14 @@ Language switching is handled through JavaScript objects that update text conten
 
 ---
 
-### 🍽️ Food & Culture Section
+### Food & Culture Section
 - Bootstrap-powered **carousel** with autoplay  
 - Includes traditional dishes, cultural symbols, and iconic locations  
 - Each slide contains an image, a title, and a meaningful description
 
 ---
 
-### 📱 Fully Responsive Design
+### Fully Responsive Design
 The entire website is optimized for:
 - Mobile phones  
 - Tablets  
@@ -60,7 +60,7 @@ Bootstrap combined with custom CSS ensures a smooth experience on every device.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
@@ -68,7 +68,7 @@ Bootstrap combined with custom CSS ensures a smooth experience on every device.
 
 ---
 
-## 📈 Current Progress
+## Current Progress
 All major website sections are completed and functioning:
 
 - ✓ Navigation Bar — fully responsive  
@@ -79,6 +79,4 @@ All major website sections are completed and functioning:
 - ✓ Multi-language system — implemented (content translation ongoing)  
 - ✓ Responsive Design — complete  
 
-The project is stable, interactive, and visually refined.
-
----
+The project is stable, interactive.
