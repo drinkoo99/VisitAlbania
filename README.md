@@ -1,4 +1,4 @@
-# Modern Tourism Website for Albania 🇦🇱
+# Modern Tourism Website for Albania
 
 **VisitAlbania** is a modern, visually good looking, and fully responsive website designed to promote tourism in Albania.  
 The website highlights the country’s most iconic destinations, rich cultural heritage, traditional cuisine, and popular activities.  
