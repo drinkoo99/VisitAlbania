@@ -225,7 +225,7 @@
   background: #00e0ff;
   z-index: -1;
   transition: 0.5s;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 
 .booking-cta:hover {

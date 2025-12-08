@@ -23,13 +23,12 @@ function prevSlide() {
 }
 
 function startAutoSlide() {
-  slideInterval = setInterval(nextSlide, 5000);
+  slideInterval = setInterval(nextSlide, 3600);
 }
 
 function stopAutoSlide() {
   clearInterval(slideInterval);
 }
-
 
 nextBtn.addEventListener('click', () => {
   stopAutoSlide();
@@ -42,7 +41,6 @@ prevBtn.addEventListener('click', () => {
   prevSlide();
   startAutoSlide();
 });
-
 
 startAutoSlide();
 

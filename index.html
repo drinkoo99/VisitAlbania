@@ -57,78 +57,88 @@
 
       <!-- Links -->
       <ul class="d-flex align-items-center" id="list">
-        <li><a href="#hero-section">Home</a></li>
-        <li><a href="#destinations" id="firstDropdown">Destinations<i class="bi bi-caret-down-fill"></i></a>
+        <li><a href="#hero-section" data-translate="home">Home</a></li>
+        <li><a href="#destinations" id="firstDropdown" data-translate="destinations">Destinations<i class="bi bi-caret-down-fill"></i></a>
           <!-- Destinations Dropdown -->
           <ul class="custom-dropdown" id="destinationsDropdown">
-            <li><a href="destinations.html" class="beaches-btn">Beaches</a></li>
-            <li><a href="destinations.html" class="mountains-btn">Mountains</a></li>
-            <li><a href="destinations.html" class="rivers-btn">Rivers</a></li>
-            <li><a href="destinations.html" class="lakes-btn">Lakes</a></li>
-            <li><a href="destinations.html" class="countryside-btn">Countryside</a></li>
-            <li><a href="destinations.html" class="historicCities-btn">Historic Cities</a></li>
-            <li><a href="destinations.html" class="nationalParks-btn">National Parks</a></li>
+            <li><a href="destinations.html" class="beaches-btn" data-translate="beaches">Beaches</a></li>
+            <li><a href="destinations.html" class="mountains-btn" data-translate="mountains">Mountains</a></li>
+            <li><a href="destinations.html" class="rivers-btn" data-translate="rivers">Rivers</a></li>
+            <li><a href="destinations.html" class="lakes-btn" data-translate="lakes">Lakes</a></li>
+            <li><a href="destinations.html" class="countryside-btn" data-translate="countryside">Countryside</a></li>
+            <li><a href="destinations.html" class="historicCities-btn" data-translate="historicCities">Historic Cities</a></li>
+            <li><a href="destinations.html" class="nationalParks-btn" data-translate="nationalParks">National Parks</a></li>
           </ul>
         </li>
-        <li><a href="#activities" id="secondDropdown">Activities<i class="bi bi-caret-down-fill"></i></a>
+        <li><a href="#activities" id="secondDropdown" data-translate="activities">Activities<i class="bi bi-caret-down-fill"></i></a>
           <!-- Activities Dropdown -->
           <ul class="custom-dropdown" id="activitiesDropdown">
-            <li><a href="activities.html" class="hiking-btn">Hiking</a></li>
-            <li><a href="activities.html" class="paragliding-btn">Paragliding</a></li>
-            <li><a href="activities.html" class="kayaking-btn">Kayaking</a></li>
-            <li><a href="activities.html" class="diving-btn">Diving</a></li>
-            <li><a href="activities.html" class="cycling-btn">Cycling</a></li>
-            <li><a href="activities.html" class="camping-btn">Camping</a></li>
+            <li><a href="activities.html" class="hiking-btn" data-translate="hiking">Hiking</a></li>
+            <li><a href="activities.html" class="paragliding-btn" data-translate="paragliding">Paragliding</a></li>
+            <li><a href="activities.html" class="kayaking-btn" data-translate="kayaking">Kayaking</a></li>
+            <li><a href="activities.html" class="diving-btn" data-translate="diving">Diving</a></li>
+            <li><a href="activities.html" class="cycling-btn" data-translate="cycling">Cycling</a></li>
+            <li><a href="activities.html" class="camping-btn" data-translate="camping">Camping</a></li>
           </ul>
         </li>
-        <li><a href="#foodAndCulture">Food&Culture</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#foodAndCulture" data-translate="foodAndCulture">Food&Culture</a></li>
+        <li><a href="#" data-translate="events">Events</a></li>
+        <li><a href="#" data-translate="aboutUs">About Us</a></li>
+        <li><a href="#" data-translate="contact">Contact</a></li>
+        <li><a href="#" class="languages-cta" id="thirdDropdown" data-translate="languages">Languages<i class="bi bi-caret-down-fill"></i></a>
+          <!-- Languages Dropdown -->
+          <ul class="custom-dropdown" id="languagesDropdown">
+            <li><a href="#"><img src="svg-flags/alb-svg.svg" style="width: 16px; margin-right: 6px;" alt="Albania flag"> Albanian</a></li>
+            <li><a href="#"><img src="svg-flags/uk-svg.svg" style="width: 16px; margin-right: 6px;" alt="UK flag"> English</a></li>
+            <li><a href="#"><img src="svg-flags/ger-svg.svg" style="width: 16px; margin-right: 6px;" alt="Germany flag"> German</a></li>
+            <li><a href="#"><img src="svg-flags/fr-svg.svg" style="width: 16px; margin-right: 6px;" alt="French flag"> French</a></li>
+            <li><a href="#"><img src="svg-flags/ita-svg.svg" style="width: 16px; margin-right: 6px;" alt="Italian flag"> Italian</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
 
     <div class="hero-text">
-      <h1>Discover the Beauty of Albania</h1>
-      <p>Explore a land where nature, culture, and history blend seamlessly a destination you’ll never forget.</p>
+      <h1 data-translate="heroTitle">Discover the Beauty of Albania</h1>
+      <p data-translate="heroDescription">Explore a land where nature, culture, and history blend seamlessly a destination you’ll never forget.</p>
     </div>
   </section>
 
   <!-- Destinations Section -->
   <section class="destinations" id="destinations">
     <div class="destinations-headers w-100 d-flex flex-column align-items-center">
-      <h1 class="mt-5 mb-5 w-75">Destinations</h1>
-      <h3 class="mb-5 w-75">Discover the beauty beyond the ordinary</h3>
+      <h1 class="mt-5 mb-5 w-75" data-translate="destinationsTitle">Destinations</h1>
+      <h3 class="mb-5 w-75" data-translate="destinationsSubtitle">Discover the beauty beyond the ordinary</h3>
     </div>
 
     <div class="card-container text-light">
       <div class="row row-wrapper">
         <!-- Beaches -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center beaches">
-          <h5 class="text-center">Beaches</h5>
-          <p class="text-center">The blue that everyone is searching for</p>
+          <h5 class="text-center" data-translate="beaches">Beaches</h5>
+          <p class="text-center" data-translate="beachesDesc">The blue that everyone is searching for</p>
           <a href="destinations.html" class="beaches-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Mountains -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center mountains">
-          <h5 class="text-center">Mountains</h5>
-          <p class="text-center">Climb higher and discover what truly matters</p>
+          <h5 class="text-center" data-translate="mountains">Mountains</h5>
+          <p class="text-center" data-translate="mountainsDesc">Climb higher and discover what truly matters</p>
           <a href="destinations.html" class="mountains-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Rivers -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center rivers">
-          <h5 class="text-center">Rivers</h5>
-          <p class="text-center">Let the rivers guide you to nature’s hidden world</p>
+          <h5 class="text-center" data-translate="rivers">Rivers</h5>
+          <p class="text-center" data-translate="riversDesc">Let the rivers guide you to nature’s hidden world</p>
           <a href="destinations.html" class="rivers-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
@@ -137,40 +147,40 @@
       <div class="row row-wrapper justify-content-center">
          <!-- Lakes -->
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center lakes">
-          <h5 class="text-center">Lakes</h5>
-          <p class="text-center">Where ancient waters tell tales of time and history</p>
+          <h5 class="text-center" data-translate="lakes">Lakes</h5>
+          <p class="text-center" data-translate="lakesDesc">Where ancient waters tell tales of time and history</p>
           <a href="destinations.html" class="lakes-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Countryside -->
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center countryside">
-          <h5 class="text-center">Countryside</h5>
-          <p class="text-center">Where hills whisper stories of the past</p>
+          <h5 class="text-center" data-translate="countryside">Countryside</h5>
+          <p class="text-center" data-translate="countrysideDesc">Where hills whisper stories of the past</p>
           <a href="destinations.html" class="countryside-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Historic Cities -->
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center historic-cities">
-          <h5 class="text-center">Historic Cities</h5>
-          <p class="text-center">Walk through centuries of Albanian history</p>
+          <h5 class="text-center" data-translate="historicCities">Historic Cities</h5>
+          <p class="text-center" data-translate="historicCitiesDesc">Walk through centuries of Albanian history</p>
           <a href="destinations.html" class="historicCities-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- National Parks -->
         <div class="custom-card col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-center align-items-center national-parks">
-          <h5 class="text-center">National Parks</h5>
-          <p class="text-center">Nature’s beauty, preserved for you</p>
+          <h5 class="text-center" data-translate="nationalParks">National Parks</h5>
+          <p class="text-center" data-translate="nationalParksDesc">Nature’s beauty, preserved for you</p>
           <a href="destinations.html" class="nationalParks-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Explore more</span>
+            <span class="cta-text" data-translate="exploreMore">Explore more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
@@ -181,68 +191,68 @@
   <!-- Activities Section -->
   <section class="activities" id="activities">
     <div class="destinations-headers w-100 d-flex flex-column align-items-center">
-      <h1 class="mt-5 mb-5 w-75">Activities</h1>
-      <h3 class="mb-5 w-75">Experience adventure across Albania</h3>
+      <h1 class="mt-5 mb-5 w-75" data-translate="activitiesTitle">Activities</h1>
+      <h3 class="mb-5 w-75" data-translate="activitiesSubtitle">Experience adventure across Albania</h3>
     </div>
 
     <div class="card-container text-light">
       <div class="row row-wrapper">
         <!-- Hiking -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center hiking">
-          <h5 class="text-center">Hiking</h5>
-          <p class="text-center">Explore peaks, valleys, and breathtaking nature trails</p>
+          <h5 class="text-center" data-translate="hiking">Hiking</h5>
+          <p class="text-center" data-translate="hikingDesc">Explore peaks, valleys, and breathtaking nature trails</p>
           <a href="activities.html" class="hiking-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Paragliding -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center paragliding">
-          <h5 class="text-center">Paragliding</h5>
-          <p class="text-center">Fly freely above iconic landscapes</p>
+          <h5 class="text-center" data-translate="paragliding">Paragliding</h5>
+          <p class="text-center" data-translate="paraglidingDesc">Fly freely above iconic landscapes</p>
           <a href="activities.html" class="paragliding-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Kayaking -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center kayaking">
-          <h5 class="text-center">Kayaking</h5>
-          <p class="text-center">Discover rivers, lakes, and secret coves</p>
+          <h5 class="text-center" data-translate="kayaking">Kayaking</h5>
+          <p class="text-center" data-translate="kayakingDesc">Discover rivers, lakes, and secret coves</p>
           <a href="activities.html" class="kayaking-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Diving -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center diving">
-          <h5 class="text-center">Diving</h5>
-          <p class="text-center">Explore underwater caves and crystal waters</p>
+          <h5 class="text-center" data-translate="diving">Diving</h5>
+          <p class="text-center" data-translate="divingDesc">Explore underwater caves and crystal waters</p>
           <a href="activities.html" class="diving-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Cycling -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center cycling">
-          <h5 class="text-center">Cycling</h5>
-          <p class="text-center">Ride across scenic roads and mountain routes</p>
+          <h5 class="text-center" data-translate="cycling">Cycling</h5>
+          <p class="text-center" data-translate="cyclingDesc">Ride across scenic roads and mountain routes</p>
           <a href="activities.html" class="cycling-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
 
         <!-- Camping -->
         <div class="custom-card col-12 col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center camping">
-          <h5 class="text-center">Camping</h5>
-          <p class="text-center">Sleep under the stars in untouched nature</p>
+          <h5 class="text-center" data-translate="camping">Camping</h5>
+          <p class="text-center" data-translate="campingDesc">Sleep under the stars in untouched nature</p>
           <a href="activities.html" class="camping-btn explore-more-cta d-flex justify-content-center">
-            <span class="cta-text">Learn more</span>
+            <span class="cta-text" data-translate="learnMore">Learn more</span>
             <i class="bi bi-arrow-right cta-arrow"></i>
           </a>
         </div>
@@ -253,8 +263,8 @@
   <!-- Food&Culture -->
   <section class="foodAndCulture" id="foodAndCulture">
     <div class="foodAndCulture-headers w-100 d-flex flex-column align-items-center">
-      <h1 class="mt-5 mb-5 w-75">Food and Culture</h1>
-      <h3 class="mb-5 w-75">A journey through Albania’s authentic flavors, stories, and traditions</h3>
+      <h1 class="mt-5 mb-5 w-75" data-translate="foodTitle">Food and Culture</h1>
+      <h3 class="mb-5 w-75" data-translate="foodSubtitle">A journey through Albania’s authentic flavors, stories, and traditions</h3>
     </div>
 
     <div id="carouselFoodCulture" class="carousel slide" data-bs-ride="carousel">
@@ -274,10 +284,10 @@
 
       <!-- Tave Kosi -->
       <div class="carousel-item active">
-        <img src="Images/Food/tave-kosi.jpg" class="d-block w-100" alt="Food 1">
+        <img src="Images/Food/tave-kosi.webp" class="d-block w-100" alt="Food 1">
         <div class="carousel-caption d-md-block">
-          <h5>Tavë Kosi</h5>
-          <p>One of Albania’s most iconic dishes, combining tender lamb with a creamy yogurt and egg bake.</p>
+          <h5 data-translate="taveKosi">Tavë Kosi</h5>
+          <p data-translate="taveKosiDesc">One of Albania’s most iconic dishes, combining tender lamb with a creamy yogurt and egg bake.</p>
         </div>
       </div>
 
@@ -285,8 +295,8 @@
       <div class="carousel-item">
         <img src="Images/Food/flija.jpg" class="d-block w-100" alt="Food 2">
         <div class="carousel-caption d-md-block">
-          <h5>Flija</h5>
-          <p>A traditional layered dish cooked slowly over open fire, symbolizing hospitality and family gatherings.</p>
+          <h5 data-translate="flija">Flija</h5>
+          <p data-translate="flijaDesc">A traditional layered dish cooked slowly over open fire, symbolizing hospitality and family gatherings.</p>
         </div>
       </div>
 
@@ -294,8 +304,8 @@
       <div class="carousel-item">
         <img src="Images/Food/fergese-tirane.jpg" class="d-block w-100" alt="Food 3">
         <div class="carousel-caption d-md-block">
-          <h5>Fërgesë Tirane</h5>
-          <p>A beloved Tirana specialty made with peppers, tomatoes, and creamy cottage cheese.</p>
+          <h5 data-translate="fergese">Fërgesë Tirane</h5>
+          <p data-translate="fergeseDesc">A beloved Tirana specialty made with peppers, tomatoes, and creamy cottage cheese.</p>
         </div>
       </div>
 
@@ -303,8 +313,8 @@
       <div class="carousel-item">
         <img src="Images/Culture/oda-shqiptare.jpg" class="d-block w-100" alt="Culture 1">
         <div class="carousel-caption d-md-block">
-          <h5>Albanian Oda</h5>
-          <p>A traditional Albanian guest room where families welcomed visitors, celebrated events, and preserved cultural rituals.</p>
+          <h5 data-translate="oda">Albanian Oda</h5>
+          <p data-translate="odaDesc">A traditional Albanian guest room where families welcomed visitors, celebrated events, and preserved cultural rituals.</p>
         </div>
       </div>
 
@@ -312,8 +322,8 @@
       <div class="carousel-item">
         <img src="Images/Culture/theth.jpg" class="d-block w-100" alt="Culture 2">
         <div class="carousel-caption d-md-block">
-          <h5>Theth</h5>
-          <p>The iconic church of Theth, nestled in the Albanian Alps, offers a serene glimpse into the region’s spiritual and cultural heritage.</p>
+          <h5 data-translate="theth">Theth</h5>
+          <p data-translate="thethDesc">The iconic church of Theth, nestled in the Albanian Alps, offers a serene glimpse into the region’s spiritual and cultural heritage.</p>
         </div>
       </div>
 
@@ -321,8 +331,8 @@
       <div class="carousel-item">
         <img src="Images/Culture/valle-tradicionale.jpg" class="d-block w-100" alt="Culture 3">
         <div class="carousel-caption d-md-block">
-          <h5>Valle Tradicionale</h5>
-          <p>Traditional Albanian folk dance, expressing community spirit, rhythm, and centuries-old cultural identity.</p>
+          <h5 data-translate="valle">Valle Tradicionale</h5>
+          <p data-translate="valleDesc">Traditional Albanian folk dance, expressing community spirit, rhythm, and centuries-old cultural identity.</p>
         </div>
       </div>
 
@@ -351,5 +361,6 @@
   <script src="Scripts/hero-section.js"></script>
   <script src="Scripts/destinations.js"></script>
   <script src="Scripts/activities.js"></script>
+  <script src="Scripts/translations.js"></script>
 </body>
 </html>

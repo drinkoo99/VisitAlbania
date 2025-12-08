@@ -219,6 +219,42 @@ nav ul li a:hover {
   animation: dropdownOpen 0.35s ease forwards;
 }
 
+.languages-cta {
+  position: relative;
+  border: 2px solid #00e0ff;
+  border-radius: 14px;
+  padding: 8px 16px;
+  overflow: hidden;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.languages-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00e0ff;
+  z-index: -1;
+  transition: width 0.5s ease;
+  border-radius: 10px;
+}
+
+.languages-cta:hover {
+  color: white;
+}
+
+.languages-cta:hover::before {
+  width: 100%;
+}
+
+.languages-cta:focus {
+  background-color: #00e0ff;
+  color: white;
+}
+
 /* ====================== */
 /*   DROPDOWN ANIMATIONS */
 /* ===================== */
@@ -313,7 +349,7 @@ nav.scrolled .logo-name {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8px;
+    /* padding: 0 8px; */
     height: 60px;
   }
 
@@ -351,7 +387,7 @@ nav.scrolled .logo-name {
     width: 100%;
     background-color: #fff;
     margin: 0;
-    padding: 6px 0;
+    /* padding: 6px 0; */
     z-index: 300;
     transform: translateY(-18px);
     opacity: 0;
@@ -375,7 +411,7 @@ nav.scrolled .logo-name {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     color: #333;
     font-size: 1rem;
     animation: linksFadeIn 0.25s ease forwards;
@@ -408,6 +444,29 @@ nav.scrolled .logo-name {
   .arrow-left, .arrow-right {
     font-size: 3rem;
     margin-top: 40px;
+  }
+
+  #destinationsDropdown li a, #activitiesDropdown li a, #languagesDropdown li a {
+    padding: 0 0 8px 8px;
+    background-color: rgb(243, 243, 243);
+  }
+
+  .show-menu {
+    padding: 0 0 15px 8px;
+  }
+
+  .languages-cta {
+    width: fit-content;
+    color: black;
+  }
+
+  .languages-cta:hover {
+    color: black;
+  }
+
+  .languages-cta:focus {
+    background-color: #00e0ff;
+    color: white;
   }
 }
 
