@@ -82,3 +82,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+// ============================
+// EVENTS TOGGLE ARROW      
+// ============================
+
+const arrows = document.querySelectorAll('.toggle-arrow');
+
+arrows.forEach(arrow => {
+  arrow.addEventListener('click', () => {
+    const eventCard = arrow.closest('.event-card');
+    const desc = eventCard.querySelector('.event-description');
+
+    // close all other descriptions
+    document.querySelectorAll('.event-description.open').forEach(openDesc => {
+      if (openDesc !== desc) {
+        openDesc.classList.remove('open');
+        const openArrow = openDesc.closest('.event-card').querySelector('.toggle-arrow');
+        openArrow.classList.remove('up');
+      }
+    });
+
+    // toggle for this card
+    desc.classList.toggle('open');
+    arrow.classList.toggle('up');
+
+  });
+});

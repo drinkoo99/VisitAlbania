@@ -1,0 +1,228 @@
+/* ========================== */
+/*   EVENTS  MAIN PAGE       */
+/* ========================== */
+.events {
+  padding: 60px 0;
+  background: #f7f8fa;
+}
+
+.events-header .title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #1a1a1a;
+}
+
+.events-header .subtitle {
+  margin: 15px auto 40px;
+  max-width: 650px;
+  font-size: 18px;
+  color: #676767;
+}
+/* ====================== */
+/*   EVENTS GRID         */
+/* ====================== */
+.events-grid {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 40px;
+  align-items: start; /* prevent cards in same row from stretching to tallest */
+}
+
+/* ====================== */
+/*   EVENT CARD          */
+/* ====================== */
+.event-card {
+  background: #ffffff;
+  overflow: visible;
+  transition: 0.35s ease;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+/* ====================== */
+/*   EVENT IMAGE AREA     */
+/* ====================== */
+.event-img {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.event-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.event-card:hover .event-img img {
+  transform: scale(1.06);
+  filter: brightness(0.92);
+}
+
+/* ====================== */
+/*   EVENT DATE BADGE     */
+/* ====================== */
+.event-date {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px 14px;
+  border-radius: 15px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.event-date .day {
+  font-size: 24px;
+  font-weight: 900;
+  display: block;
+  color: #1a1a1a;
+}
+
+.event-date .month {
+  font-size: 12px;
+  font-weight: 700;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+/* ====================== */
+/*   EVENT CONTENT       */
+/* ====================== */
+.event-content {
+  padding: 22px;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.event-meta {
+  font-size: 15px;
+  color: #6b6b6b;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.event-meta i {
+  margin-right: 6px;
+  color: #ff4d4d;
+  font-size: 17px;
+}
+
+/* ====================== */
+/*   EVENTS CTA BUTTON     */
+/* ====================== */
+.events-btn {
+  text-align: center;
+  margin-top: 45px;
+  position: relative;
+  display: inline-block;
+}
+
+.modern-btn {
+  position: relative;
+  padding: 13px 34px;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  overflow: hidden;
+  transition: background 0.3s ease;
+  display: inline-block;
+  z-index: 1;
+}
+
+.modern-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #111;
+  z-index: -1;
+  transition: 0.5s ease;
+}
+
+.modern-btn:hover::before {
+  width: 100%;
+}
+
+.cta-text {
+  transition: opacity 0.3s ease;
+}
+
+.cta-arrow {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.modern-btn:hover .cta-text {
+  opacity: 0;
+}
+
+.modern-btn:hover .cta-arrow {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+/* ====================== */
+/*   EVENT DESCRIPTION     */
+/* ====================== */
+.event-description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.35s ease;
+  padding: 0 0;
+}
+
+.event-description.open {
+  max-height: 500px;
+  padding: 10px 0;
+  opacity: 1;
+}
+
+/* ====================== */
+/*   TOGGLE ARROW         */
+/* ====================== */
+.toggle-arrow {
+  cursor: pointer;
+  font-size: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+  transform-origin: center;
+  transition: transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.toggle-arrow.up {
+  transform: rotate(180deg);
+}
