@@ -221,6 +221,7 @@
   transform: rotate(0deg);
   transform-origin: center;
   transition: transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: 10px;
 }
 
 .toggle-arrow.up {

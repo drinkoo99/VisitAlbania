@@ -18,7 +18,7 @@ const translations = {
     events: "Ngjarjet",
     aboutUs: "Rreth Nesh",
     contact: "Kontakti",
-    languages: "Gjuhet",
+    languages: "Gjuhët",
     // Destinations dropdown
     beaches: "Plazhet",
     mountains: "Male",
