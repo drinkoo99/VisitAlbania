@@ -203,16 +203,17 @@
 /* ===================== */
 .booking-cta {
   position: relative;
-  border: 2px solid #00e0ff;
-  width: 25%;
-  padding: 12px 24px;
-  border-radius: 6px;
-  color: rgb(56, 56, 56);
-  font-weight: bold;
+  padding: 13px 34px;
+  background: #111; /* ose mund ta ndryshosh me ngjyrën që do */
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
   text-decoration: none;
-  z-index: 1;
+  font-weight: 600;
+  overflow: hidden;
+  transition: background 0.3s ease;
   display: inline-block;
-  transition: color 0.3s;
+  z-index: 1;
 }
 
 .booking-cta::before {
@@ -222,19 +223,40 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #00e0ff;
+  background: #111; /* mund ta ndryshosh me #00e0ff nëse do ngjyrë blu */
   z-index: -1;
-  transition: 0.5s;
-  border-radius: 3px;
-}
-
-.booking-cta:hover {
-  color: white;
+  transition: 0.5s ease;
+  border-radius: 10px;
 }
 
 .booking-cta:hover::before {
   width: 100%;
 }
+
+.booking-cta .cta-text {
+  transition: opacity 0.3s ease;
+}
+
+.booking-cta .cta-arrow {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.booking-cta:hover .cta-text {
+  opacity: 0;
+}
+
+.booking-cta:hover .cta-arrow {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
 
 /* ====================== */
 /*   RESPONSIVNES        */

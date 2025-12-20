@@ -289,6 +289,14 @@ nav.scrolled .logo-name {
   color: black;
 }
 
+#menu {
+  color: white;
+}
+
+nav.scrolled #menu {
+  color: black;
+}
+
 .hamburger-menu {
   display: none;
   z-index: 400; /* to be always on top */

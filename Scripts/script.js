@@ -62,8 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const menu = document.getElementById('menu');
   const list = document.getElementById('list');
 
-  // open and close hamburgerr menu
-  menu.addEventListener('click', () => {
+  // open and close hamburger menu
+  menu.addEventListener('click', (e) => {
+    e.stopPropagation(); // stop event propagation
     list.classList.toggle('show-menu');
   });
 
@@ -71,15 +72,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const links = list.querySelectorAll('a');
   links.forEach(link => {
     link.addEventListener('click', (e) => {
-      // check if the link is in the dropdowns
       if (!link.closest('#firstDropdown') && !link.closest('#secondDropdown') && !link.closest('#thirdDropdown')) {
         list.classList.remove('show-menu'); // close hamburger menu
-        // also close dropdowns if they are open
         destinationsDropdown.classList.remove('show');
         activitiesDropdown.classList.remove('show-activities');
-        languagesDropdown.classList.remove('show'); // close languages dropdown
+        languagesDropdown.classList.remove('show');
       }
     });
+  });
+
+  // Close hamburger menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!list.contains(e.target) && !menu.contains(e.target)) {
+      list.classList.remove('show-menu');
+      destinationsDropdown.classList.remove('show');
+      activitiesDropdown.classList.remove('show-activities');
+      languagesDropdown.classList.remove('show');
+    }
   });
 });
 
