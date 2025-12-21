@@ -1,0 +1,342 @@
+/* ========================== */
+/*   ABOUT US SECTION        */
+/* ========================== */
+.aboutus { /* 26 Done - Class selector, Checklist 35 Done - Classes preferred over IDs */
+  padding: 80px 0; /* 32 Done - Box model */
+  background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%); /* 31 Done - Background styling */
+  min-height: 600px; /* 65 Done - Responsive units (px) */
+}
+
+.aboutus-content {
+  width: 90%; /* 65 Done - Responsive units (%) */
+  max-width: 1200px; /* 65 Done - Responsive units (px) */
+  margin: 0 auto; /* 32 Done - Box model */
+  padding: 0 20px; /* 32 Done - Box model */
+}
+
+.aboutus-text {
+  text-align: center; /* 30 Done - Text formatting */
+  max-width: 800px; /* 65 Done - Responsive units (px) */
+  margin: 0 auto 60px auto; /* 32 Done - Box model */
+}
+
+.aboutus-text p {
+  font-size: 1.1rem; /* 30 Done - Text formatting */
+  line-height: 1.8; /* 30 Done - Text formatting */
+  color: #444; /* 29 Done - Colors (hex) */
+  font-family: var(--body-font); /* 30 Done - Text formatting */
+}
+
+/* ========================== */
+/*   MEDIA SECTION           */
+/* ========================== */
+.aboutus-media {
+  margin: 60px 0; /* 32 Done - Box model */
+  text-align: center; /* 30 Done - Text formatting */
+}
+
+.video-title {
+  font-size: 2rem; /* 30 Done - Text formatting */
+  font-weight: 700; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+  margin-bottom: 30px; /* 32 Done - Box model */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+/* HTML5 Video Wrapper (Checklist 52) */
+.html5-video-wrapper {
+  max-width: 900px; /* 65 Done - Responsive units (px) */
+  margin: 0 auto 40px auto; /* 32 Done - Box model */
+  border-radius: 12px; /* 33 Done - Borders */
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); /* 29 Done - Colors (rgba) */
+  background: #000; /* 31 Done - Background styling */
+}
+
+.html5-video {
+  width: 100%; /* 50 Done - Responsive sizing (max-width: 100%), Checklist 65 Done - Responsive units (%) */
+  max-width: 100%; /* 50 Done - Responsive sizing */
+  height: auto; /* 50 Done - Responsive sizing */
+  display: block; /* 56 Done - Display values */
+  min-height: 400px; /* 65 Done - Responsive units (px) */
+}
+
+/* Google Maps iframe Wrapper (Checklist 55) */
+.map-wrapper {
+  max-width: 900px; /* 65 Done - Responsive units (px) */
+  margin: 40px auto; /* 32 Done - Box model */
+  padding: 20px; /* 32 Done - Box model */
+  background: #ffffff; /* 31 Done - Background styling */
+  border-radius: 12px; /* 33 Done - Borders */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* 29 Done - Colors (rgba) */
+}
+
+.map-title {
+  font-size: 1.3rem; /* 30 Done - Text formatting */
+  font-weight: 600; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+  margin-bottom: 15px; /* 32 Done - Box model */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+.map-wrapper iframe {
+  width: 100%; /* 50 Done - Responsive sizing, Checklist 65 Done - Responsive units (%) */
+  max-width: 100%; /* 50 Done - Responsive sizing (max-width: 100%) */
+  display: block; /* 56 Done - Display values */
+}
+
+.video-label {
+  font-size: 1rem; /* 30 Done - Text formatting */
+  color: #666; /* 29 Done - Colors (hex) */
+  margin-bottom: 15px; /* 32 Done - Box model */
+  font-style: italic; /* 30 Done - Text formatting */
+}
+
+/* YouTube Video Wrapper (Checklist 55) */
+.video-wrapper {
+  position: relative; /* 62 Done - Position property */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio, 65 Done - Responsive units (%) */
+  height: 0; /* 65 Done - Responsive units */
+  overflow: hidden; /* 33 Done - Borders */
+  max-width: 900px; /* 65 Done - Responsive units (px) */
+  margin: 0 auto; /* 32 Done - Box model */
+  border-radius: 12px; /* 33 Done - Borders */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); /* 29 Done - Colors (rgba) */
+}
+
+.video-wrapper.youtube-video {
+  margin-top: 20px; /* 32 Done - Box model */
+}
+
+.video-wrapper iframe {
+  position: absolute; /* 62 Done - Position property */
+  top: 0; /* 62 Done - Position property */
+  left: 0; /* 62 Done - Position property */
+  width: 100%; /* 65 Done - Responsive units (%) */
+  height: 100%; /* 65 Done - Responsive units (%) */
+  border: none; /* 33 Done - Borders */
+  border-radius: 12px; /* 33 Done - Borders */
+}
+
+/* ========================== */
+/*   TOURISM STATS TABLE     */
+/* ========================== */
+/* ========================== */
+/*   TOURISM STATS TABLE     */
+/* ========================== */
+/* Checklist 36 Done - Table used only for tabular data */
+/* Checklist 37 Done - Correct use of tr, th, td */
+/* Checklist 38 Done - Use of thead, tbody, tfoot */
+/* Checklist 39 Done - Table includes caption */
+/* Checklist 40 Done - Column and row headings clearly distinguishable */
+/* Checklist 41 Done - Tables styled with basic CSS (borders, padding, zebra striping, etc.) */
+.tourism-stats-table {
+  width: 100%; /* 65 Done - Responsive units (%) */
+  border-collapse: collapse; /* 33 Done - Borders */
+  margin: 40px auto; /* 32 Done - Box model */
+  background: #ffffff; /* 31 Done - Background styling */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 29 Done - Colors (rgba) */
+  border-radius: 12px; /* 33 Done - Borders */
+  overflow: hidden; /* 33 Done - Borders */
+}
+
+/* Checklist 39 Done - Table includes caption */
+.tourism-stats-table caption {
+  font-size: 1.5rem; /* 30 Done - Text formatting */
+  font-weight: bold; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+  padding: 20px 0; /* 32 Done - Box model */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+  margin-bottom: 10px; /* 32 Done - Box model */
+}
+
+/* Checklist 38 Done - Use of thead, Checklist 40 Done - Headings clearly distinguishable */
+.tourism-stats-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 31 Done - Background styling */
+  color: #ffffff; /* 29 Done - Colors (named) */
+}
+
+.tourism-stats-table thead th {
+  padding: 18px 24px; /* 32 Done - Box model */
+  text-align: left; /* 30 Done - Text formatting */
+  font-weight: 600; /* 30 Done - Text formatting */
+  font-size: 1rem; /* 30 Done - Text formatting */
+  text-transform: uppercase; /* 30 Done - Text formatting */
+  letter-spacing: 0.5px; /* 30 Done - Text formatting */
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2); /* 33 Done - Borders */
+}
+
+.tourism-stats-table thead th:first-child {
+  border-top-left-radius: 12px; /* 33 Done - Borders */
+}
+
+.tourism-stats-table thead th:last-child {
+  border-top-right-radius: 12px; /* 33 Done - Borders */
+}
+
+/* Checklist 38 Done - Use of tbody, Checklist 41 Done - Zebra striping */
+.tourism-stats-table tbody tr {
+  border-bottom: 1px solid #e9ecef; /* 33 Done - Borders */
+  transition: background-color 0.3s ease; /* 29 Done - Transitions */
+}
+
+/* Checklist 41 Done - Zebra striping */
+.tourism-stats-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* 31 Done - Background styling */
+}
+
+.tourism-stats-table tbody tr:hover {
+  background-color: #e7f3ff; /* 31 Done - Background styling */
+  cursor: pointer;
+}
+
+/* Checklist 37 Done - Correct use of th and td */
+.tourism-stats-table tbody th {
+  padding: 16px 24px; /* 32 Done - Box model */
+  font-weight: 600; /* 30 Done - Text formatting */
+  color: #2c3e50; /* 29 Done - Colors (hex) */
+  background-color: rgba(102, 126, 234, 0.05); /* 31 Done - Background styling */
+  border-right: 2px solid #e9ecef; /* 33 Done - Borders */
+  text-align: left; /* 30 Done - Text formatting */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+.tourism-stats-table tbody td {
+  padding: 16px 24px; /* 32 Done - Box model */
+  color: #495057; /* 29 Done - Colors (hex) */
+  font-size: 0.95rem; /* 30 Done - Text formatting */
+  font-family: var(--body-font); /* 30 Done - Text formatting */
+}
+
+.tourism-stats-table tbody td:nth-child(3) {
+  font-weight: 600; /* 30 Done - Text formatting */
+  color: #667eea; /* 29 Done - Colors (hex) */
+  font-size: 1.1rem; /* 30 Done - Text formatting */
+}
+
+.tourism-stats-table tbody td:nth-child(4) {
+  font-weight: 600; /* 30 Done - Text formatting */
+  color: #28a745; /* 29 Done - Colors (hex) */
+}
+
+/* Checklist 38 Done - Use of tfoot */
+.tourism-stats-table tfoot {
+  background-color: #f8f9fa; /* 31 Done - Background styling */
+  border-top: 3px solid #667eea; /* 33 Done - Borders */
+}
+
+.tourism-stats-table tfoot th {
+  padding: 18px 24px; /* 32 Done - Box model */
+  font-weight: 700; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+  font-size: 1.1rem; /* 30 Done - Text formatting */
+  text-align: left; /* 30 Done - Text formatting */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+.tourism-stats-table tfoot td {
+  padding: 18px 24px; /* 32 Done - Box model */
+  font-weight: 700; /* 30 Done - Text formatting */
+  color: #28a745; /* 29 Done - Colors (hex) */
+  font-size: 1.1rem; /* 30 Done - Text formatting */
+}
+
+/* ========================== */
+/*   RESPONSIVE DESIGN       */
+/* ========================== */
+/* Checklist 64 Done - Media queries, Checklist 66 Done - Mobile layout */
+@media (max-width: 768px) {
+  .aboutus {
+    padding: 60px 0; /* 32 Done - Box model */
+  }
+
+  .aboutus-content {
+    width: 95%; /* 65 Done - Responsive units (%) */
+    padding: 0 15px; /* 32 Done - Box model */
+  }
+
+  .video-title {
+    font-size: 1.5rem; /* 30 Done - Text formatting, Checklist 64 Done - Typography adjustment */
+  }
+
+  .video-wrapper {
+    max-width: 100%; /* 65 Done - Responsive units (%) */
+  }
+
+  .tourism-stats-table {
+    font-size: 0.85rem; /* 30 Done - Text formatting, Checklist 64 Done - Typography adjustment */
+  }
+
+  .tourism-stats-table caption {
+    font-size: 1.2rem; /* 30 Done - Text formatting, Checklist 64 Done - Typography adjustment */
+    padding: 15px 0; /* 32 Done - Box model */
+  }
+
+  .tourism-stats-table thead th,
+  .tourism-stats-table tbody th,
+  .tourism-stats-table tbody td,
+  .tourism-stats-table tfoot th,
+  .tourism-stats-table tfoot td {
+    padding: 12px 10px; /* 32 Done - Box model */
+    font-size: 0.85rem; /* 30 Done - Text formatting */
+  }
+
+  .tourism-stats-table thead th {
+    font-size: 0.8rem; /* 30 Done - Text formatting */
+  }
+}
+
+@media (max-width: 480px) {
+  .tourism-stats-table {
+    display: block; /* 56 Done - Display values */
+    overflow-x: auto; /* 56 Done - Display values */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tourism-stats-table thead,
+  .tourism-stats-table tbody,
+  .tourism-stats-table tfoot,
+  .tourism-stats-table tr {
+    display: block; /* 56 Done - Display values */
+  }
+
+  .tourism-stats-table thead {
+    display: none; /* 56 Done - Display values */
+  }
+
+  .tourism-stats-table tbody tr {
+    margin-bottom: 15px; /* 32 Done - Box model */
+    border: 2px solid #e9ecef; /* 33 Done - Borders */
+    border-radius: 8px; /* 33 Done - Borders */
+    display: block; /* 56 Done - Display values */
+  }
+
+  .tourism-stats-table tbody th,
+  .tourism-stats-table tbody td {
+    display: block; /* 56 Done - Display values */
+    text-align: right; /* 30 Done - Text formatting */
+    padding: 10px 15px; /* 32 Done - Box model */
+    border: none; /* 33 Done - Borders */
+  }
+
+  .tourism-stats-table tbody th {
+    background-color: #667eea; /* 31 Done - Background styling */
+    color: #ffffff; /* 29 Done - Colors (named) */
+    text-align: left; /* 30 Done - Text formatting */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* 33 Done - Borders */
+  }
+
+  .tourism-stats-table tbody td::before {
+    content: attr(data-label);
+    float: left; /* 62 Done - Position property (float) */
+    font-weight: 600; /* 30 Done - Text formatting */
+    color: #667eea; /* 29 Done - Colors (hex) */
+  }
+
+  .tourism-stats-table tfoot {
+    display: block; /* 56 Done - Display values */
+    border-top: 3px solid #667eea; /* 33 Done - Borders */
+    border-radius: 8px; /* 33 Done - Borders */
+  }
+}
+

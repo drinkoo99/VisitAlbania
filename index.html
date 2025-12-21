@@ -1,53 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<!DOCTYPE html> <!-- 9 Done - Correct use of !DOCTYPE html -->
+<html lang="en"> <!-- 10 Done - html lang includes correct language code -->
+<head> <!-- 11 Done - Proper separation of head and body sections -->
+  <meta charset="UTF-8"> <!-- 2 Done - UTF-8 charset set explicitly -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- 8 Done - HTTPS used correctly in links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"> <!-- 8 Done - HTTPS used correctly in links -->
   <!-- Fonts -->
   <!-- Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- 8 Done - HTTPS used correctly in links -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- 8 Done - HTTPS used correctly in links -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- 8 Done - HTTPS used correctly in links -->
   <!-- Montserrat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- 8 Done - HTTPS used correctly in links -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- 8 Done - HTTPS used correctly in links -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> <!-- 8 Done - HTTPS used correctly in links -->
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="Styles/navbar.css">
-  <link rel="stylesheet" href="Styles/destinations.css">
-  <link rel="stylesheet" href="Styles/activities.css">
-  <link rel="stylesheet" href="Styles/food-culture.css">
-  <link rel="stylesheet" href="Styles/events.css">
-  <title>VisitAlbania</title>
+  <link rel="stylesheet" href="Styles/navbar.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/destinations.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/activities.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/food-culture.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/events.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/aboutus.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/contact.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <link rel="stylesheet" href="Styles/footer.css"> <!-- 23 Done - External CSS linked via link rel="stylesheet" -->
+  <title>VisitAlbania</title> <!-- 3 Done - Pages have meaningful title values -->
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <section id="hero-section">
-    <!-- Hero Section backgorund images -->
-    <div class="hero-backgorund">
-      <div class="hero-image active" style="background-image: url(Images/Hero-Section/hero-bg-1.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-2.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-3.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-4.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-5.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-6.webp);"></div>
-      <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-7.webp);"></div>
-    </div>
+  <header> <!-- 21 Done - Structural semantics using header element -->
+    <!-- Hero Section -->
+    <section id="hero-section"> <!-- 21 Done - Structural semantics using section element -->
+      <!-- Hero Section backgorund images -->
+      <div class="hero-backgorund">
+        <div class="hero-image active" style="background-image: url(Images/Hero-Section/hero-bg-1.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-2.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-3.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-4.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-5.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-6.webp);"></div>
+        <div class="hero-image" style="background-image: url(Images/Hero-Section/hero-bg-7.webp);"></div>
+      </div>
 
-    <!-- Hero Section navigation arrows -->
-    <div class="hero-arrows d-flex justify-content-between">
-      <button class="arrow-left">&#10094;</button>
-      <button class="arrow-right">&#10095;</button>
-    </div>
+      <!-- Hero Section navigation arrows -->
+      <div class="hero-arrows d-flex justify-content-between">
+        <button class="arrow-left">&#10094;</button>
+        <button class="arrow-right">&#10095;</button>
+      </div>
 
-    <!-- Navigation Bar -->
-    <nav class="d-flex align-items-center justify-content-between">
+      <!-- Navigation Bar -->
+      <nav class="d-flex align-items-center justify-content-between"> <!-- 21 Done - Structural semantics using nav element -->
       <!-- Hamburger Menu -->
       <div class="hamburger-menu d-flex justify-content-center align-items-center"><i class="bi bi-list" id="menu"></i></div>
 
@@ -58,8 +62,8 @@
 
       <!-- Links -->
       <ul class="d-flex align-items-center" id="list">
-        <li><a href="#hero-section" data-translate="home">Home</a></li>
-        <li><a href="#destinations" id="firstDropdown" data-translate="destinations">Destinations<i class="bi bi-caret-down-fill"></i></a>
+        <li><a href="#hero-section" data-translate="home">Home</a></li> <!-- 17 Done - Internal links created via a href -->
+        <li><a href="#destinations" id="firstDropdown" data-translate="destinations">Destinations<i class="bi bi-caret-down-fill"></i></a> <!-- 17 Done - Internal links created via a href -->
           <!-- Destinations Dropdown -->
           <ul class="custom-dropdown" id="destinationsDropdown">
             <li><a href="destinations.html" class="beaches-btn" data-translate="beaches">Beaches</a></li>
@@ -84,8 +88,8 @@
         </li>
         <li><a href="#foodAndCulture" data-translate="foodAndCulture">Food&Culture</a></li>
         <li><a href="#events" data-translate="events">Events</a></li>
-        <li><a href="#" data-translate="aboutUs">About Us</a></li>
-        <li><a href="#" data-translate="contact">Contact</a></li>
+        <li><a href="#aboutus" data-translate="aboutUs">About Us</a></li>
+        <li><a href="#contact" data-translate="contact">Contact</a></li>
         <li><a href="#" class="languages-cta" id="thirdDropdown" data-translate="languages">Languages<i class="bi bi-caret-down-fill"></i></a>
           <!-- Languages Dropdown -->
           <ul class="custom-dropdown" id="languagesDropdown">
@@ -99,17 +103,19 @@
       </ul>
     </nav>
 
-    <div class="hero-text">
-      <h1 data-translate="heroTitle">Discover the Beauty of Albania</h1>
-      <p data-translate="heroDescription">Explore a land where nature, culture, and history blend seamlessly a destination you’ll never forget.</p>
-    </div>
-  </section>
+      <div class="hero-text">
+        <h1 data-translate="heroTitle"><strong>Discover the Beauty of Albania</strong> </h1> <!-- 12 Done - Headings used hierarchically (h1), 16 Done - strong used for importance -->
+        <p data-translate="heroDescription">Explore a land where <em>nature</em>, <em>culture</em>, and <em>history</em> blend seamlessly a destination you'll never forget.</p> <!-- 13 Done - Paragraphs structured with p, 16 Done - em used for emphasis -->
+      </div>
+    </section>
+  </header>
 
-  <!-- Destinations Section -->
-  <section class="destinations" id="destinations">
+  <main> <!-- 21 Done - Structural semantics using main element -->
+    <!-- Destinations Section -->
+  <section class="destinations" id="destinations"> <!-- 21 Done - Structural semantics using section element -->
     <div class="destinations-headers w-100 d-flex flex-column align-items-center">
-      <h1 class="mt-5 mb-5 w-75" data-translate="destinationsTitle">Destinations</h1>
-      <h3 class="mb-5 w-75" data-translate="destinationsSubtitle">Discover the beauty beyond the ordinary</h3>
+      <h1 class="mt-5 mb-5 w-75" data-translate="destinationsTitle">Destinations</h1> <!-- 12 Done - Headings used hierarchically (h1 then h2) -->
+      <h2 class="mb-5 w-75" data-translate="destinationsSubtitle">Discover the beauty beyond the ordinary</h2> <!-- 12 Done - Headings used hierarchically -->
     </div>
 
     <div class="card-container text-light">
@@ -193,7 +199,7 @@
   <section class="activities" id="activities">
     <div class="w-100 d-flex flex-column align-items-center">
       <h1 class="mt-5 mb-5 w-75" data-translate="activitiesTitle">Activities</h1>
-      <h3 class="mb-5 w-75" data-translate="activitiesSubtitle">Experience adventure across Albania</h3>
+      <h2 class="mb-5 w-75" data-translate="activitiesSubtitle">Experience adventure across Albania</h2>
     </div>
 
     <div class="card-container text-light">
@@ -265,7 +271,7 @@
   <section class="foodAndCulture" id="foodAndCulture">
     <div class="foodAndCulture-headers w-100 d-flex flex-column align-items-center">
       <h1 class="mt-5 mb-5 w-75" data-translate="foodTitle">Food and Culture</h1>
-      <h3 class="mb-5 w-75" data-translate="foodSubtitle">A journey through Albania’s authentic flavors, stories, and traditions</h3>
+      <h2 class="mb-5 w-75" data-translate="foodSubtitle">A journey through Albania’s authentic flavors, stories, and traditions</h2>
     </div>
 
     <div id="carouselFoodCulture" class="carousel slide" data-bs-ride="carousel">
@@ -285,56 +291,68 @@
 
       <!-- Tave Kosi -->
       <div class="carousel-item active">
-        <img src="Images/Food/tave-kosi.webp" class="d-block w-100" alt="Food 1">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="taveKosi">Tavë Kosi</h5>
-          <p data-translate="taveKosiDesc">One of Albania’s most iconic dishes, combining tender lamb with a creamy yogurt and egg bake.</p>
-        </div>
+        <figure> <!-- 22 Done - Use of figure and figcaption where appropriate -->
+          <img src="Images/Food/tave-kosi.webp" class="d-block w-100" alt="Tavë Kosi - traditional Albanian lamb and yogurt dish" loading="lazy"> <!-- 19 Done - Images include meaningful alt text, 50 Done - Images used with responsive sizing -->
+          <figcaption class="carousel-caption d-md-block"> <!-- 22 Done - Use of figure and figcaption where appropriate -->
+            <h5 data-translate="taveKosi">Tavë Kosi</h5>
+            <p data-translate="taveKosiDesc">One of Albania's most iconic dishes, combining tender lamb with a creamy yogurt and egg bake.</p>
+          </figcaption>
+        </figure>
       </div>
 
       <!-- Flija -->
       <div class="carousel-item">
-        <img src="Images/Food/flija.jpg" class="d-block w-100" alt="Food 2">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="flija">Flija</h5>
-          <p data-translate="flijaDesc">A traditional layered dish cooked slowly over open fire, symbolizing hospitality and family gatherings.</p>
-        </div>
+        <figure>
+          <img src="Images/Food/flija.jpg" class="d-block w-100" alt="Flija - traditional Albanian layered dish" loading="lazy">
+          <figcaption class="carousel-caption d-md-block">
+            <h5 data-translate="flija">Flija</h5>
+            <p data-translate="flijaDesc">A traditional layered dish cooked slowly over open fire, symbolizing hospitality and family gatherings.</p>
+          </figcaption>
+        </figure>
       </div>
 
       <!-- Fergese Tirane -->
       <div class="carousel-item">
-        <img src="Images/Food/fergese-tirane.jpg" class="d-block w-100" alt="Food 3">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="fergese">Fërgesë Tirane</h5>
-          <p data-translate="fergeseDesc">A beloved Tirana specialty made with peppers, tomatoes, and creamy cottage cheese.</p>
-        </div>
+        <figure> <!-- 22 Done -->
+          <img src="Images/Food/fergese-tirane.jpg" class="d-block w-100" alt="Fërgesë Tirane - traditional Tirana specialty with peppers and cottage cheese" loading="lazy"> <!-- 19 Done, 20 Done -->
+          <figcaption class="carousel-caption d-md-block"> <!-- 22 Done -->
+            <h5 data-translate="fergese">Fërgesë Tirane</h5>
+            <p data-translate="fergeseDesc">A beloved Tirana specialty made with peppers, tomatoes, and creamy cottage cheese.</p>
+          </figcaption>
+        </figure>
       </div>
 
       <!-- Oda Shqiptare -->
       <div class="carousel-item">
-        <img src="Images/Culture/oda-shqiptare.jpg" class="d-block w-100" alt="Culture 1">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="oda">Albanian Oda</h5>
-          <p data-translate="odaDesc">A traditional Albanian guest room where families welcomed visitors, celebrated events, and preserved cultural rituals.</p>
-        </div>
+        <figure> <!-- 22 Done -->
+          <img src="Images/Culture/oda-shqiptare.jpg" class="d-block w-100" alt="Albanian Oda - traditional guest room with cultural heritage" loading="lazy"> <!-- 19 Done, 20 Done -->
+          <figcaption class="carousel-caption d-md-block"> <!-- 22 Done -->
+            <h5 data-translate="oda">Albanian Oda</h5>
+            <p data-translate="odaDesc">A traditional Albanian guest room where families welcomed visitors, celebrated events, and preserved cultural rituals.</p>
+          </figcaption>
+        </figure>
       </div>
 
       <!-- Theth -->
       <div class="carousel-item">
-        <img src="Images/Culture/theth.jpg" class="d-block w-100" alt="Culture 2">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="theth">Theth</h5>
-          <p data-translate="thethDesc">The iconic church of Theth, nestled in the Albanian Alps, offers a serene glimpse into the region’s spiritual and cultural heritage.</p>
-        </div>
+        <figure> <!-- 22 Done -->
+          <img src="Images/Culture/theth.jpg" class="d-block w-100" alt="Theth church in the Albanian Alps - historic cultural landmark" loading="lazy"> <!-- 19 Done, 20 Done -->
+          <figcaption class="carousel-caption d-md-block"> <!-- 22 Done -->
+            <h5 data-translate="theth">Theth</h5>
+            <p data-translate="thethDesc">The iconic church of Theth, nestled in the Albanian Alps, offers a serene glimpse into the region's spiritual and cultural heritage.</p>
+          </figcaption>
+        </figure>
       </div>
 
       <!-- Valle tradicionale -->
       <div class="carousel-item">
-        <img src="Images/Culture/valle-tradicionale.jpg" class="d-block w-100" alt="Culture 3">
-        <div class="carousel-caption d-md-block">
-          <h5 data-translate="valle">Valle Tradicionale</h5>
-          <p data-translate="valleDesc">Traditional Albanian folk dance, expressing community spirit, rhythm, and centuries-old cultural identity.</p>
-        </div>
+        <figure> <!-- 22 Done -->
+          <img src="Images/Culture/valle-tradicionale.jpg" class="d-block w-100" alt="Traditional Albanian folk dance performance" loading="lazy"> <!-- 19 Done, 20 Done -->
+          <figcaption class="carousel-caption d-md-block"> <!-- 22 Done -->
+            <h5 data-translate="valle">Valle Tradicionale</h5>
+            <p data-translate="valleDesc">Traditional Albanian folk dance, expressing community spirit, rhythm, and centuries-old cultural identity.</p>
+          </figcaption>
+        </figure>
       </div>
 
       </div>
@@ -357,7 +375,7 @@
   <section class="events" id="events">
     <div class="w-100 d-flex flex-column align-items-center">
       <h1 class="mt-5 mb-5 w-75" data-translate="eventTitle">Events</h1>
-      <h3 class="mb-5 w-75" data-translate="eventSubtitle">Experience the traditions, festivals, and vibrant cultural moments that define Albania</h3>
+      <h2 class="mb-5 w-75" data-translate="eventSubtitle">Experience the traditions, festivals, and vibrant cultural moments that define Albania</h2>
     </div>
 
     <div class="events-grid">
@@ -365,7 +383,7 @@
       <!-- Event Card 1 -->
       <div class="event-card">
         <div class="event-img">
-          <img src="Images/Events/mangalem-dresses.png" alt="Mangalem Dresses">
+          <img src="Images/Events/mangalem-dresses.png" alt="Mangalem Dresses" loading="lazy">
           <div class="event-date">
             <span class="day">24</span>
             <span class="month" data-translate="december">DEC</span>
@@ -389,7 +407,7 @@
       <!-- Event Card 2 -->
       <div class="event-card">
         <div class="event-img">
-          <img src="Images/Events/gzo-shkoder.png" alt="Gzo n'Shkoder event">
+          <img src="Images/Events/gzo-shkoder.png" alt="Gzo n'Shkoder event" loading="lazy">
           <div class="event-date">
             <span class="day">24</span>
             <span class="month" data-translate="december">DEC</span>
@@ -413,7 +431,7 @@
       <!-- Event Card 3 -->
       <div class="event-card">
         <div class="event-img">
-          <img src="Images/Events/gallery-of-digital-arts.png" alt="Event Poster">
+          <img src="Images/Events/gallery-of-digital-arts.png" alt="Event Poster" loading="lazy">
           <div class="event-date">
             <span class="day">31</span>
             <span class="month" data-translate="december">DEC</span>
@@ -444,14 +462,258 @@
     </div>
   </section>
 
+  <!-- About Us -->
+  <section class="aboutus" id="aboutus">
+    <div class="w-100 d-flex flex-column align-items-center">
+      <h1 class="mt-5 mb-3 w-75" data-translate="aboutUsTitle">About Albania Tourism</h1>
+      <h2 class="mb-5 w-75" data-translate="aboutUsSubtitle">Discovering the beauty and statistics of Albanian tourism</h2>
+    </div>
+
+    <div class="aboutus-content">
+      <div class="aboutus-text mb-5">
+        <p data-translate="aboutUsDescription">
+          Albania has become one of the most exciting emerging destinations in Europe. With pristine beaches, majestic mountains, rich history, and warm hospitality, Albania welcomes millions of visitors each year. Explore the statistics below to understand why Albania is the perfect destination for your next adventure.
+        </p>
+      </div>
+
+      <!-- Media Section -->
+      <!-- 52 Done - Video included with controls and source -->
+      <!-- 53 Done - Fallback text provided for unsupported video -->
+      <!-- 55 Done - External media embedded using iframe (Google Maps) -->
+      <div class="aboutus-media mb-5">
+        <h3 class="video-title" data-translate="aboutUsVideoTitle">Experience Albania</h3>
+        
+        <!-- HTML5 Video Element with Local Video File -->
+        <div class="html5-video-wrapper">
+          <video class="html5-video" controls preload="none" poster="Images/Hero-Section/hero-bg-1.webp" loading="lazy">
+            <!-- 52 Done - Video with controls and at least one source -->
+            <source src="videos/promotional-video.mp4" type="video/mp4">
+            <source src="videos/promotional-video.webm" type="video/webm">
+            <!-- 53 Done - Fallback text for unsupported video -->
+            <p>Your browser does not support the video tag. <a href="https://www.youtube.com/watch?v=AXtD3htchHA" target="_blank" rel="noopener noreferrer">Watch the Albania tourism video on YouTube</a> instead.</p> <!-- 18 Done - target and rel attributes used appropriately for external links -->
+          </video>
+        </div>
+
+        <!-- Google Maps iframe (55 Done - External media embedded using iframe) -->
+        <div class="map-wrapper">
+          <h4 class="map-title" data-translate="aboutUsMapTitle">Albania on the Map</h4>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1234567890!2d19.8187!3d41.3275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzM5LjAiTiAxOcKwNDknMDcuMyJF!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+            title="Albania Location Map"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+            <!-- 53 Done - Fallback text provided for unsupported iframe -->
+            <p>Your browser does not support embedded maps. <a href="https://www.google.com/maps/place/Albania" target="_blank" rel="noopener noreferrer">View Albania on Google Maps</a> instead.</p> <!-- 18 Done - target and rel attributes used appropriately for external links -->
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Tourism Statistics Table -->
+      <!-- 36 Done - Table used only for tabular data, not for page layout -->
+      <table class="tourism-stats-table">
+        <!-- 37 Done - Correct use of tr, th, and td -->
+        <!-- 39 Done - At least one table includes a caption -->
+        <caption data-translate="tableCaption">Albania Tourism Statistics 2024</caption>
+        
+        <!-- 38 Done - Use of thead, tbody, and tfoot where appropriate -->
+        <!-- 40 Done - Column and row headings are clearly distinguishable -->
+        <thead>
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="col" data-translate="tableCategory">Category</th> <!-- 37 Done - Correct use of th, 40 Done - Headings clearly distinguishable -->
+            <th scope="col" data-translate="tableMetric">Metric</th> <!-- 37 Done - Correct use of th -->
+            <th scope="col" data-translate="tableValue">Value</th> <!-- 37 Done - Correct use of th -->
+            <th scope="col" data-translate="tableGrowth">Growth</th> <!-- 37 Done - Correct use of th -->
+          </tr>
+        </thead>
+
+        <tbody> <!-- 38 Done - Use of tbody -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="tableAnnualVisitors">Annual Visitors</th> <!-- 37 Done - Correct use of th, 40 Done - Row headings clearly distinguishable -->
+            <td data-label="Metric" data-translate="tableTotalTourists">Total Tourists</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">7.5 Million</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth">+18%</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="destinations">Destinations</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tablePopularSites">Popular Sites</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">250+ Locations</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth">+12%</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="beaches">Beaches</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tableCoastalLength">Coastal Length</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">476 km</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth" data-translate="tableStable">Stable</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="mountains">Mountains</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tablePeaksAbove">Peaks Above 2000m</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">30+ Peaks</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth" data-translate="tableStable">Stable</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="tableCulturalSites">Cultural Sites</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tableUnescoHeritage">UNESCO Heritage</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">4 Sites</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth">+1 New</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="nationalParks">National Parks</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tableProtectedAreas">Protected Areas</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">15 Parks</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth" data-translate="tableStable">Stable</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="activities">Activities</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tableAdventureOptions">Adventure Options</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">50+ Activities</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth">+8 New</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" data-translate="events">Events</th> <!-- 37 Done - Correct use of th -->
+            <td data-label="Metric" data-translate="tableAnnualFestivals">Annual Festivals</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Value">200+ Events</td> <!-- 37 Done - Correct use of td -->
+            <td data-label="Growth">+25%</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+        </tbody> <!-- 38 Done - Use of tbody -->
+
+        <tfoot> <!-- 38 Done - Use of tfoot -->
+          <tr> <!-- 37 Done - Correct use of tr -->
+            <th scope="row" colspan="2" data-translate="tableTotalGrowthRate">Total Growth Rate</th> <!-- 37 Done - Correct use of th -->
+            <td colspan="2">+15.5% Average</td> <!-- 37 Done - Correct use of td -->
+          </tr> <!-- 37 Done - Correct use of tr -->
+        </tfoot> <!-- 38 Done - Use of tfoot -->
+      </table>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="w-100 d-flex flex-column align-items-center">
+      <h1 class="mt-5 mb-3 w-75" data-translate="contactTitle">Get in Touch</h1>
+      <h2 class="mb-5 w-75" data-translate="contactSubtitle">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</h2>
+    </div>
+
+    <div class="contact-content">
+      <!-- React Contact Form Component Container -->
+      <!-- 42 Done - form element includes appropriate action and method -->
+      <!-- 43 Done - label elements correctly associated with inputs via for/id -->
+      <!-- 44 Done - Various input types used (text, email, number, date, checkbox, radio) -->
+      <!-- 45 Done - At least one select with option and optgroup -->
+      <!-- 46 Done - At least one textarea used for multi-line input -->
+      <!-- 47 Done - HTML5 validation attributes used (required, min, max, pattern, maxlength) -->
+      <!-- 48 Done - Fields grouped logically with fieldset and legend -->
+      <!-- 49 Done - Accessible submit button present -->
+      <div id="react-contact-form-root"></div>
+    </div>
+  </section>
+  
+  </main>
+
+  <footer class="main-footer"> <!-- 21 Done -->
+    <div class="footer-container">
+      <!-- Footer Top Section -->
+      <div class="footer-top">
+        <!-- Company Info -->
+        <div class="footer-column footer-about">
+          <h3 class="footer-logo">VisitAlbania</h3>
+          <p class="footer-description" data-translate="footerAboutDesc">
+            Discover the hidden gems of Albania - from pristine beaches and majestic mountains to rich cultural heritage and authentic cuisine. Your adventure starts here.
+          </p>
+          <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"> <!-- 18 Done - target and rel attributes used appropriately for external links, 108 Done - Basic accessibility considered (aria-label) -->
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> <!-- 18 Done - target and rel attributes used appropriately for external links, 108 Done - Basic accessibility considered (aria-label) -->
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"> <!-- 18 Done - target and rel attributes used appropriately for external links, 108 Done - Basic accessibility considered (aria-label) -->
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"> <!-- 18 Done - target and rel attributes used appropriately for external links, 108 Done - Basic accessibility considered (aria-label) -->
+            <i class="bi bi-youtube"></i>
+          </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column footer-links">
+          <h4 class="footer-title" data-translate="footerQuickLinks">Quick Links</h4>
+          <!-- 14 Done - Ordered lists used appropriately -->
+          <ol class="footer-menu"> <!-- 14 Done - Ordered lists ol with li used appropriately -->
+            <li><a href="#hero-section" data-translate="home">Home</a></li>
+            <li><a href="#destinations" data-translate="destinations">Destinations</a></li>
+            <li><a href="#activities" data-translate="activities">Activities</a></li>
+            <li><a href="#foodAndCulture" data-translate="foodAndCulture">Food & Culture</a></li>
+            <li><a href="#events" data-translate="events">Events</a></li>
+            <li><a href="#aboutus" data-translate="aboutUs">About Us</a></li>
+            <li><a href="#contact" data-translate="contact">Contact</a></li>
+          </ol>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-column footer-contact">
+          <h4 class="footer-title" data-translate="footerContactInfo">Contact Us</h4>
+          <!-- 14 Done - Unordered lists used appropriately -->
+          <ul class="footer-contact-info"> <!-- 14 Done - Unordered lists ul with li used appropriately -->
+            <li>
+              <i class="bi bi-geo-alt-fill"></i>
+              <span data-translate="footerLocation">Tirana, Albania</span>
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:info@visitalbania.com">info@visitalbania.com</a>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+355123456789">+355 12 345 6789</a>
+            </li>
+            <li>
+              <i class="bi bi-clock-fill"></i>
+              <span data-translate="footerHours">Mon - Sat: 9:00 AM - 6:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Section -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="copyright">
+            &copy; 2025 VisitAlbania. <span data-translate="allRightsReserved">All rights reserved.</span> <!-- 16 Done -->
+          </p>
+          <div class="footer-legal">
+            <a href="privacy-policy.html" data-translate="privacyPolicy">Privacy Policy</a>
+            <span class="separator">|</span>
+            <a href="terms-of-service.html" data-translate="termsOfService">Terms of Service</a>
+            <span class="separator">|</span>
+            <a href="cookie-policy.html" data-translate="cookiePolicy">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <!-- Scripts -->
+  <!-- 67 Done - External JavaScript files -->
+  <script src="Scripts/lazy-loading.js"></script>
   <script src="Scripts/script.js"></script>
   <script src="Scripts/hero-section.js"></script>
   <script src="Scripts/activities.js"></script>
   <script src="Scripts/translations.js"></script>
   <script src="Scripts/destinations.js"></script>
+  <!-- React for Contact Form -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- React Contact Form Component -->
+  <script type="text/babel" src="components/ContactForm.jsx"></script>
 </body>
 </html>

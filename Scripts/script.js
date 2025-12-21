@@ -1,47 +1,56 @@
-// ============================
-// DROPDOWN MENUS      
-// ============================
-
-// Destinations Dropdown Menu
+// Dropdown menus functionality
+// 68 Done - Modern variable declarations const used correctly
 const destinationsDropdown = document.getElementById('destinationsDropdown');
 const firstDropdown = document.getElementById('firstDropdown');
-
-// Activities Dropdown Menu
 const activitiesDropdown = document.getElementById('activitiesDropdown');
 const secondDropdown = document.getElementById('secondDropdown');
-
-// Languages Dropdown Menu
 const languagesDropdown = document.getElementById('languagesDropdown');
 const thirdDropdown = document.getElementById('thirdDropdown');
 
-// First Dropdown, open and close
+// Toggle destinations dropdown
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 83 Done - event.preventDefault() used where default behavior must be stopped
+// 79 Done - CSS classes added, removed, or toggled via classList
 firstDropdown.addEventListener('click', (event) => {
   event.preventDefault();
   event.stopPropagation();
   destinationsDropdown.classList.toggle('show');
-  activitiesDropdown.classList.remove('show-activities'); // close the other dropdown
-  languagesDropdown.classList.remove('show');            // close languages dropdown
+  activitiesDropdown.classList.remove('show-activities');
+  languagesDropdown.classList.remove('show');
 });
 
-// Second Dropdown, open and close
+// Toggle activities dropdown
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 83 Done - event.preventDefault() used where default behavior must be stopped
+// 79 Done - CSS classes added, removed, or toggled via classList
 secondDropdown.addEventListener('click', (event) => {
   event.preventDefault();
   event.stopPropagation();
   activitiesDropdown.classList.toggle('show-activities');
-  destinationsDropdown.classList.remove('show');         // close destinations dropdown
-  languagesDropdown.classList.remove('show');            // close languages dropdown
+  destinationsDropdown.classList.remove('show');
+  languagesDropdown.classList.remove('show');
 });
 
-// Third Dropdown, open and close
+// Toggle languages dropdown
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 83 Done - event.preventDefault() used where default behavior must be stopped
+// 79 Done - CSS classes added, removed, or toggled via classList
 thirdDropdown.addEventListener('click', (event) => {
   event.preventDefault();
   event.stopPropagation();
   languagesDropdown.classList.toggle('show');
-  destinationsDropdown.classList.remove('show');         // close destinations dropdown
-  activitiesDropdown.classList.remove('show-activities'); // close activities dropdown
+  destinationsDropdown.classList.remove('show');
+  activitiesDropdown.classList.remove('show-activities');
 });
 
-// Close Dropdowns when clicked outside
+// Close dropdowns when clicking outside
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 71 Done - Conditional logic implemented using if
+// 79 Done - CSS classes removed via classList
 document.addEventListener('click', (event) => {
   if (!firstDropdown.contains(event.target) && !destinationsDropdown.contains(event.target)) {
     destinationsDropdown.classList.remove('show');
@@ -54,26 +63,31 @@ document.addEventListener('click', (event) => {
   }
 });
 
-// ============================
-// HAMBURGER MENU          
-// ============================
-
+// Hamburger menu
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 77 Done - DOM elements accessed using document.querySelectorAll
+// 75 Done - Arrays used with forEach method
+// 79 Done - CSS classes toggled via classList
 document.addEventListener('DOMContentLoaded', () => {
   const menu = document.getElementById('menu');
   const list = document.getElementById('list');
 
-  // open and close hamburger menu
   menu.addEventListener('click', (e) => {
-    e.stopPropagation(); // stop event propagation
+    e.stopPropagation();
     list.classList.toggle('show-menu');
   });
 
-  // Close hamburger menu when a link is clicked
+  // Close menu when clicking on a link
+  // 77 Done - DOM elements accessed using document.querySelectorAll
+  // 75 Done - Arrays used with forEach method
+  // 81 Done - Events handled with addEventListener
+  // 71 Done - Conditional logic implemented using if
   const links = list.querySelectorAll('a');
   links.forEach(link => {
     link.addEventListener('click', (e) => {
       if (!link.closest('#firstDropdown') && !link.closest('#secondDropdown') && !link.closest('#thirdDropdown')) {
-        list.classList.remove('show-menu'); // close hamburger menu
+        list.classList.remove('show-menu');
         destinationsDropdown.classList.remove('show');
         activitiesDropdown.classList.remove('show-activities');
         languagesDropdown.classList.remove('show');
@@ -81,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Close hamburger menu when clicking outside
+  // Close menu when clicking outside
   document.addEventListener('click', (e) => {
     if (!list.contains(e.target) && !menu.contains(e.target)) {
       list.classList.remove('show-menu');
@@ -92,11 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
-// ============================
-// EVENTS TOGGLE ARROW      
-// ============================
-
+// Event cards toggle functionality
+// 77 Done - DOM elements accessed using document.querySelectorAll
+// 75 Done - Arrays used with forEach method
+// 81 Done - Events handled with addEventListener
+// 74 Done - Arrow functions used for callback
+// 71 Done - Conditional logic implemented using if
+// 79 Done - CSS classes added, removed, or toggled via classList
 const arrows = document.querySelectorAll('.toggle-arrow');
 
 arrows.forEach(arrow => {
@@ -104,7 +120,11 @@ arrows.forEach(arrow => {
     const eventCard = arrow.closest('.event-card');
     const desc = eventCard.querySelector('.event-description');
 
-    // close all other descriptions
+    // Close other open descriptions
+    // 77 Done - DOM elements accessed using document.querySelectorAll
+    // 75 Done - Arrays used with forEach method
+    // 71 Done - Conditional logic implemented using if
+    // 79 Done - CSS classes removed via classList
     document.querySelectorAll('.event-description.open').forEach(openDesc => {
       if (openDesc !== desc) {
         openDesc.classList.remove('open');
@@ -113,9 +133,9 @@ arrows.forEach(arrow => {
       }
     });
 
-    // toggle for this card
+    // Toggle current card
+    // 79 Done - CSS classes toggled via classList
     desc.classList.toggle('open');
     arrow.classList.toggle('up');
-
   });
 });

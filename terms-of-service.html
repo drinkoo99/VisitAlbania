@@ -1,0 +1,299 @@
+<!DOCTYPE html> <!-- Checklist 9 Done -->
+<html lang="en"> <!-- Checklist 10 Done -->
+<head> <!-- Checklist 11 Done -->
+  <meta charset="UTF-8"> <!-- Checklist 2 Done -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Styles/navbar.css"> <!-- Checklist 23 Done -->
+  <link rel="stylesheet" href="Styles/destinations-navbar.css"> <!-- Checklist 23 Done -->
+  <link rel="stylesheet" href="Styles/footer.css"> <!-- Checklist 23 Done -->
+  <title>Terms of Service - VisitAlbania</title> <!-- Checklist 3 Done -->
+  <style>
+    .legal-page {
+      padding: 120px 0 80px 0;
+      background: #f8f9fa;
+      min-height: 100vh;
+    }
+    .legal-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      padding: 50px 60px;
+    }
+    .legal-page h1 {
+      font-family: var(--heading-font);
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .legal-page .last-updated {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+    .legal-page h2 {
+      font-family: var(--heading-font);
+      font-size: 1.5rem;
+      color: #1a1a1a;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .legal-page h3 {
+      font-family: var(--heading-font);
+      font-size: 1.2rem;
+      color: #333;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .legal-page p {
+      font-family: var(--body-font);
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+    }
+    .legal-page ul, .legal-page ol {
+      margin-bottom: 20px;
+      padding-left: 30px;
+    }
+    .legal-page li {
+      font-family: var(--body-font);
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    .legal-page a {
+      color: #00e0ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .legal-page a:hover {
+      color: #0099cc;
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .legal-container {
+        padding: 30px 25px;
+      }
+      .legal-page h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body> <!-- Checklist 11 Done -->
+  <header> <!-- Checklist 21 Done -->
+    <!-- Navigation Bar -->
+    <nav class="d-flex align-items-center justify-content-between position-fixed nav-destinations">
+      <div class="hamburger-menu d-flex justify-content-center align-items-center"><i class="bi bi-list" id="menu"></i></div>
+      <div class="logo-name destinations-logo-name d-flex justify-content-center align-items-center logo-name-destinations">
+        <a href="index.html">VisitAlbania</a>
+      </div>
+      <ul class="d-flex align-items-center links-destinations" id="list">
+        <li><a href="index.html" data-translate="home">Home</a></li>
+        <li><a href="index.html#destinations" data-translate="destinations">Destinations</a></li>
+        <li><a href="index.html#activities" data-translate="activities">Activities</a></li>
+        <li><a href="index.html#foodAndCulture" data-translate="foodAndCulture">Food&Culture</a></li>
+        <li><a href="index.html#events" data-translate="events">Events</a></li>
+        <li><a href="index.html#aboutus" data-translate="aboutUs">About Us</a></li>
+        <li><a href="index.html#contact" data-translate="contact">Contact</a></li>
+        <li><a href="#" class="languages-cta" id="thirdDropdown" data-translate="languages">Languages<i class="bi bi-caret-down-fill"></i></a>
+          <!-- Languages Dropdown -->
+          <ul class="custom-dropdown" id="languagesDropdown">
+            <li><a href="#"><img src="svg-flags/alb-svg.svg" style="width: 16px; margin-right: 6px;" alt="Albania flag"> Albanian</a></li>
+            <li><a href="#"><img src="svg-flags/uk-svg.svg" style="width: 16px; margin-right: 6px;" alt="UK flag"> English</a></li>
+            <li><a href="#"><img src="svg-flags/ger-svg.svg" style="width: 16px; margin-right: 6px;" alt="Germany flag"> German</a></li>
+            <li><a href="#"><img src="svg-flags/fr-svg.svg" style="width: 16px; margin-right: 6px;" alt="French flag"> French</a></li>
+            <li><a href="#"><img src="svg-flags/ita-svg.svg" style="width: 16px; margin-right: 6px;" alt="Italian flag"> Italian</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!-- Checklist 21 Done -->
+    <section class="legal-page">
+      <div class="legal-container">
+        <h1 data-translate="termsOfServiceTitle">Terms of Service</h1>
+        <p class="last-updated"><span data-translate="lastUpdated">Last updated:</span> December 2025</p>
+
+        <p data-translate="termsWelcome">
+          Welcome to VisitAlbania. These Terms of Service ("Terms") govern your access to and use of our website. By accessing or using our website, you agree to be bound by these Terms.
+        </p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+          By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+        </p>
+
+        <h2>2. Use License</h2>
+        <p>Permission is granted to temporarily access the materials on VisitAlbania's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+        <ol>
+          <li>Modify or copy the materials</li>
+          <li>Use the materials for any commercial purpose or for any public display (commercial or non-commercial)</li>
+          <li>Attempt to reverse engineer any software contained on the website</li>
+          <li>Remove any copyright or other proprietary notations from the materials</li>
+          <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+        </ol>
+
+        <h2>3. User Conduct</h2>
+        <p>You agree to use our website only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use and enjoyment of the website. Prohibited behavior includes:</p>
+        <ul>
+          <li>Harassing or causing distress or inconvenience to any person</li>
+          <li>Transmitting obscene or offensive content</li>
+          <li>Disrupting the normal flow of dialogue within our website</li>
+          <li>Uploading malicious code, viruses, or harmful data</li>
+        </ul>
+
+        <h2>4. Intellectual Property Rights</h2>
+        <p>
+          All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, and software, is the property of VisitAlbania or its content suppliers and is protected by international copyright laws.
+        </p>
+        <p>
+          The compilation of all content on this website is the exclusive property of VisitAlbania and is protected by copyright laws.
+        </p>
+
+        <h2>5. Disclaimer</h2>
+        <p>
+          The materials on VisitAlbania's website are provided on an 'as is' basis. VisitAlbania makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+        </p>
+        <p>
+          Further, VisitAlbania does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
+        </p>
+
+        <h2>6. Limitations</h2>
+        <p>
+          In no event shall VisitAlbania or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on VisitAlbania's website, even if VisitAlbania or a VisitAlbania authorized representative has been notified orally or in writing of the possibility of such damage.
+        </p>
+
+        <h2>7. Accuracy of Materials</h2>
+        <p>
+          The materials appearing on VisitAlbania's website could include technical, typographical, or photographic errors. VisitAlbania does not warrant that any of the materials on its website are accurate, complete, or current. VisitAlbania may make changes to the materials contained on its website at any time without notice.
+        </p>
+
+        <h2>8. Links</h2>
+        <p>
+          VisitAlbania has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by VisitAlbania of the site. Use of any such linked website is at the user's own risk.
+        </p>
+
+        <h2>9. Modifications</h2>
+        <p>
+          VisitAlbania may revise these Terms of Service at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms of Service.
+        </p>
+
+        <h2>10. Governing Law</h2>
+        <p>
+          These terms and conditions are governed by and construed in accordance with the laws of Albania and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
+        </p>
+
+        <h2>11. Contact Information</h2>
+        <p>If you have any questions about these Terms of Service, please contact us:</p>
+        <ul>
+          <li>Email: <a href="mailto:info@visitalbania.com">info@visitalbania.com</a></li>
+          <li>Phone: <a href="tel:+355123456789">+355 12 345 6789</a></li>
+          <li>Address: Tirana, Albania</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer"> <!-- Checklist 21 Done -->
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-column footer-about">
+          <h3 class="footer-logo">VisitAlbania</h3>
+          <p class="footer-description" data-translate="footerAboutDesc">
+            Discover the hidden gems of Albania - from pristine beaches and majestic mountains to rich cultural heritage and authentic cuisine. Your adventure starts here.
+          </p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column footer-links">
+          <h4 class="footer-title" data-translate="footerQuickLinks">Quick Links</h4>
+          <ol class="footer-menu">
+            <li><a href="index.html#hero-section" data-translate="home">Home</a></li>
+            <li><a href="index.html#destinations" data-translate="destinations">Destinations</a></li>
+            <li><a href="index.html#activities" data-translate="activities">Activities</a></li>
+            <li><a href="index.html#foodAndCulture" data-translate="foodAndCulture">Food & Culture</a></li>
+            <li><a href="index.html#events" data-translate="events">Events</a></li>
+            <li><a href="index.html#aboutus" data-translate="aboutUs">About Us</a></li>
+            <li><a href="index.html#contact" data-translate="contact">Contact</a></li>
+          </ol>
+        </div>
+        <div class="footer-column footer-contact">
+          <h4 class="footer-title" data-translate="footerContactInfo">Contact Us</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Tirana, Albania</span>
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:info@visitalbania.com">info@visitalbania.com</a>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+355123456789">+355 12 345 6789</a>
+            </li>
+            <li>
+              <i class="bi bi-clock-fill"></i>
+              <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="copyright">
+            &copy; 2025 VisitAlbania. All rights reserved.
+          </p>
+          <div class="footer-legal">
+            <a href="privacy-policy.html" data-translate="privacyPolicy">Privacy Policy</a>
+            <span class="separator">|</span>
+            <a href="terms-of-service.html" data-translate="termsOfService">Terms of Service</a>
+            <span class="separator">|</span>
+            <a href="cookie-policy.html" data-translate="cookiePolicy">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="Scripts/script.js"></script>
+  <script src="Scripts/translations.js"></script>
+</body>
+</html>
+

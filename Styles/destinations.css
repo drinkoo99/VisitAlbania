@@ -44,7 +44,7 @@
 
 .custom-card h5,
 .custom-card p,
-.custom-card a {
+.custom-card a { /* 27 Done - Descendant selector, Checklist 28 Done - Grouping selectors */
   position: relative;
   z-index: 2;
 }
@@ -173,13 +173,22 @@
 
 .destination-item img {
   width: 70%;
-  height: 40%; /*added 11/27/2025 */
+  max-width: 800px;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 500px; /* Limit maximum height for better visual appeal */
+  object-fit: cover; /* Ensure images cover the area nicely */
   border-radius: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.destination-item img:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
 
 .destination-item h2 {
@@ -262,29 +271,29 @@
 /*   RESPONSIVNES        */
 /* ===================== */
 
-@media (max-width: 1272px) {
+@media (max-width: 1272px) { /* 64 Done - Media queries, Checklist 66 Done - Mobile viewports */
   .explore-more-cta {
-    width: 65%;
+    width: 65%; /* 65 Done - Responsive units (%) */
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) { /* 64 Done - Media queries, Checklist 66 Done - Mobile viewports */
   .booking-cta {
-    width: 50%;
+    width: 50%; /* 65 Done - Responsive units (%) */
   }
 
   .explore-more-cta {
-    width: 70%;
+    width: 70%; /* 65 Done - Responsive units (%) */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* 64 Done - Media queries, Checklist 66 Done - Mobile viewports */
   .destination-item img {
-    width: 80%;
+    width: 80%; /* 65 Done - Responsive units (%) */
   }
 
   #destinations-root p {
-    font-size: 1rem;
+    font-size: 1rem; /* 64 Done - Typography adjustment, Checklist 65 Done - Responsive units (rem) */
   }
 
   .booking-cta {

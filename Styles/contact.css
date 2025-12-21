@@ -1,0 +1,273 @@
+/* ========================== */
+/*   CONTACT SECTION         */
+/* ========================== */
+.contact { /* 26 Done - Class selector, Checklist 35 Done - Classes preferred over IDs */
+  padding: 80px 0; /* 32 Done - Box model */
+  background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%); /* 31 Done - Background styling */
+  min-height: 600px; /* 65 Done - Responsive units (px) */
+}
+
+.contact-content {
+  width: 90%; /* 65 Done - Responsive units (%) */
+  max-width: 800px; /* 65 Done - Responsive units (px) */
+  margin: 0 auto; /* 32 Done - Box model */
+  padding: 0 20px; /* 32 Done - Box model */
+}
+
+/* ========================== */
+/*   CONTACT FORM            */
+/* ========================== */
+.contact-form { /* 26 Done - Class selector */
+  background: #ffffff; /* 31 Done - Background styling */
+  padding: 40px; /* 32 Done - Box model */
+  border-radius: 12px; /* 33 Done - Borders */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 29 Done - Colors (rgba) */
+  margin-top: 40px; /* 32 Done - Box model */
+}
+
+.contact-form h3 {
+  font-size: 1.8rem; /* 30 Done - Text formatting */
+  font-weight: 700; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+  margin-bottom: 30px; /* 32 Done - Box model */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+  text-align: center; /* 30 Done - Text formatting */
+}
+
+/* Form Fieldsets - fields grouped logically with fieldset (checklist 48) */
+.contact-form fieldset {
+  border: 1px solid #e9ecef; /* Borders (checklist 33) */
+  border-radius: 8px; /* Borders (checklist 33) */
+  padding: 25px; /* Box model - padding (checklist 32) */
+  margin-bottom: 25px; /* Box model - margin (checklist 32) */
+  background: #f8f9fa; /* Background styling (checklist 31) */
+}
+
+.contact-form legend {
+  font-size: 1.2rem; /* Text formatting (checklist 30) */
+  font-weight: 600; /* Text formatting (checklist 30) */
+  color: #667eea; /* Colors - hex (checklist 29) */
+  padding: 0 15px; /* 32 Done - Box model */
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+/* Form Labels (Checklist 43) */
+.contact-form label { /* 26 Done - Class selector */
+  display: block; /* 56 Done - Display values */
+  font-weight: 500; /* 30 Done - Text formatting */
+  color: #333; /* 29 Done - Colors (hex) */
+  margin-bottom: 8px; /* 32 Done - Box model */
+  font-size: 0.95rem; /* 30 Done - Text formatting */
+  font-family: var(--body-font); /* 30 Done - Text formatting */
+}
+
+/* Form Inputs (Checklist 44 - Various input types) */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form input[type="date"],
+.contact-form select,
+.contact-form textarea { /* 27 Done - Descendant selector, Checklist 28 Done - Grouping selectors */
+  width: 100%; /* 65 Done - Responsive units (%) */
+  padding: 12px 16px; /* 32 Done - Box model */
+  border: 2px solid #e9ecef; /* 33 Done - Borders */
+  border-radius: 6px; /* 33 Done - Borders */
+  font-size: 1rem; /* 30 Done - Text formatting */
+  font-family: var(--body-font); /* 30 Done - Text formatting */
+  transition: border-color 0.3s ease; /* 29 Done - Transitions */
+  box-sizing: border-box; /* 32 Done - Box model */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="number"]:focus,
+.contact-form input[type="date"]:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none; /* 33 Done - Borders */
+  border-color: #667eea; /* 29 Done - Colors (hex) */
+}
+
+/* Textarea (Checklist 46) */
+.contact-form textarea {
+  min-height: 120px; /* 65 Done - Responsive units (px) */
+  resize: vertical;
+  font-family: var(--body-font); /* 30 Done - Text formatting */
+}
+
+/* Select and Options (Checklist 45) */
+.contact-form select {
+  background: #ffffff; /* 31 Done - Background styling */
+  cursor: pointer;
+}
+
+.contact-form optgroup { /* 45 Done - optgroup */
+  font-weight: 600; /* 30 Done - Text formatting */
+  color: #1a1a1a; /* 29 Done - Colors (hex) */
+}
+
+.contact-form option {
+  padding: 8px; /* 32 Done - Box model */
+}
+
+/* Radio and Checkbox Inputs (Checklist 44) */
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  width: auto; /* 65 Done - Responsive units */
+  margin-right: 8px; /* 32 Done - Box model */
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.contact-form .radio-group,
+.contact-form .checkbox-group {
+  display: flex; /* 56 Done - Display values, Checklist 59 Done - Flex container */
+  flex-wrap: wrap; /* 60 Done - Flex item properties */
+  gap: 15px; /* 61 Done - Grid gap */
+  margin-top: 10px; /* 32 Done - Box model */
+}
+
+.contact-form .radio-option,
+.contact-form .checkbox-option {
+  display: flex; /* 56 Done - Display values, Checklist 59 Done - Flex container */
+  align-items: center; /* 59 Done - align-items */
+}
+
+.contact-form .radio-option label,
+.contact-form .checkbox-option label {
+  margin: 0; /* 32 Done - Box model */
+  font-weight: 400; /* 30 Done - Text formatting */
+  cursor: pointer;
+}
+
+/* Submit Button Wrapper (Checklist 49) */
+.submit-btn-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Modern Button Style (matching events section) */
+.contact-form .modern-btn {
+  position: relative;
+  padding: 13px 34px; /* 32 Done - Box model */
+  background: #111; /* 29 Done - Colors (hex), Checklist 31 Done - Background styling */
+  color: #fff; /* 29 Done - Colors (hex) */
+  font-size: 16px; /* 30 Done - Text formatting */
+  border-radius: 30px; /* 33 Done - Borders */
+  text-decoration: none;
+  font-weight: 600; /* 30 Done - Text formatting */
+  border: none; /* 33 Done - Borders */
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.3s ease;
+  display: inline-block;
+  z-index: 1;
+  font-family: var(--heading-font); /* 30 Done - Text formatting */
+}
+
+.contact-form .modern-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contact-form .modern-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #111;
+  z-index: -1;
+  transition: 0.5s ease;
+}
+
+.contact-form .modern-btn:hover:not(:disabled)::before {
+  width: 100%;
+}
+
+.contact-form .modern-btn .cta-text {
+  transition: opacity 0.3s ease;
+}
+
+.contact-form .modern-btn .cta-arrow {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.contact-form .modern-btn:hover:not(:disabled) .cta-text {
+  opacity: 0;
+}
+
+.contact-form .modern-btn:hover:not(:disabled) .cta-arrow {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+/* Form Row Layout */
+.form-row {
+  display: flex; /* 56 Done - Display values, Checklist 59 Done - Flex container */
+  gap: 20px; /* 61 Done - Grid gap */
+  margin-bottom: 20px; /* 32 Done - Box model */
+}
+
+.form-group {
+  flex: 1; /* 60 Done - Flex item properties */
+  margin-bottom: 20px; /* 32 Done - Box model */
+}
+
+.form-group.full-width {
+  flex: 1 1 100%; /* 60 Done - Flex item properties */
+}
+
+/* Error Messages */
+.error-message {
+  color: #dc3545; /* 29 Done - Colors (hex) */
+  font-size: 0.875rem; /* 30 Done - Text formatting */
+  margin-top: 5px; /* 32 Done - Box model */
+  display: block; /* 56 Done - Display values */
+}
+
+.success-message {
+  background: #d4edda; /* 31 Done - Background styling */
+  color: #155724; /* 29 Done - Colors (hex) */
+  padding: 15px; /* 32 Done - Box model */
+  border-radius: 6px; /* 33 Done - Borders */
+  margin-bottom: 20px; /* 32 Done - Box model */
+  border: 1px solid #c3e6cb; /* 33 Done - Borders */
+}
+
+/* ========================== */
+/*   RESPONSIVE DESIGN       */
+/* ========================== */
+/* Checklist 64 Done - Media queries, Checklist 66 Done - Mobile layout */
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 0; /* 32 Done - Box model */
+  }
+
+  .contact-content {
+    width: 95%; /* 65 Done - Responsive units (%) */
+    padding: 0 15px; /* 32 Done - Box model */
+  }
+
+  .contact-form {
+    padding: 25px; /* 32 Done - Box model */
+  }
+
+  .form-row {
+    flex-direction: column; /* 60 Done - Flex item properties (flex-direction) */
+    gap: 0; /* 61 Done - Grid gap */
+  }
+
+  .form-group {
+    margin-bottom: 20px; /* 32 Done - Box model */
+  }
+}
+

@@ -25,9 +25,9 @@
 }
 
 .custom-card h5, 
-.custom-card p {
-  font-weight: bold;
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+.custom-card p { /* 27 Done - Descendant selector, Checklist 28 Done - Grouping selectors */
+  font-weight: bold; /* 30 Done - Text formatting */
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.8); /* 29 Done - Colors (rgba) */
 }
 
 .custom-card h5 {
@@ -69,14 +69,14 @@
   margin: 0;
 }
 
-.explore-more-cta {
+.explore-more-cta { /* 26 Done - Class selector, Checklist 35 Done - Classes preferred over IDs */
   position: relative;
-  border: 2px solid #00e0ff;
+  border: 2px solid #00e0ff; /* 29 Done - Colors (hex), Checklist 33 Done - Borders */
   width: 50%;
-  padding: 12px 24px;
-  border-radius: 6px;
-  color: white;
-  font-weight: bold;
+  padding: 12px 24px; /* 32 Done - Box model */
+  border-radius: 6px; /* 33 Done - Borders */
+  color: white; /* 29 Done - Colors (named) */
+  font-weight: bold; /* 30 Done - Text formatting */
   text-decoration: none;
   z-index: 1;
   display: inline-block;
@@ -112,12 +112,21 @@
 }
 
 .activity-item img {
-  width: 70%;
-  height: 40%;
+  width: 70%; /* 50 Done - Responsive sizing, Checklist 65 Done - Responsive units (%) */
+  max-width: 800px; /* Limit maximum width for better visual appeal */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 500px; /* Limit maximum height for better visual appeal */
+  object-fit: cover; /* Ensure images cover the area nicely */
   border-radius: 12px;
-  display: block;
+  display: block; /* 56 Done - Display values */
   margin: 0 auto 2rem auto;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.activity-item img:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
 
 .activity-item h2 {

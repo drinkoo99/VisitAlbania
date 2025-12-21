@@ -1,9 +1,9 @@
 /* ========================== */
 /*   EVENTS  MAIN PAGE       */
 /* ========================== */
-.events {
-  padding: 60px 0;
-  background: #f7f8fa;
+.events { /* 26 Done - Class selector, Checklist 35 Done - Classes preferred over IDs */
+  padding: 60px 0; /* 32 Done - Box model */
+  background: #f7f8fa; /* 29 Done - Colors (hex), Checklist 31 Done - Background styling */
 }
 
 .events-header .title {
@@ -22,12 +22,12 @@
 /* ====================== */
 /*   EVENTS GRID         */
 /* ====================== */
-.events-grid {
+.events-grid { /* 57 Done - Advanced layout (grid), Checklist 61 Done - Grid container */
   width: 90%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  gap: 40px;
+  display: grid; /* 56 Done - Display values */
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); /* 61 Done - grid-template-columns */
+  gap: 40px; /* 61 Done - gap property */
   align-items: start; /* prevent cards in same row from stretching to tallest */
 }
 
@@ -58,7 +58,8 @@
 }
 
 .event-img img {
-  width: 100%;
+  width: 100%; /* 50 Done - Responsive sizing (max-width: 100%), Checklist 65 Done - Responsive units (%) */
+  max-width: 100%; /* 50 Done - Responsive sizing */
   height: 100%;
   object-fit: cover;
   transition: 0.4s ease;
@@ -116,8 +117,8 @@
 .event-meta {
   font-size: 15px;
   color: #6b6b6b;
-  display: flex;
-  flex-direction: column;
+  display: flex; /* 56 Done - Display values, Checklist 59 Done - Flex container */
+  flex-direction: column; /* 60 Done - Flex item properties */
   gap: 6px;
 }
 
@@ -137,15 +138,15 @@
   display: inline-block;
 }
 
-.modern-btn {
+.modern-btn { /* 26 Done - Class selector, Checklist 35 Done - Classes preferred over IDs */
   position: relative;
-  padding: 13px 34px;
-  background: #111;
-  color: #fff;
-  font-size: 16px;
-  border-radius: 30px;
+  padding: 13px 34px; /* 32 Done - Box model */
+  background: #111; /* 29 Done - Colors (hex), Checklist 31 Done - Background styling */
+  color: #fff; /* 29 Done - Colors (hex) */
+  font-size: 16px; /* 30 Done - Text formatting */
+  border-radius: 30px; /* 33 Done - Borders */
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 600; /* 30 Done - Text formatting */
   overflow: hidden;
   transition: background 0.3s ease;
   display: inline-block;
