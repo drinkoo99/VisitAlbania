@@ -1,0 +1,5 @@
+import { useTranslation } from 'react-i18next';
+import { Photo } from '@/components/ui/photo';
+const dishes = [{ key: 'tave', name: 'Tavë kosi' }, { key: 'fergese', name: 'Fërgesë' }, { key: 'flija', name: 'Flija' }, { key: 'oda', name: 'Oda' }, { key: 'valle', name: 'Valle' }];
+// Draft food/culture copy needs review by a native speaker or editor.
+export function FoodCulture() { const { t } = useTranslation(); return <section id="food-culture"><div className="shell section-gap food-intro"><div data-reveal><h2 className="type-heading">{t('food.heading')}</h2><p className="type-lead mt-6">{t('food.lead')}</p></div><dl>{dishes.map(d => <div key={d.key}><dt className="font-medium">{d.name}</dt><dd className="mt-2">{t(`food.${d.key}`)}</dd></div>)}</dl></div><div className="food-curtain">{(['tave', 'kruja', 'gjirokaster'] as const).map((photo, i) => <figure key={photo} className="food-frame scrim-bottom"><Photo photo={photo} className="h-full"/><figcaption className="shell type-lead text-stone">{t(`food.${['captionTave', 'captionKruja', 'captionGjirokaster'][i]}`)}</figcaption></figure>)}</div></section>; }

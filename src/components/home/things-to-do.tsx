@@ -1,0 +1,8 @@
+import { Link } from '@tanstack/react-router';
+import { ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { activities } from '@/data/activities';
+import { bySlug, getName } from '@/data/destinations';
+import { regionByKey } from '@/data/regions';
+import { Photo } from '@/components/ui/photo';
+export function ThingsToDo() { const { t, i18n } = useTranslation(); return <section id="things-to-do" className="things-section bg-slate text-stone on-dark section-gap"><div className="shell"><div className="section-intro" data-reveal><h2 className="type-heading">{t('things.heading')}</h2><p className="type-lead mt-6">{t('things.lead')}</p></div><div className="activity-lineup">{activities.map(activity => <div key={activity.key} id={`activity-${activity.key}`} className="activity-group"><h3 className="activity-name">{t(`activity.${activity.key}`)}</h3><ul className="activity-rows">{activity.rows.map(row => { const d = bySlug[row.slug]; if (!d) return null; const name = row.label || getName(d, i18n.language); return <li key={row.slug}><Link to="/destinations/$slug" params={{ slug: d.slug }} className="activity-row" aria-label={`${t(`activity.${activity.key}`)}: ${name}`}><span className="activity-place">{name}</span><span className="activity-region">{t(`regions.${regionByKey[d.region].i18nKey}.name`)}</span><span className="activity-read">{t('cta.read')}<ArrowRight/></span>{d.image && <div aria-hidden className="activity-hover"><Photo photo={d.image} decorative className="aspect-[4/5]"/></div>}</Link></li>; })}</ul></div>)}</div><p className="type-small mt-10">{t('things.note')}</p></div></section>; }

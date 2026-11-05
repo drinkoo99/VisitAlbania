@@ -1,0 +1,192 @@
+{
+  "ksamil": {
+    "summary": "Ujë i kthjellët dhe ishuj të vegjël në skajin jugor të Rivierës.",
+    "body": "Ksamili është një fshat bregdetar në jug të Sarandës, përballë ishujve të vegjël të Jonit. Ndodhet afër rrënojave dhe lagunës së Butrintit."
+  },
+  "gjipe": {
+    "summary": "Një plazh i izoluar ku një kanion takon Jonin, mes shkëmbinjve të lartë.",
+    "body": "Gjipeja shtrihet mes Dhërmiut dhe Himarës, në grykën e një kanioni që zbret në det. Arrihet në këmbë ose me varkë dhe asnjë rrugë nuk mbërrin deri në plazh."
+  },
+  "jale": {
+    "name": "Jalë",
+    "summary": "Një gji i vogël në bregun e Jonit, mes Dhërmiut dhe Himarës.",
+    "body": "Jala është një gji në Rivierë poshtë rrugës bregdetare, me një plazh të lakuar."
+  },
+  "mirror-beach": {
+    "name": "Plazhi i Pasqyrave",
+    "summary": "Një gji i vogël me zallishte poshtë shkëmbinjve të zbehtë, mes Sarandës dhe Ksamilit.",
+    "body": "Plazhi i Pasqyrave, i njohur në anglisht si Mirror Beach, është një gji me zallishte në bregun e Jonit mes Sarandës dhe Ksamilit, me shkëmbinj të zbehtë gëlqerorë në skajin jugor."
+  },
+  "borsh": {
+    "summary": "Një plazh i gjatë poshtë një fshati dhe tarracave me ullinj në Rivierë.",
+    "body": "Borshi është një fshat mbi rrugën bregdetare mes Himarës dhe Sarandës, me ullishte në shpate dhe një plazh të gjatë poshtë."
+  },
+  "dhermi": {
+    "summary": "Një fshat në kodër mbi një plazh, në jug të Qafës së Llogarasë.",
+    "body": "Dhërmiu shtrihet në rrugën bregdetare në jug të Palasës, me një fshat të vjetër në shpat dhe plazhe poshtë tij."
+  },
+  "korab": {
+    "summary": "Mali më i lartë i Shqipërisë, në kufi me Maqedoninë e Veriut.",
+    "body": "Mali i Korabit ngrihet në kufirin lindor, brenda Parkut Natyror Korab-Koritnik."
+  },
+  "accursed-mountains": {
+    "name": "Bjeshkët e Nemuna",
+    "summary": "Vargu gëlqeror i Alpeve Shqiptare, mbi Theth dhe Valbonë.",
+    "body": "Bjeshkët e Nemuna, të quajtura edhe Alpet Shqiptare, formojnë vargun e lartë gëlqeror të veriut të largët, me Thethin dhe Valbonën në luginat e tyre."
+  },
+  "mount-tomorr": {
+    "name": "Mali i Tomorrit",
+    "summary": "Një kreshtë e gjatë malore në lindje të Beratit.",
+    "body": "Mali i Tomorrit është kreshta që ngrihet mbi luginën në lindje të Beratit."
+  },
+  "drin-river": {
+    "name": "Lumi Drin",
+    "summary": "Një lumë që kalon kodrat e veriut drejt Adriatikut.",
+    "body": "Drini rrjedh nëpër Shqipërinë e veriut, përmes grykave dhe rezervuarëve, drejt Adriatikut pranë Shkodrës dhe Lezhës."
+  },
+  "buna-river": {
+    "name": "Lumi Buna",
+    "summary": "Lumi i shkurtër që çon ujërat e Liqenit të Shkodrës në Adriatik.",
+    "body": "Buna del nga Liqeni i Shkodrës pranë qytetit të Shkodrës dhe rrjedh përgjatë kufirit deri në Adriatik."
+  },
+  "shala-river": {
+    "name": "Lumi Shala",
+    "summary": "Një lumë malor i kthjellët në luginat poshtë Thethit.",
+    "body": "Shala rrjedh nëpër një luginë të ngushtë në veri, poshtë fshatit Theth."
+  },
+  "vjosa-river": {
+    "name": "Lumi Vjosa",
+    "summary": "Një lumë me rrjedhë të lirë që përshkon jugun drejt Adriatikut.",
+    "body": "Vjosa buron në Greqi, hyn në Shqipëri nga juglindja dhe kalon nëpër lugina e gryka deri në Adriatik, në veri të Vlorës."
+  },
+  "lake-ohrid": {
+    "name": "Liqeni i Ohrit",
+    "summary": "Një liqen i thellë në kufi me Maqedoninë e Veriut, pranë Pogradecit.",
+    "body": "Liqeni i Ohrit ndahet me Maqedoninë e Veriut. Në bregun shqiptar ndodhet qyteti i Pogradecit."
+  },
+  "lake-shkodra": {
+    "name": "Liqeni i Shkodrës",
+    "summary": "Një liqen i madh i ndarë me Malin e Zi, pranë qytetit të Shkodrës.",
+    "body": "Liqeni i Shkodrës shtrihet në kufi me Malin e Zi, me qytetin e Shkodrës pranë skajit të tij juglindor."
+  },
+  "lake-prespa": {
+    "name": "Liqeni i Prespës",
+    "summary": "Një liqen i lartë ku takohen Shqipëria, Greqia dhe Maqedonia e Veriut.",
+    "body": "Liqeni i Prespës ndodhet në juglindje, në kufi me Greqinë dhe Maqedoninë e Veriut."
+  },
+  "theth": {
+    "summary": "Një fshat malor nën Alpet Shqiptare, me një kishë të vogël guri dhe shtigje lart në luginë.",
+    "body": "Thethi është një fshat në një luginë të lartë të Alpeve Shqiptare, brenda Parkut Kombëtar të Alpeve të Shqipërisë. Shtëpitë e gurta janë të shpërndara në fund të luginës dhe një shteg këmbësor kalon qafën drejt Valbonës."
+  },
+  "valbona": {
+    "summary": "Maja gëlqerore dhe një luginë lumi në Alpet Shqiptare.",
+    "body": "Valbona është një luginë në veriun e largët, brenda Parkut Kombëtar të Alpeve të Shqipërisë, me një lumë që rrjedh poshtë majave gëlqerore."
+  },
+  "lepushe": {
+    "name": "Lepushë",
+    "summary": "Një fshat i lartë në zonën e Kelmendit në Alpet Shqiptare.",
+    "body": "Lepusha është një fshat malor në veriun e largët, pranë kufirit me Malin e Zi."
+  },
+  "dardhe": {
+    "name": "Dardhë",
+    "summary": "Një fshat malor me shtëpi guri në kodrat pranë Korçës.",
+    "body": "Dardha është një fshat në malet e juglindjes, pranë qytetit të Korçës."
+  },
+  "berat": {
+    "summary": "Lagjet e vjetra me shtëpi të bardha dhe dritare përballen me njëra-tjetrën përtej lumit Osum.",
+    "body": "Berati është një qytet në jug të Shqipërisë, qendra historike e të cilit është në listën e UNESCO-s. Lagjet Mangalem dhe Gorica përballen përtej Osumit, ndërsa lagjja e kalasë ngrihet në kodrën sipër."
+  },
+  "gjirokaster": {
+    "summary": "Një qytet i vjetër në kodër, me shtëpi guri dhe çati me pllaka guri poshtë kalasë.",
+    "body": "Gjirokastra është një qytet në shpatin e një lugine në jug, qendra historike e të cilit është në listën e UNESCO-s. Është ndërtuar me gur gri, me një kala mbi pazarin e vjetër."
+  },
+  "kruje": {
+    "summary": "Një qytet me kala mbi fushë, me një rrugë të vjetër pazari poshtë mureve.",
+    "body": "Kruja ndodhet në një shpat mali në veri të Tiranës. Një rrugë pazari e shtruar me kalldrëm ngjitet drejt kalasë."
+  },
+  "butrint": {
+    "summary": "Rrënoja greke, romake dhe venedikase brenda një parku kombëtar pranë kufirit jugor.",
+    "body": "Butrinti është një sit arkeologjik në një gadishull pranë kufirit grek, me rrënoja nga periudha të ndryshme mes pyllit dhe pranë një lagune."
+  },
+  "apollonia": {
+    "summary": "Rrënojat e një qyteti antik në një kodër pranë Fierit.",
+    "body": "Apollonia është një sit arkeologjik në një kodër mbi fushë, pranë Fierit."
+  },
+  "lezhe": {
+    "name": "Lezhë",
+    "summary": "Një qytet pranë grykëderdhjes së Drinit, me një kala mbi të.",
+    "body": "Lezha është një qytet në veriperëndim, afër bregut, me një kala në kodrën pas tij."
+  },
+  "alps-of-albania-national-park": {
+    "name": "Parku Kombëtar i Alpeve të Shqipërisë",
+    "summary": "Një park kombëtar në Alpet Shqiptare që përfshin luginat e Thethit dhe Valbonës.",
+    "body": "Parku Kombëtar i Alpeve të Shqipërisë u krijua në janar 2022, duke bashkuar ish-parqet kombëtare të Thethit dhe Luginës së Valbonës në një zonë të vetme të mbrojtur."
+  },
+  "butrint-national-park": {
+    "name": "Parku Kombëtar i Butrintit",
+    "summary": "Pyll, lagunë dhe siti antik i Butrintit pranë kufirit jugor.",
+    "body": "Parku Kombëtar i Butrintit rrethon sitin arkeologjik të Butrintit, me pyll, ligatinë dhe një lagunë."
+  },
+  "korab-koritnik-nature-park": {
+    "name": "Parku Natyror Korab-Koritnik",
+    "summary": "Një park natyror në kufirin lindor, rreth Malit të Korabit.",
+    "body": "Parku Natyror Korab-Koritnik përfshin malet e larta përgjatë kufirit lindor, përfshirë Malin e Korabit."
+  },
+  "divjake-karavasta-national-park": {
+    "name": "Parku Kombëtar Divjakë-Karavasta",
+    "summary": "Laguna, pyll pishash dhe ligatinë në bregun qendror.",
+    "body": "Parku Kombëtar Divjakë-Karavasta shtrihet në bregun e Adriatikut në qendër të vendit, rreth lagunës së Karavastasë."
+  },
+  "tirana": {
+    "summary": "Kryeqyteti, me qendër Sheshin Skënderbej.",
+    "body": "Tirana është kryeqyteti i Shqipërisë. Qendra e saj është Sheshi Skënderbej, me Malin e Dajtit në lindje."
+  },
+  "mount-dajti": {
+    "name": "Mali i Dajtit",
+    "summary": "Mali në skajin lindor të Tiranës.",
+    "body": "Mali i Dajtit ngrihet menjëherë në lindje të Tiranës, brenda një parku kombëtar."
+  },
+  "llogara-pass": {
+    "name": "Qafa e Llogarasë",
+    "summary": "Qafa malore në rrugën nga Vlora drejt Rivierës.",
+    "body": "Rruga malore nga Vlora ngjitet mbi Qafën e Llogarasë dhe zbret në bregun e Jonit pranë Palasës. Që nga korriku 2024, Tuneli i Llogarasë lidh gjithashtu Dukatin me Palasën."
+  },
+  "blue-eye": {
+    "name": "Syri i Kaltër",
+    "summary": "Një burim i thellë me ujë të kthjellët blu në kodrat në brendësi të Sarandës.",
+    "body": "Syri i Kaltër është një burim që ushqen lumin Bistricë, mes pyllit midis Sarandës dhe Gjirokastrës."
+  },
+  "osum-river": {
+    "name": "Lumi Osum",
+    "summary": "Lumi që kalon nëpër kanione dhe nëpër qendrën e Beratit.",
+    "body": "Osumi rrjedh nëpër kanione në jug dhe përmes qytetit të Beratit."
+  },
+  "bistrica-river": {
+    "name": "Lumi Bistricë",
+    "summary": "Një lumë i shkurtër që rrjedh nga Syri i Kaltër drejt Jonit.",
+    "body": "Bistrica buron nga Syri i Kaltër dhe rrjedh rreth 25 km drejt Jonit, në jug të Sarandës."
+  },
+  "karaburun": {
+    "summary": "Një gadishull malor përtej gjirit nga Vlora.",
+    "body": "Karaburuni është një gadishull në anën perëndimore të Gjirit të Vlorës, pjesë e Parkut Kombëtar Detar Karaburun-Sazan."
+  },
+  "sazan-island": {
+    "name": "Ishulli i Sazanit",
+    "summary": "Një ishull në hyrje të Gjirit të Vlorës.",
+    "body": "Sazani është një ishull përballë majës së gadishullit të Karaburunit, në hyrje të Gjirit të Vlorës. Aksesi në ishull mund të jetë i kufizuar, ndaj pyet një operator të licencuar."
+  },
+  "vlore": {
+    "name": "Vlorë",
+    "summary": "Një qytet bregdetar në gjirin e vet, pranë vendit ku Adriatiku takon Jonin.",
+    "body": "Vlora është një qytet në Gjirin e Vlorës, pranë vendit ku Adriatiku takon Jonin."
+  },
+  "pogradec": {
+    "summary": "Një qytet buzë liqenit, në bregun shqiptar të Liqenit të Ohrit.",
+    "body": "Pogradeci është një qytet në bregun jugor të Liqenit të Ohrit."
+  },
+  "himare": {
+    "name": "Himarë",
+    "summary": "Një qytet bregdetar në Rivierë, me një fshat të vjetër në kodrën sipër.",
+    "body": "Himara është një qytet në bregun e Jonit, mes Dhërmiut dhe Borshit, me një fshat të vjetër me kala mbi të."
+  }
+}

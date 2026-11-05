@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "home": "VisitAlbania: një udhëzues i pavarur, nga Thethi në Ksamil",
+    "destinations": "Destinacionet · VisitAlbania",
+    "credits": "Kreditet e fotove · VisitAlbania",
+    "notFound": "Faqja nuk u gjet · VisitAlbania",
+    "legal": "{{page}} · VisitAlbania"
+  },
+  "a11y": {
+    "skip": "Kalo te përmbajtja",
+    "language": "Gjuha",
+    "mainNav": "Kryesor",
+    "footerNav": "Fundfaqja",
+    "menu": "Menu",
+    "closeMenu": "Mbyll menunë",
+    "home": "VisitAlbania, kryefaqja",
+    "regionChoice": "Rajonet",
+    "filters": "Filtro destinacionet",
+    "footerLanguages": "Zgjidh gjuhën",
+    "mapLabel": "Harta e katër rajoneve të Shqipërisë",
+    "selected": "zgjedhur"
+  },
+  "nav": {
+    "destinations": "Destinacionet",
+    "activities": "Aktivitetet",
+    "thingsToDo": "Aktivitetet",
+    "foodCulture": "Ushqim & Kulturë",
+    "events": "Ngjarjet",
+    "about": "Rreth udhëzuesit",
+    "credits": "Kreditet e fotove",
+    "correction": "Sugjero korrigjim"
+  },
+  "cta": {
+    "chooseRegion": "Zgjidh një rajon",
+    "allDestinations": "Të gjitha destinacionet",
+    "clearFilters": "Pastro filtrat",
+    "read": "Lexo",
+    "readAbout": "Lexo për {{name}}",
+    "allInRegion": "Të gjitha vendet në {{region}}",
+    "backToDestinations": "Kthehu te destinacionet"
+  },
+  "hero": {
+    "title": "Shqipëria, nga Thethi në Ksamil",
+    "lead": "Një udhëzues i pavarur për malet, qytetet e gurta, ushqimin dhe bregdetin e Shqipërisë, në pesë gjuhë.",
+    "caption": "Kisha e Thethit, Parku Kombëtar i Alpeve të Shqipërisë"
+  },
+  "pinned": {
+    "statement": "Maja gëlqerore në veri, qytete të gurta të kohës osmane në brendësi dhe dy dete në perëndim: Adriatiku dhe Joni."
+  },
+  "regions": {
+    "heading": "Nga dëshiron të nisësh?",
+    "lead": "Zgjidh një pjesë të vendit për të parë vendet e saj.",
+    "north": {
+      "name": "Veri",
+      "title": "Alpet dhe Shkodra",
+      "sentence": "Lugina të larta, fshatra guri dhe shtigjet mes Thethit e Valbonës."
+    },
+    "centre": {
+      "name": "Qendër",
+      "title": "Tirana dhe ultësirat",
+      "sentence": "Kryeqyteti, qyteti i kalasë së Krujës dhe lagunat e Divjakë-Karavastasë."
+    },
+    "southInland": {
+      "name": "Jugu i brendshëm",
+      "title": "Qytete guri dhe liqene",
+      "sentence": "Dy qytete të vjetra të UNESCO-s, lumenjtë Vjosa e Osum dhe liqenet e juglindjes."
+    },
+    "riviera": {
+      "name": "Riviera",
+      "title": "Bregdeti i Jonit",
+      "sentence": "Nga Qafa e Llogarasë te rrënojat e Butrintit dhe ishujt e vegjël të Ksamilit."
+    }
+  },
+  "showcase": {
+    "heading": "Vende për të nisur",
+    "lead": "Gjashtë vende që tregojnë larminë e vendit."
+  },
+  "things": {
+    "heading": "Aktivitetet",
+    "lead": "Gjashtë mënyra për një ditë jashtë dhe vendet ku mund të shkosh.",
+    "place": "Vendi",
+    "region": "Rajoni",
+    "note": "Rregullat dhe aksesi ndryshojnë. Kampimi lejohet vetëm aty ku nuk është i ndaluar, ndaj pyet më parë autoritetin vendor ose agjencinë e zonave të mbrojtura. Zhytjen dhe aktivitetet e tjera me guidë rezervoji te një operator i licencuar."
+  },
+  "food": {
+    "heading": "Ushqim & Kulturë",
+    "lead": "Gatime, dhoma dhe zakone që do të takosh gjatë rrugës.",
+    "tave": "Mish qengji dhe oriz të pjekur me kos e vezë.",
+    "fergese": "Një gatim tiranas me speca, domate dhe gjizë.",
+    "flija": "Shtresa të holla brumi të pjekura ngadalë, për mbledhje familjare.",
+    "oda": "Dhoma tradicionale ku priteshin mysafirët.",
+    "valle": "Vallëzim tradicional në rreth ose rresht.",
+    "captionTave": "Tavë kosi: mish qengji me kore kosi e veze, një nga gatimet më të njohura shqiptare.",
+    "captionKruja": "Krujë: rruga e pazarit të vjetër poshtë kalasë.",
+    "captionGjirokaster": "Gjirokastër: çati me pllaka guri mbi qytetin e vjetër."
+  },
+  "calendar": {
+    "heading": "Kalendari i Shqipërisë",
+    "lead": "Festivale dhe gara të mbajtura vitet e fundit. Datat ndryshojnë; kontrollo organizatorin para udhëtimit.",
+    "lastListed": "Listuar së fundi: {{date}}",
+    "currentDates": "Ku të gjesh datat aktuale",
+    "triathlon": "Not, çiklizëm dhe vrap përgjatë Jonit.",
+    "streetFood": "Stenda ushqimi në Sheshin Skënderbej.",
+    "kayakFest": "Gara, shëtitje dhe kamping pranë liqenit.",
+    "gzo": "Festa të fundvitit në qytet, me muzikë tradicionale."
+  },
+  "about": {
+    "heading": "Rreth udhëzuesit",
+    "body": "VisitAlbania është një udhëzues i pavarur për Shqipërinë, shkruar dhe dizajnuar nga Drin Kozhani. Nuk është autoritet zyrtar turizmi dhe nuk shet udhëtime, ture apo rezervime.",
+    "credits": "Fotografitë u kreditohen autorëve."
+  },
+  "footer": {
+    "invitation": "Zgjidh një rajon dhe nisu.",
+    "copyright": "© 2026 VisitAlbania · Udhëzues i pavarur"
+  },
+  "legal": {
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e përdorimit",
+    "cookies": "Politika e Cookies",
+    "updated": "Përditësuar më: {{date}}",
+    "contactPending": "[adresa e kontaktit do të shtohet para publikimit]",
+    "translationNote": "Ky është një përkthim. Teksti origjinal është versioni në anglisht."
+  },
+  "destinations": {
+    "heading": "Destinacionet",
+    "lead": "Çdo vend në këtë udhëzues, sipas rajonit dhe llojit.",
+    "note": "Rajonet janë grupime udhëtimi, jo kufij zyrtarë.",
+    "region": "Rajoni",
+    "type": "Lloji",
+    "all": "Të gjitha",
+    "count_one": "{{count}} vend",
+    "count_other": "{{count}} vende",
+    "empty": "Asnjë vend nuk përputhet me filtrat."
+  },
+  "place": {
+    "region": "Rajoni",
+    "type": "Lloji",
+    "goodFor": "I përshtatshëm për",
+    "nearby": "Pranë",
+    "moreIn": "Më shumë në {{region}}",
+    "notFoundHeading": "Ky vend nuk është në udhëzues",
+    "notFoundBody": "Adresa mund të ketë ndryshuar ose një gabim."
+  },
+  "type": {
+    "beaches": "Plazhet",
+    "mountains": "Male",
+    "rivers": "Lumenjtë",
+    "lakes": "Liqenet",
+    "countryside": "Fshatrat",
+    "historic": "Qytetet Historike",
+    "parks": "Parqe dhe zona të mbrojtura"
+  },
+  "activity": {
+    "hiking": "Ecje në Natyrë",
+    "paragliding": "Paraglajding",
+    "kayaking": "Kajak",
+    "diving": "Zhytje",
+    "cycling": "Çiklizëm",
+    "camping": "Kampe"
+  },
+  "photo": {
+    "needed": "Nevojitet foto: {{place}}"
+  },
+  "photos": {
+    "theth": "Kisha e vogël e gurtë e Thethit në një livadh, me majat gri gëlqerore të Alpeve Shqiptare pas saj.",
+    "valbona": "Lugina e Valbonës me shpate të pyllëzuara që ngjiten drejt majave të zhveshura gëlqerore nën qiell të kthjellët.",
+    "berat": "Shtëpi të bardha të kohës osmane në lagjen Mangalem të Beratit, që ngjiten në kodrën e gjelbër mbi lumin Osum.",
+    "gjirokaster": "Shtëpi guri me çati me pllaka guri, të shtrira në kodrën e qytetit të vjetër të Gjirokastrës.",
+    "gjipe": "Një plazh i zbehtë me zallishte në grykën e një kanioni, me ujë të bruztë të Jonit dhe shkëmbinj të lartë në të dy anët.",
+    "ksamil": "Ishuj të vegjël të pyllëzuar në ujë të qetë përballë Ksamilit, në dritën e butë të muzgut.",
+    "blueeye": "Burimi blu i thellë i Syrit të Kaltër, i rrethuar nga pemë.",
+    "butrint": "Mure të ulëta guri të Pallatit Triconch në Butrint, mes pemëve pranë ujit.",
+    "tave": "Një tavë kosi me kore të artë prej kosi të pjekur.",
+    "kruja": "Çatitë e gjata të pazarit të vjetër të Krujës të para nga lart, me qytetin pas tyre.",
+    "tirana": "Sheshi Skënderbej në Tiranë, me sipërfaqen e gjerë të shtruar dhe ndërtesat përreth.",
+    "mirrorbeach": "Një kep i gjatë gëlqeror me ngjyrë të zbehtë në skajin jugor të Plazhit të Pasqyrave, me notarë në ujin e gjelbër në blu poshtë tij.",
+    "jale": "Një plazh ranor i lakuar dhe një gji blu, me një kep të gjelbër pas tij.",
+    "borsh": "Plazhi i gjatë i Borshit përgjatë bregut poshtë maleve, nën një qiell rozë të zbehtë.",
+    "dhermi": "Ujë i kthjellët i bruztë në Dhërmi, me ndërtesa të bardha përgjatë bregut dhe kodra pas tyre.",
+    "himare": "Qyteti i Himarës i përkulur rreth gjirit dhe plazhit, me male pas tij.",
+    "korab": "Një liqen i vogël malor në shpate me bar, poshtë vargut shkëmbor të Korabit me vija bore.",
+    "accursed": "Një luginë alpine e gjelbër dhe shkëmbore që ngjitet drejt majave gëlqerore nën re të shpërndara.",
+    "tomorr": "Masivi i pyllëzuar i Malit të Tomorrit në një qiell blu të thellë.",
+    "drin": "Drini që gjarpëron mes kallamishteve dhe ishujve të ulët, i parë nga Kalaja e Rozafës në Shkodër.",
+    "buna": "Pamje ajrore e lumit Buna dhe urës së tij, me Shkodrën dhe male të largëta në sfond.",
+    "shala": "Ujë i bruztë mes mureve të larta shkëmbore në lumin Shala, me një person në breg dhe një varkë të ankoruar.",
+    "vjosa": "Vjosa me shumë degë që kalon pranë tokave bujqësore, poshtë një muri malesh të larta afër Çarshovës.",
+    "osum": "Osumi që rrjedh nëpër Berat mes lagjeve Gorica dhe Mangalem, me urën e tij në largësi.",
+    "bistrica": "Bistrica e kthjellët që rrjedh mes brigjeve të gjelbra, pak poshtë burimit të Syrit të Kaltër.",
+    "ohrid": "Liqeni i Ohrit i parë nga kodrat mbi fshatin Lin, me toka bujqësore përpara ujit.",
+    "shkodra": "Ujë liqeni ngjyrë jeshile në blu përgjatë një bregu të gjelbër me shtëpi në Zogaj, në anën shqiptare.",
+    "prespa": "Fshati Pustec në Liqenin e Prespës, me male në sfond.",
+    "lepushe": "Livadhe të gjelbra e të verdha në luginën e Lepushës, që çojnë drejt majave të zbehta shkëmbore.",
+    "dardhe": "Kisha e Shën Gjergjit në Dardhë, me kube guri dhe çati me rrasa mes pemëve të zhveshura dhe bredhave.",
+    "apollonia": "Kolonat e Monumentit të restauruar të Agonotetëve në parkun arkeologjik të Apollonisë.",
+    "lezhe": "Pamje ajrore e Kalasë së Lezhës në kodrën e saj të pyllëzuar, me qytetin pas saj.",
+    "korabkoritnik": "Një kreshtë mali e mbuluar me borë në zonën e mbrojtur Korab-Koritnik, nën qiell blu të kthjellët.",
+    "divjake": "Pyll pishash përpara lagunave të cekëta të Divjakë-Karavastasë, i parë nga kulla e vrojtimit.",
+    "dajti": "Dy majat e Malit të Dajtit të kornizuara nga pylli, të para nga një rrugë e paasfaltuar.",
+    "llogara": "Pamje nga Qafa e Llogarasë poshtë shpateve të gjelbra të thepisura dhe rrugës gjarpëruese drejt bregut të Rivierës.",
+    "karaburun": "Shpati i thatë i gjelbër i gadishullit të Karaburunit mbi ujë të bruztë, i parë nga Gjiri i Vlorës.",
+    "sazan": "Bregu perëndimor i Sazanit: një kodër e gjelbër me shkëmbinj të zbehtë gëlqerorë që bien në detin blu të errët.",
+    "vlore": "Bregdeti i Vlorës me palma, me gjirin dhe malet përtej ujit.",
+    "pogradec": "Pogradeci i shtrirë përgjatë bregut të Liqenit të Ohrit, i parë nga kodra e Kalasë."
+  },
+  "credits": {
+    "heading": "Kreditet e fotove",
+    "lead": "Çdo fotografi, me autorin dhe licencën.",
+    "shareAlike": "Fotot u zvogëluan, dhe disa u prenë, për këtë faqe. Çdo foto me licencë CC BY-SA mbetet nën të njëjtën licencë nëse e përpunon.",
+    "author": "Autori",
+    "licence": "Licenca",
+    "source": "Burimi",
+    "usedOn": "Përdorur në",
+    "sourceLink": "Wikimedia Commons",
+    "home": "Kryefaqja"
+  },
+  "notFound": {
+    "heading": "Kjo faqe nuk ekziston",
+    "body": "Adresa mund të jetë gabim ose faqja ka lëvizur."
+  },
+  "lang": {
+    "en": "English",
+    "sq": "Shqip",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "legalDocs": {
+    "privacy": {
+      "intro": "VisitAlbania është një udhëzues i pavarur udhëtimi për Shqipërinë, i drejtuar nga {operator}. Nuk është faqe zyrtare turizmi.",
+      "sections": [
+        {
+          "h": "Çfarë mbledhim",
+          "p": [
+            "Faqja nuk të kërkon të dhëna personale. Nuk ka llogari, formularë, rezervime, reklama, analitikë apo gjurmim."
+          ]
+        },
+        {
+          "h": "Çfarë ruan shfletuesi yt",
+          "p": [
+            "Nëse zgjedh një gjuhë, shfletuesi e ruan këtë zgjedhje në hapësirën e tij lokale me emrin lang, që faqja të shfaqë të njëjtën gjuhë herën tjetër. Ajo mbetet në pajisjen tënde dhe nuk na dërgohet. Nëse nuk zgjedh asnjë gjuhë, nuk ruhet asgjë."
+          ]
+        },
+        {
+          "h": "Shkronjat dhe fotot",
+          "p": [
+            "Shkronjat dhe fotot shërbehen nga adresa e vetë kësaj faqeje. Hapja e një faqeje nuk kontakton shërbime shkronjash, fotosh apo analitike."
+          ]
+        },
+        {
+          "h": "Pritja e faqes",
+          "p": [
+            "Faqja funksionon te një ofrues pritjeje, i cili mund të mbajë për pak kohë regjistra teknikë, përfshirë adresat IP, për të ofruar dhe mbrojtur shërbimin. Ne nuk i përdorim këta regjistra për të identifikuar vizitorët."
+          ]
+        },
+        {
+          "h": "Nëse na kontakton",
+          "p": [
+            "Nëse na shkruan në {contact}, adresën dhe mesazhin e përdorim vetëm për të të përgjigjur dhe i fshijmë kur nuk nevojiten më."
+          ]
+        },
+        {
+          "h": "Të drejtat e tua",
+          "p": [
+            "Në varësi të vendit ku jeton, mund të kesh të drejtë të pyesësh çfarë të dhënash personale mbajmë për ty, t'i korrigjosh ose t'i fshish, dhe të ankohesh te një autoritet për mbrojtjen e të dhënave. Për një kërkesë, shkruaj në {contact}."
+          ]
+        },
+        {
+          "h": "Lidhjet",
+          "p": [
+            "Ne lidhemi me faqe të tjera, përfshirë Wikimedia Commons, Unsplash, Creative Commons dhe Agjencinë Kombëtare të Turizmit. Politikat e tyre të privatësisë zbatohen pasi të largohesh nga kjo faqe."
+          ]
+        },
+        {
+          "h": "Ndryshimet",
+          "p": [
+            "Nëse kjo politikë ndryshon, do të përditësojmë datën në krye të kësaj faqeje."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "intro": "Duke përdorur VisitAlbania, pranon këto kushte. Faqja drejtohet nga {operator}.",
+      "sections": [
+        {
+          "h": "Një udhëzues i pavarur",
+          "p": [
+            "VisitAlbania nuk është autoritet zyrtar turizmi dhe nuk lidhet me asnjë organ qeveritar. Ne nuk shesim udhëtime, ture apo rezervime."
+          ]
+        },
+        {
+          "h": "Vetëm informacion",
+          "p": [
+            "Përpiqemi ta mbajmë udhëzuesin të saktë, por rrugët, stinët, ngjarjet dhe rregullat e aksesit mund të ndryshojnë. Verifiko detajet e rëndësishme me organizatorin ose autoritetin vendor para se të udhëtosh. Je përgjegjës për vendimet e tua të udhëtimit dhe për sigurinë tënde, përfshirë aktivitetet në natyrë."
+          ]
+        },
+        {
+          "h": "Pa garanci",
+          "p": [
+            "Faqja ofrohet ashtu siç është. Për aq sa lejon ligji, nuk mbajmë përgjegjësi për humbje që vijnë nga përdorimi i saj. Asgjë këtu nuk kufizon të drejtat që ke me ligj dhe që nuk mund të kufizohen."
+          ]
+        },
+        {
+          "h": "E drejta e autorit",
+          "p": [
+            "Teksti dhe dizajni i përkasin {operator}, përveç kur thuhet ndryshe. Fotot u përkasin autorëve të tyre dhe përdoren sipas licencave të shënuara te faqja e krediteve të fotove. Nëse i ripërdor, ndiq ato licenca."
+          ]
+        },
+        {
+          "h": "Lidhjet",
+          "p": [
+            "Ne nuk mbajmë përgjegjësi për përmbajtjen e faqeve të tjera."
+          ]
+        },
+        {
+          "h": "Ndryshimet",
+          "p": [
+            "Mund t'i përditësojmë këto kushte. Data në krye të kësaj faqeje tregon versionin e fundit."
+          ]
+        },
+        {
+          "h": "Kontakti",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "intro": "Kjo faqe nuk përdor cookies.",
+      "sections": [
+        {
+          "h": "Çfarë ruhet në vend të tyre",
+          "p": [
+            "Një parametër i vetëm, me emrin lang, ruhet në hapësirën lokale të shfletuesit. Ai mban mend gjuhën që zgjodhe dhe ruhet vetëm kur zgjedh një gjuhë. Mbetet derisa ta fshish dhe nuk na dërgohet."
+          ]
+        },
+        {
+          "h": "Pa gjurmim",
+          "p": [
+            "Faqja nuk ka analitikë, reklama apo gjurmim dhe nuk ruan asgjë tjetër në shfletues. Prandaj nuk shfaq njoftim për cookies."
+          ]
+        },
+        {
+          "h": "Heqja e parametrit",
+          "p": [
+            "Mund ta heqësh në çdo kohë duke fshirë të dhënat e kësaj faqeje në shfletues. Faqja vazhdon të punojë dhe kthehet në anglisht."
+          ]
+        },
+        {
+          "h": "Pyetje",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    }
+  }
+}

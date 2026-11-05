@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "home": "VisitAlbania: an independent guide, from Theth to Ksamil",
+    "destinations": "Destinations · VisitAlbania",
+    "credits": "Photo credits · VisitAlbania",
+    "notFound": "Page not found · VisitAlbania",
+    "legal": "{{page}} · VisitAlbania"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "language": "Language",
+    "mainNav": "Main",
+    "footerNav": "Footer",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "home": "VisitAlbania, home",
+    "regionChoice": "Regions",
+    "filters": "Filter destinations",
+    "footerLanguages": "Choose a language",
+    "mapLabel": "Map of Albania showing the four regions",
+    "selected": "selected"
+  },
+  "nav": {
+    "destinations": "Destinations",
+    "activities": "Activities",
+    "thingsToDo": "Things to do",
+    "foodCulture": "Food & culture",
+    "events": "Events",
+    "about": "About this guide",
+    "credits": "Photo credits",
+    "correction": "Suggest a correction"
+  },
+  "cta": {
+    "chooseRegion": "Choose a region",
+    "allDestinations": "All destinations",
+    "clearFilters": "Clear filters",
+    "read": "Read",
+    "readAbout": "Read about {{name}}",
+    "allInRegion": "All places in {{region}}",
+    "backToDestinations": "Back to destinations"
+  },
+  "hero": {
+    "title": "Albania, from Theth to Ksamil",
+    "lead": "An independent guide to the mountains, stone towns, food and coast of Albania, in five languages.",
+    "caption": "Kisha e Thethit, Alps of Albania National Park"
+  },
+  "pinned": {
+    "statement": "Limestone peaks in the north, Ottoman-era stone towns inland, and two seas along the west: the Adriatic and the Ionian."
+  },
+  "regions": {
+    "heading": "Where do you want to start?",
+    "lead": "Pick a part of the country to see its places.",
+    "north": {
+      "name": "North",
+      "title": "The Alps and Shkodër",
+      "sentence": "High valleys, stone villages and the trails between Theth and Valbona."
+    },
+    "centre": {
+      "name": "Centre",
+      "title": "Tirana and the plains",
+      "sentence": "The capital, the castle town of Krujë, and the lagoons of Divjakë-Karavasta."
+    },
+    "southInland": {
+      "name": "South inland",
+      "title": "Stone towns and lakes",
+      "sentence": "Two UNESCO-listed old towns, the Vjosa and Osum rivers, and the lakes of the south-east."
+    },
+    "riviera": {
+      "name": "Riviera",
+      "title": "The Ionian coast",
+      "sentence": "From Llogara Pass down to the ruins of Butrint and the islets off Ksamil."
+    }
+  },
+  "showcase": {
+    "heading": "Places to begin",
+    "lead": "Six places that show how different the country is."
+  },
+  "things": {
+    "heading": "Things to do",
+    "lead": "Six ways to spend a day outside, and where people go for each.",
+    "place": "Place",
+    "region": "Region",
+    "note": "Rules and access change. Camping is allowed only where it is not prohibited, so check with the local authority or protected-areas agency first. Book diving and other guided activities with a licensed operator."
+  },
+  "food": {
+    "heading": "Food & culture",
+    "lead": "Dishes, rooms and rituals you will meet on the way.",
+    "tave": "Lamb and rice baked under yoghurt and egg.",
+    "fergese": "A Tirana dish of peppers, tomatoes and cottage cheese.",
+    "flija": "Thin batter layers cooked slowly under heat, a dish for gatherings.",
+    "oda": "The traditional guest room where visitors were received.",
+    "valle": "Traditional folk dance, performed in a circle or line.",
+    "captionTave": "Tavë kosi: lamb baked under a yoghurt and egg crust, one of the best-known Albanian dishes.",
+    "captionKruja": "Krujë: the old bazaar street below the castle.",
+    "captionGjirokaster": "Gjirokastër: roofs of stone slabs over the old town."
+  },
+  "calendar": {
+    "heading": "Albania's calendar",
+    "lead": "Festivals and races that have been held in recent years. Dates change, so check the organiser before you travel.",
+    "lastListed": "Last listed: {{date}}",
+    "currentDates": "Where to find current dates",
+    "triathlon": "Swimming, cycling and running along the Ionian.",
+    "streetFood": "Food stalls across Skanderbeg Square.",
+    "kayakFest": "Races, tours and camping on the lake.",
+    "gzo": "Year-end festivities in the city, with traditional music."
+  },
+  "about": {
+    "heading": "About this guide",
+    "body": "VisitAlbania is an independent guide to Albania, written and designed by Drin Kozhani. It is not an official tourism authority, and it does not sell trips, tours or bookings.",
+    "credits": "Photographs are credited to their authors."
+  },
+  "footer": {
+    "invitation": "Pick a region and go.",
+    "copyright": "© 2026 VisitAlbania · An independent guide"
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "updated": "Last updated: {{date}}",
+    "contactPending": "[contact address to be added before publication]",
+    "translationNote": "This is a translation. The English version is the original text."
+  },
+  "destinations": {
+    "heading": "Destinations",
+    "lead": "Every place in this guide, by region and by type.",
+    "note": "Regions here are a travel grouping, not official boundaries.",
+    "region": "Region",
+    "type": "Type",
+    "all": "All",
+    "count_one": "{{count}} place",
+    "count_other": "{{count}} places",
+    "empty": "No places match these filters."
+  },
+  "place": {
+    "region": "Region",
+    "type": "Type",
+    "goodFor": "Good for",
+    "nearby": "Nearby",
+    "moreIn": "More in {{region}}",
+    "notFoundHeading": "We don't have that place",
+    "notFoundBody": "It may have moved, or the address has a typo."
+  },
+  "type": {
+    "beaches": "Beaches",
+    "mountains": "Mountains",
+    "rivers": "Rivers",
+    "lakes": "Lakes",
+    "countryside": "Countryside",
+    "historic": "Historic cities",
+    "parks": "Parks and protected areas"
+  },
+  "activity": {
+    "hiking": "Hiking",
+    "paragliding": "Paragliding",
+    "kayaking": "Kayaking",
+    "diving": "Diving",
+    "cycling": "Cycling",
+    "camping": "Camping"
+  },
+  "photo": {
+    "needed": "Photo needed: {{place}}"
+  },
+  "photos": {
+    "theth": "The small stone church of Theth in a meadow, with grey limestone peaks of the Albanian Alps behind.",
+    "valbona": "The Valbona valley with forested slopes rising to bare limestone peaks under a clear sky.",
+    "berat": "White Ottoman-era houses of Berat's Mangalem quarter climbing a green hillside above the Osum river.",
+    "gjirokaster": "Grey stone houses with stone-slab roofs spread across the hillside of Gjirokastër's old town.",
+    "gjipe": "A pale pebble beach at the mouth of a canyon, with turquoise Ionian water and high cliffs on either side.",
+    "ksamil": "Small wooded islets in calm water off Ksamil, in the soft light of dusk.",
+    "blueeye": "The deep blue spring of the Blue Eye, surrounded by trees.",
+    "butrint": "Low stone walls of the Triconch Palace at Butrint, among trees beside the water.",
+    "tave": "A dish of tavë kosi with a golden baked yoghurt crust.",
+    "kruja": "The long roofs of Krujë's old bazaar seen from above, with the town behind.",
+    "tirana": "Skanderbeg Square in Tirana, with its wide paved square and buildings around it.",
+    "mirrorbeach": "A long pale limestone headland at the south end of Mirror Beach, with swimmers in teal water below it.",
+    "jale": "A curved sandy beach and blue bay with a green headland behind it.",
+    "borsh": "The long Borsh beach running along the coast below mountains, under a pale pink sky.",
+    "dhermi": "Clear turquoise water at Dhërmi with white buildings along the shore and hills behind.",
+    "himare": "The town of Himarë curving around its bay and beach, with mountains behind.",
+    "korab": "A small mountain lake on grassy slopes below the snow-streaked rocky Korab range.",
+    "accursed": "A green, rocky alpine valley rising to limestone peaks under broken cloud.",
+    "tomorr": "The forested bulk of Mount Tomorr against a deep blue sky.",
+    "drin": "The Drin winding past reed beds and low islands, seen from Rozafa Fortress in Shkodër.",
+    "buna": "An aerial view of the Buna river and its bridge, with Shkodër and distant mountains beyond.",
+    "shala": "Turquoise water between high rock walls on the Shala, with a person on the shore and a moored boat.",
+    "vjosa": "The braided Vjosa running past farmland, below a wall of high mountains near Çarshovë.",
+    "osum": "The Osum flowing through Berat between the Gorica and Mangalem quarters, with its bridge in the distance.",
+    "bistrica": "The clear Bistrica running between green banks just below the Blue Eye spring.",
+    "ohrid": "Lake Ohrid seen from the hills above the village of Lin, with farmland in front of the water.",
+    "shkodra": "Teal lake water along a green shore with houses at Zogaj, on the Albanian side.",
+    "prespa": "The village of Pustec on Lake Prespa, with mountains beyond.",
+    "lepushe": "Green and yellow meadows in the Lepushë valley, leading up to pale rocky peaks.",
+    "dardhe": "Saint George's church in Dardhë, with a stone dome and slate roof among bare trees and firs.",
+    "apollonia": "The columns of the restored Monument of Agonothetes at the Apollonia archaeological park.",
+    "lezhe": "An aerial view of Lezhë Castle on its wooded hill, with the town behind.",
+    "korabkoritnik": "A snow-covered mountain ridge in the Korab-Koritnik protected area under a clear blue sky.",
+    "divjake": "Pine forest in front of the shallow lagoons of Divjakë-Karavasta, seen from the lookout tower.",
+    "dajti": "The twin summits of Mount Dajti framed by forest, seen from a dirt track.",
+    "llogara": "The view from Llogara Pass down steep green slopes and the winding road to the Riviera coast.",
+    "karaburun": "The dry green slope of the Karaburun peninsula above turquoise water, seen from the Bay of Vlorë.",
+    "sazan": "The west coast of Sazan: a green hill with pale limestone cliffs dropping into dark blue sea.",
+    "vlore": "The palm-lined seafront of Vlorë with the bay and mountains across the water.",
+    "pogradec": "Pogradec spread along the shore of Lake Ohrid, seen from the Kalaja hill."
+  },
+  "credits": {
+    "heading": "Photo credits",
+    "lead": "Every photograph in this guide, with its author and licence.",
+    "shareAlike": "Photographs were resized, and some cropped, for this site. Any CC BY-SA image stays under the same licence if you edit it.",
+    "author": "Author",
+    "licence": "Licence",
+    "source": "Source",
+    "usedOn": "Used on",
+    "sourceLink": "Wikimedia Commons",
+    "home": "Home page"
+  },
+  "notFound": {
+    "heading": "This page doesn't exist",
+    "body": "The address may be wrong, or the page has moved."
+  },
+  "lang": {
+    "en": "English",
+    "sq": "Shqip",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "legalDocs": {
+    "privacy": {
+      "intro": "VisitAlbania is an independent travel guide to Albania, run by {operator}. It is not an official tourism site.",
+      "sections": [
+        {
+          "h": "What we collect",
+          "p": [
+            "The site does not ask you for personal data. It has no accounts, forms, bookings, advertising, analytics or tracking."
+          ]
+        },
+        {
+          "h": "What your browser stores",
+          "p": [
+            "If you choose a language, your browser saves that choice in its local storage under the name lang, so the site can show the same language on your next visit. It stays on your device and is not sent to us. If you never choose a language, nothing is saved."
+          ]
+        },
+        {
+          "h": "Fonts and images",
+          "p": [
+            "Fonts and photographs are served from this site's own address. Loading a page does not contact font, image or analytics services."
+          ]
+        },
+        {
+          "h": "Hosting",
+          "p": [
+            "The site runs on a hosting provider, which may briefly keep technical logs, including IP addresses, to run and secure the service. We do not use these logs to identify visitors."
+          ]
+        },
+        {
+          "h": "If you contact us",
+          "p": [
+            "If you email us at {contact}, we use your address and message only to reply, and we delete them when they are no longer needed."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "Depending on where you live, you may have the right to ask what personal data we hold about you, to have it corrected or deleted, and to complain to a data protection authority. To make a request, write to {contact}."
+          ]
+        },
+        {
+          "h": "Links",
+          "p": [
+            "We link to other sites, including Wikimedia Commons, Unsplash, Creative Commons and the National Tourism Agency. Their privacy policies apply once you leave this site."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "If this policy changes, we will update the date at the top of this page."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "intro": "By using VisitAlbania you agree to these terms. The site is run by {operator}.",
+      "sections": [
+        {
+          "h": "An independent guide",
+          "p": [
+            "VisitAlbania is not an official tourism authority and is not connected to any government body. We do not sell trips, tours or bookings."
+          ]
+        },
+        {
+          "h": "Information only",
+          "p": [
+            "We try to keep the guide accurate, but roads, seasons, events and access rules can change. Check important details with the organiser or local authority before you travel. You are responsible for your own travel decisions and safety, including outdoor activities."
+          ]
+        },
+        {
+          "h": "No guarantee",
+          "p": [
+            "The site is provided as it is. As far as the law allows, we are not liable for loss arising from your use of it. Nothing here limits rights you have by law that cannot be limited."
+          ]
+        },
+        {
+          "h": "Copyright",
+          "p": [
+            "The text and design belong to {operator} unless stated otherwise. Photographs belong to their authors and are used under the licences shown on the Photo credits page. Please follow those licences if you reuse them."
+          ]
+        },
+        {
+          "h": "Links",
+          "p": [
+            "We are not responsible for the content of other websites."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "We may update these terms. The date at the top of this page shows the latest version."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "intro": "This site does not use cookies.",
+      "sections": [
+        {
+          "h": "What is saved instead",
+          "p": [
+            "One setting, called lang, is saved in your browser's local storage. It remembers the language you chose, and it is saved only when you choose one. It stays until you clear it, and it is not sent to us."
+          ]
+        },
+        {
+          "h": "No tracking",
+          "p": [
+            "The site has no analytics, advertising or tracking, and it stores nothing else in your browser. That is why it does not show a cookie banner."
+          ]
+        },
+        {
+          "h": "Removing the setting",
+          "p": [
+            "You can remove it at any time by clearing this site's data in your browser. The site still works and goes back to English."
+          ]
+        },
+        {
+          "h": "Questions",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    }
+  }
+}
