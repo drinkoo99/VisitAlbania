@@ -18,3 +18,4 @@
 - Use flag-icons only for the compact language-selector flags; all other page assets remain credited photography.
 - Keep destination detail routes non-nested with a trailing underscore so the index page cannot swallow their content.
 - Keep the privacy promises in the legal pages true: no third-party requests, no cookies, and `lang` as the only browser storage. Router scroll restoration stays off for this reason.
+- Netlify publishes `dist` (see netlify.toml). Do not change it to `dist/client`, which is what Netlify detects for TanStack Start: with Nitro, that folder is never created.

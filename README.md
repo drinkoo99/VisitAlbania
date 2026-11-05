@@ -45,7 +45,22 @@ If the site is published on a host that injects its own script or analytics, for
 
 ## Production build
 
-`npm run build` writes a Cloudflare Worker to `.output`. `vite preview` does not apply to this output, so test it in the Workers runtime:
+The site is server-rendered, so a build has no `index.html`. Nitro chooses its output from the environment:
+
+| Where it runs | Static files | Server code |
+|---|---|---|
+| Netlify (`NETLIFY` is set) | `dist` | `.netlify/functions-internal/server` |
+| Anywhere else, including a local `npm run build` | `.output/public` | `.output/server` (Cloudflare Worker) |
+
+`netlify.toml` sets the Netlify build command and publish directory, and it takes precedence over Netlify's UI. The site needs no environment variables.
+
+`vite preview` does not apply to either output. To test the Netlify output locally:
+
+```sh
+netlify serve --context production --offline
+```
+
+To test the default output:
 
 ```sh
 npx wrangler dev --config .output/server/wrangler.json

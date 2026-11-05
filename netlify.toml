@@ -1,0 +1,6 @@
+# Nitro detects Netlify during the build: static files go to dist, and the
+# server-rendered pages go to .netlify/functions-internal. These values take
+# precedence over the build settings in Netlify's UI.
+[build]
+  command = "bun run build"
+  publish = "dist"
