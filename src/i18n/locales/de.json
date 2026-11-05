@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "home": "VisitAlbania: ein unabhängiger Reiseführer, von Theth bis Ksamil",
+    "destinations": "Reiseziele · VisitAlbania",
+    "credits": "Bildnachweise · VisitAlbania",
+    "notFound": "Seite nicht gefunden · VisitAlbania",
+    "legal": "{{page}} · VisitAlbania"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt",
+    "language": "Sprache",
+    "mainNav": "Hauptnavigation",
+    "footerNav": "Fußnavigation",
+    "menu": "Menü",
+    "closeMenu": "Menü schließen",
+    "home": "VisitAlbania, Startseite",
+    "regionChoice": "Regionen",
+    "filters": "Reiseziele filtern",
+    "footerLanguages": "Sprache wählen",
+    "mapLabel": "Albanienkarte mit vier Regionen",
+    "selected": "ausgewählt"
+  },
+  "nav": {
+    "destinations": "Reiseziele",
+    "activities": "Aktivitäten",
+    "thingsToDo": "Aktivitäten",
+    "foodCulture": "Essen & Kultur",
+    "events": "Veranstaltungen",
+    "about": "Über den Guide",
+    "credits": "Bildnachweise",
+    "correction": "Korrektur vorschlagen"
+  },
+  "cta": {
+    "chooseRegion": "Region wählen",
+    "allDestinations": "Alle Reiseziele",
+    "clearFilters": "Filter zurücksetzen",
+    "read": "Lesen",
+    "readAbout": "Mehr über {{name}}",
+    "allInRegion": "Alle Orte: {{region}}",
+    "backToDestinations": "Zurück zu Reisezielen"
+  },
+  "hero": {
+    "title": "Albanien, von Theth bis Ksamil",
+    "lead": "Ein unabhängiger Guide zu Albaniens Bergen, Steinstädten, Küche und Küste – in fünf Sprachen.",
+    "caption": "Kisha e Thethit, Nationalpark Albanische Alpen"
+  },
+  "pinned": {
+    "statement": "Kalksteingipfel im Norden, Steinstädte aus osmanischer Zeit im Landesinneren und zwei Meere im Westen: Adria und Ionisches Meer."
+  },
+  "regions": {
+    "heading": "Wo möchtest du starten?",
+    "lead": "Wähle einen Landesteil und seine Orte.",
+    "north": {
+      "name": "Norden",
+      "title": "Alpen und Shkodër",
+      "sentence": "Hohe Täler, Steindörfer und Wege zwischen Theth und Valbona."
+    },
+    "centre": {
+      "name": "Zentrum",
+      "title": "Tirana und die Ebenen",
+      "sentence": "Die Hauptstadt, die Burgstadt Krujë und die Lagunen von Divjakë-Karavasta."
+    },
+    "southInland": {
+      "name": "Südliches Inland",
+      "title": "Steinstädte und Seen",
+      "sentence": "Zwei UNESCO-Altstädte, Vjosa und Osum sowie die Seen im Südosten."
+    },
+    "riviera": {
+      "name": "Riviera",
+      "title": "Die ionische Küste",
+      "sentence": "Vom Llogara-Pass zu Butrints Ruinen und den Inselchen vor Ksamil."
+    }
+  },
+  "showcase": {
+    "heading": "Orte zum Starten",
+    "lead": "Sechs Orte zeigen die Vielfalt des Landes."
+  },
+  "things": {
+    "heading": "Aktivitäten",
+    "lead": "Sechs Möglichkeiten für einen Tag draußen – und die passenden Orte.",
+    "place": "Ort",
+    "region": "Region",
+    "note": "Regeln und Zugang ändern sich. Camping ist nur erlaubt, wo es nicht verboten ist. Frage daher vorher bei der örtlichen Behörde oder der Schutzgebietsverwaltung nach. Buche Tauchgänge und andere geführte Aktivitäten bei einem lizenzierten Anbieter."
+  },
+  "food": {
+    "heading": "Essen & Kultur",
+    "lead": "Gerichte, Räume und Bräuche entlang des Weges.",
+    "tave": "Lamm und Reis unter Joghurt und Ei gebacken.",
+    "fergese": "Ein Gericht aus Tirana mit Paprika, Tomaten und Hüttenkäse.",
+    "flija": "Dünne Teigschichten, langsam unter Hitze gegart, für gesellige Anlässe.",
+    "oda": "Das traditionelle Zimmer zum Empfang von Gästen.",
+    "valle": "Traditioneller Volkstanz im Kreis oder in einer Reihe.",
+    "captionTave": "Tavë kosi: Lamm unter einer Joghurt-Ei-Kruste, eines der bekanntesten albanischen Gerichte.",
+    "captionKruja": "Krujë: die alte Basarstraße unterhalb der Burg.",
+    "captionGjirokaster": "Gjirokastër: Steinplattendächer über der Altstadt."
+  },
+  "calendar": {
+    "heading": "Albaniens Kalender",
+    "lead": "Festivals und Rennen der letzten Jahre. Termine ändern sich; frage vor der Reise beim Veranstalter nach.",
+    "lastListed": "Zuletzt gelistet: {{date}}",
+    "currentDates": "Aktuelle Termine finden",
+    "triathlon": "Schwimmen, Radfahren und Laufen am Ionischen Meer.",
+    "streetFood": "Essensstände auf dem Skanderbeg-Platz.",
+    "kayakFest": "Rennen, Touren und Camping am See.",
+    "gzo": "Feierlichkeiten zum Jahresende in der Stadt, mit traditioneller Musik."
+  },
+  "about": {
+    "heading": "Über den Guide",
+    "body": "VisitAlbania ist ein unabhängiger Albanien-Guide, geschrieben und gestaltet von Drin Kozhani. Er ist keine offizielle Tourismusbehörde und verkauft keine Reisen, Touren oder Buchungen.",
+    "credits": "Die Fotografien sind ihren Urhebern zugeordnet."
+  },
+  "footer": {
+    "invitation": "Wähle eine Region. Los geht’s.",
+    "copyright": "© 2026 VisitAlbania · Ein unabhängiger Guide"
+  },
+  "legal": {
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "updated": "Zuletzt aktualisiert: {{date}}",
+    "contactPending": "[Kontaktadresse wird vor der Veröffentlichung ergänzt]",
+    "translationNote": "Dies ist eine Übersetzung. Der Originaltext ist die englische Fassung."
+  },
+  "destinations": {
+    "heading": "Reiseziele",
+    "lead": "Alle Orte dieses Guides, nach Region und Art.",
+    "note": "Die Regionen sind Reisegruppen, keine offiziellen Grenzen.",
+    "region": "Region",
+    "type": "Art",
+    "all": "Alle",
+    "count_one": "{{count}} Ort",
+    "count_other": "{{count}} Orte",
+    "empty": "Keine Orte passen zu diesen Filtern."
+  },
+  "place": {
+    "region": "Region",
+    "type": "Art",
+    "goodFor": "Geeignet für",
+    "nearby": "In der Nähe",
+    "moreIn": "Weitere Orte: {{region}}",
+    "notFoundHeading": "Diesen Ort gibt es hier nicht",
+    "notFoundBody": "Die Adresse hat sich geändert oder enthält einen Tippfehler."
+  },
+  "type": {
+    "beaches": "Strände",
+    "mountains": "Berge",
+    "rivers": "Flüsse",
+    "lakes": "Seen",
+    "countryside": "Landschaften",
+    "historic": "Historische Städte",
+    "parks": "Parks und Schutzgebiete"
+  },
+  "activity": {
+    "hiking": "Wandern",
+    "paragliding": "Paragliding",
+    "kayaking": "Kajakfahren",
+    "diving": "Tauchen",
+    "cycling": "Radfahren",
+    "camping": "Camping"
+  },
+  "photo": {
+    "needed": "Foto fehlt: {{place}}"
+  },
+  "photos": {
+    "theth": "Die kleine Steinkirche von Theth auf einer Wiese, dahinter graue Kalksteingipfel der Albanischen Alpen.",
+    "valbona": "Das Valbona-Tal mit bewaldeten Hängen, die unter klarem Himmel zu kahlen Kalksteingipfeln ansteigen.",
+    "berat": "Weiße Häuser aus osmanischer Zeit im Berater Viertel Mangalem an einem grünen Hang über dem Fluss Osum.",
+    "gjirokaster": "Graue Steinhäuser mit Steinplattendächern am Hang der Altstadt von Gjirokastër.",
+    "gjipe": "Ein heller Kieselstrand an der Mündung einer Schlucht, mit türkisfarbenem Ionischem Meer und hohen Klippen zu beiden Seiten.",
+    "ksamil": "Kleine bewaldete Inseln im ruhigen Wasser vor Ksamil, im weichen Licht der Abenddämmerung.",
+    "blueeye": "Die tiefblaue Quelle Syri i Kaltër, umgeben von Bäumen.",
+    "butrint": "Niedrige Steinmauern des Triconch-Palasts in Butrint, zwischen Bäumen am Wasser.",
+    "tave": "Eine Portion Tavë Kosi mit goldbrauner, gebackener Joghurtkruste.",
+    "kruja": "Die langen Dächer des alten Basars von Kruja von oben, dahinter die Stadt.",
+    "tirana": "Der Skanderbeg-Platz in Tirana mit seiner weiten gepflasterten Fläche und den umliegenden Gebäuden.",
+    "mirrorbeach": "Eine lange helle Kalksteinlandzunge am Südende des Mirror Beach, darunter Schwimmer in blaugrünem Wasser.",
+    "jale": "Ein geschwungener Sandstrand und eine blaue Bucht, dahinter eine grüne Landzunge.",
+    "borsh": "Der lange Strand von Borsh entlang der Küste unterhalb der Berge, unter einem blassrosa Himmel.",
+    "dhermi": "Klares türkisfarbenes Wasser in Dhërmi mit weißen Gebäuden am Ufer und Hügeln dahinter.",
+    "himare": "Die Stadt Himara, die sich um Bucht und Strand legt, dahinter Berge.",
+    "korab": "Ein kleiner Bergsee auf grasigen Hängen unter der felsigen, schneegestreiften Korab-Kette.",
+    "accursed": "Ein grünes, felsiges Hochtal, das unter aufgelockerten Wolken zu Kalksteingipfeln ansteigt.",
+    "tomorr": "Das bewaldete Massiv des Tomorr vor tiefblauem Himmel.",
+    "drin": "Der Drin windet sich an Schilfgürteln und flachen Inseln vorbei, gesehen von der Festung Rozafa in Shkodra.",
+    "buna": "Luftaufnahme der Buna und ihrer Brücke, dahinter Shkodra und ferne Berge.",
+    "shala": "Türkisfarbenes Wasser zwischen hohen Felswänden an der Shala, mit einer Person am Ufer und einem festgemachten Boot.",
+    "vjosa": "Die verzweigte Vjosa an Ackerland vorbei, unter einer Wand hoher Berge bei Çarshova.",
+    "osum": "Der Osum fließt durch Berat zwischen den Vierteln Gorica und Mangalem, in der Ferne seine Brücke.",
+    "bistrica": "Die klare Bistrica zwischen grünen Ufern, kurz unterhalb der Quelle Syri i Kaltër.",
+    "ohrid": "Der Ohridsee von den Hügeln über dem Dorf Lin aus gesehen, mit Ackerland vor dem Wasser.",
+    "shkodra": "Blaugrünes Seewasser an einem grünen Ufer mit Häusern in Zogaj, auf der albanischen Seite.",
+    "prespa": "Das Dorf Pustec am Prespasee, dahinter Berge.",
+    "lepushe": "Grüne und gelbe Wiesen im Tal von Lepusha, die zu hellen Felsgipfeln hinaufführen.",
+    "dardhe": "Die Georgskirche in Dardha mit Steinkuppel und Schieferdach, zwischen kahlen Bäumen und Tannen.",
+    "apollonia": "Die Säulen des restaurierten Agonotheten-Denkmals im archäologischen Park von Apollonia.",
+    "lezhe": "Luftaufnahme der Burg von Lezha auf ihrem bewaldeten Hügel, dahinter die Stadt.",
+    "korabkoritnik": "Ein schneebedeckter Bergkamm im Schutzgebiet Korab-Koritnik unter klarem blauem Himmel.",
+    "divjake": "Kiefernwald vor den flachen Lagunen von Divjaka-Karavasta, gesehen vom Aussichtsturm.",
+    "dajti": "Die beiden Gipfel des Dajti, von Wald eingerahmt, gesehen von einem Feldweg.",
+    "llogara": "Blick vom Llogara-Pass über steile grüne Hänge und die Serpentinen hinab zur Riviera.",
+    "karaburun": "Der trockene grüne Hang der Halbinsel Karaburun über türkisfarbenem Wasser, gesehen von der Bucht von Vlora.",
+    "sazan": "Die Westküste von Sazan: ein grüner Hügel mit hellen Kalksteinklippen, die in dunkelblaues Meer abfallen.",
+    "vlore": "Die palmengesäumte Uferpromenade von Vlora mit der Bucht und den Bergen jenseits des Wassers.",
+    "pogradec": "Pogradec am Ufer des Ohridsees, gesehen vom Hügel Kalaja."
+  },
+  "credits": {
+    "heading": "Bildnachweise",
+    "lead": "Alle Fotografien mit Urheber und Lizenz.",
+    "shareAlike": "Die Fotos wurden für diese Website verkleinert und zum Teil zugeschnitten. Jedes Bild unter CC BY-SA bleibt bei einer Bearbeitung unter derselben Lizenz.",
+    "author": "Urheber",
+    "licence": "Lizenz",
+    "source": "Quelle",
+    "usedOn": "Verwendet auf",
+    "sourceLink": "Wikimedia Commons",
+    "home": "Startseite"
+  },
+  "notFound": {
+    "heading": "Diese Seite gibt es nicht",
+    "body": "Die Adresse ist falsch oder die Seite wurde verschoben."
+  },
+  "lang": {
+    "en": "English",
+    "sq": "Shqip",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "legalDocs": {
+    "privacy": {
+      "intro": "VisitAlbania ist ein unabhängiger Reiseführer für Albanien, betrieben von {operator}. Es ist keine offizielle Tourismus-Website.",
+      "sections": [
+        {
+          "h": "Was wir erfassen",
+          "p": [
+            "Die Website fragt nicht nach personenbezogenen Daten. Es gibt keine Konten, Formulare, Buchungen, Werbung, Analysen oder Tracking."
+          ]
+        },
+        {
+          "h": "Was dein Browser speichert",
+          "p": [
+            "Wenn du eine Sprache wählst, speichert dein Browser diese Wahl in seinem lokalen Speicher unter dem Namen lang, damit die Website beim nächsten Besuch dieselbe Sprache zeigt. Die Angabe bleibt auf deinem Gerät und wird nicht an uns gesendet. Wenn du keine Sprache wählst, wird nichts gespeichert."
+          ]
+        },
+        {
+          "h": "Schriften und Bilder",
+          "p": [
+            "Schriften und Fotos werden von der eigenen Adresse dieser Website geladen. Beim Aufruf einer Seite werden keine Schrift-, Bild- oder Analysedienste kontaktiert."
+          ]
+        },
+        {
+          "h": "Hosting",
+          "p": [
+            "Die Website läuft bei einem Hosting-Anbieter, der technische Protokolle einschließlich IP-Adressen kurzzeitig speichern kann, um den Dienst zu betreiben und zu schützen. Wir nutzen diese Protokolle nicht, um Besucher zu identifizieren."
+          ]
+        },
+        {
+          "h": "Wenn du uns kontaktierst",
+          "p": [
+            "Wenn du uns unter {contact} schreibst, verwenden wir deine Adresse und Nachricht nur für die Antwort und löschen sie, sobald sie nicht mehr benötigt werden."
+          ]
+        },
+        {
+          "h": "Deine Rechte",
+          "p": [
+            "Je nach Wohnort kannst du das Recht haben, Auskunft über deine bei uns gespeicherten personenbezogenen Daten zu verlangen, sie berichtigen oder löschen zu lassen und dich bei einer Datenschutzbehörde zu beschweren. Für eine Anfrage schreibe an {contact}."
+          ]
+        },
+        {
+          "h": "Links",
+          "p": [
+            "Wir verlinken auf andere Websites, darunter Wikimedia Commons, Unsplash, Creative Commons und die Nationale Tourismusagentur. Sobald du diese Website verlässt, gelten deren Datenschutzbestimmungen."
+          ]
+        },
+        {
+          "h": "Änderungen",
+          "p": [
+            "Wenn sich diese Erklärung ändert, aktualisieren wir das Datum oben auf dieser Seite."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "intro": "Mit der Nutzung von VisitAlbania stimmst du diesen Bedingungen zu. Die Website wird von {operator} betrieben.",
+      "sections": [
+        {
+          "h": "Ein unabhängiger Reiseführer",
+          "p": [
+            "VisitAlbania ist keine offizielle Tourismusbehörde und mit keiner staatlichen Stelle verbunden. Wir verkaufen keine Reisen, Touren oder Buchungen."
+          ]
+        },
+        {
+          "h": "Nur zur Information",
+          "p": [
+            "Wir bemühen uns um Richtigkeit, aber Straßen, Saisonzeiten, Veranstaltungen und Zugangsregeln können sich ändern. Prüfe wichtige Angaben vor der Reise beim Veranstalter oder bei der örtlichen Behörde. Du bist für deine Reiseentscheidungen und deine Sicherheit selbst verantwortlich, auch bei Outdoor-Aktivitäten."
+          ]
+        },
+        {
+          "h": "Keine Gewähr",
+          "p": [
+            "Die Website wird so bereitgestellt, wie sie ist. Soweit gesetzlich zulässig, haften wir nicht für Schäden aus ihrer Nutzung. Gesetzliche Rechte, die nicht eingeschränkt werden können, bleiben unberührt."
+          ]
+        },
+        {
+          "h": "Urheberrecht",
+          "p": [
+            "Texte und Gestaltung gehören {operator}, sofern nicht anders angegeben. Fotos gehören ihren Urhebern und werden unter den auf der Seite Bildnachweise genannten Lizenzen verwendet. Bitte beachte diese Lizenzen, wenn du sie weiterverwendest."
+          ]
+        },
+        {
+          "h": "Links",
+          "p": [
+            "Wir sind nicht für die Inhalte anderer Websites verantwortlich."
+          ]
+        },
+        {
+          "h": "Änderungen",
+          "p": [
+            "Wir können diese Bedingungen aktualisieren. Das Datum oben auf dieser Seite zeigt die aktuelle Fassung."
+          ]
+        },
+        {
+          "h": "Kontakt",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "intro": "Diese Website verwendet keine Cookies.",
+      "sections": [
+        {
+          "h": "Was stattdessen gespeichert wird",
+          "p": [
+            "Eine einzige Einstellung namens lang wird im lokalen Speicher deines Browsers abgelegt. Sie merkt sich die gewählte Sprache und wird nur gespeichert, wenn du eine Sprache wählst. Sie bleibt erhalten, bis du sie löschst, und wird nicht an uns gesendet."
+          ]
+        },
+        {
+          "h": "Kein Tracking",
+          "p": [
+            "Die Website hat keine Analysen, keine Werbung und kein Tracking und speichert sonst nichts in deinem Browser. Deshalb zeigt sie keinen Cookie-Hinweis."
+          ]
+        },
+        {
+          "h": "Einstellung entfernen",
+          "p": [
+            "Du kannst sie jederzeit entfernen, indem du die Daten dieser Website in deinem Browser löschst. Die Website funktioniert weiter und zeigt wieder Englisch."
+          ]
+        },
+        {
+          "h": "Fragen",
+          "p": [
+            "{contact}"
+          ]
+        }
+      ]
+    }
+  }
+}

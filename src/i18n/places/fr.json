@@ -1,0 +1,185 @@
+{
+  "ksamil": {
+    "summary": "Une eau limpide et de petits îlots à la pointe sud de la Riviera.",
+    "body": "Ksamil est un village côtier au sud de Sarandë, face à de petits îlots de la mer Ionienne. Il se trouve près des ruines et de la lagune de Butrint."
+  },
+  "gjipe": {
+    "summary": "Une plage isolée où un canyon rejoint la mer Ionienne, entre de hautes falaises.",
+    "body": "Gjipe se trouve entre Dhërmi et Himarë, à l'embouchure d'un canyon qui descend vers la mer. On y accède à pied ou en bateau, et aucune route n'arrive jusqu'à la plage."
+  },
+  "jale": {
+    "summary": "Une petite baie sur la côte ionienne, entre Dhërmi et Himarë.",
+    "body": "Jalë est une baie de la Riviera en contrebas de la route côtière, avec une plage incurvée."
+  },
+  "mirror-beach": {
+    "summary": "Une petite crique de galets sous des falaises claires, entre Sarandë et Ksamil.",
+    "body": "Mirror Beach, appelée Plazhi i Pasqyrave en albanais, est une crique de galets sur la côte ionienne entre Sarandë et Ksamil, avec des falaises de calcaire clair à son extrémité sud."
+  },
+  "borsh": {
+    "summary": "Une longue plage sous un village et des terrasses d'oliviers sur la Riviera.",
+    "body": "Borsh est un village au-dessus de la route côtière entre Himarë et Sarandë, avec des oliveraies sur les pentes et une longue plage en contrebas."
+  },
+  "dhermi": {
+    "summary": "Un village à flanc de colline au-dessus d'une plage, au sud du col de Llogara.",
+    "body": "Dhërmi se trouve sur la route côtière au sud de Palasë, avec un vieux village sur la pente et des plages en contrebas."
+  },
+  "korab": {
+    "summary": "La plus haute montagne d'Albanie, à la frontière avec la Macédoine du Nord.",
+    "body": "Le mont Korab s'élève sur la frontière orientale, dans le parc naturel de Korab-Koritnik."
+  },
+  "accursed-mountains": {
+    "name": "Montagnes maudites",
+    "summary": "La chaîne calcaire des Alpes albanaises, au-dessus de Theth et de Valbona.",
+    "body": "Les Montagnes maudites, aussi appelées Alpes albanaises, forment la haute chaîne calcaire de l'extrême nord, avec Theth et Valbona dans leurs vallées."
+  },
+  "mount-tomorr": {
+    "name": "Mont Tomorr",
+    "summary": "Une longue crête montagneuse à l'est de Berat.",
+    "body": "Le mont Tomorr est la crête qui domine la vallée à l'est de Berat."
+  },
+  "drin-river": {
+    "name": "Drin",
+    "summary": "Un fleuve qui traverse les collines du nord vers l'Adriatique.",
+    "body": "Le Drin traverse le nord de l'Albanie, par des gorges et des retenues, vers l'Adriatique près de Shkodër et de Lezhë."
+  },
+  "buna-river": {
+    "name": "Buna",
+    "summary": "Le court fleuve qui relie le lac de Shkodër à l'Adriatique.",
+    "body": "La Buna sort du lac de Shkodër près de la ville de Shkodër et longe la frontière jusqu'à l'Adriatique."
+  },
+  "shala-river": {
+    "name": "Shala",
+    "summary": "Une rivière de montagne limpide dans les vallées en aval de Theth.",
+    "body": "La Shala coule dans une vallée étroite du nord, en aval du village de Theth."
+  },
+  "vjosa-river": {
+    "name": "Vjosa",
+    "summary": "Un fleuve au cours libre qui traverse le sud vers l'Adriatique.",
+    "body": "La Vjosa prend sa source en Grèce, entre en Albanie par le sud-est et traverse vallées et gorges jusqu'à l'Adriatique, au nord de Vlorë."
+  },
+  "lake-ohrid": {
+    "name": "Lac d'Ohrid",
+    "summary": "Un lac profond à la frontière avec la Macédoine du Nord, à côté de Pogradec.",
+    "body": "Le lac d'Ohrid est partagé avec la Macédoine du Nord. Sur la rive albanaise se trouve la ville de Pogradec."
+  },
+  "lake-shkodra": {
+    "name": "Lac de Shkodër",
+    "summary": "Un grand lac partagé avec le Monténégro, à côté de la ville de Shkodër.",
+    "body": "Le lac de Shkodër se trouve à la frontière avec le Monténégro, la ville de Shkodër étant proche de son extrémité sud-est."
+  },
+  "lake-prespa": {
+    "name": "Lac Prespa",
+    "summary": "Un lac d'altitude où se rencontrent l'Albanie, la Grèce et la Macédoine du Nord.",
+    "body": "Le lac Prespa se trouve dans le sud-est, aux frontières de la Grèce et de la Macédoine du Nord."
+  },
+  "theth": {
+    "summary": "Un village de montagne sous les Alpes albanaises, avec une petite église en pierre et des sentiers dans la vallée.",
+    "body": "Theth est un village dans une haute vallée des Alpes albanaises, dans le parc national des Alpes d'Albanie. Les maisons de pierre sont dispersées au fond de la vallée, et un sentier franchit le col vers Valbona."
+  },
+  "valbona": {
+    "summary": "Des sommets calcaires et une vallée fluviale dans les Alpes albanaises.",
+    "body": "Valbona est une vallée de l'extrême nord, dans le parc national des Alpes d'Albanie, où une rivière coule sous des sommets calcaires."
+  },
+  "lepushe": {
+    "summary": "Un village d'altitude dans la région de Kelmend, dans les Alpes albanaises.",
+    "body": "Lepushë est un village de montagne de l'extrême nord, près de la frontière avec le Monténégro."
+  },
+  "dardhe": {
+    "summary": "Un village de montagne aux maisons de pierre dans les collines près de Korçë.",
+    "body": "Dardhë est un village dans les montagnes du sud-est, près de la ville de Korçë."
+  },
+  "berat": {
+    "summary": "Ses vieux quartiers de maisons blanches et de fenêtres se font face de part et d'autre de l'Osum.",
+    "body": "Berat est une ville du sud de l'Albanie dont le centre historique est inscrit à l'UNESCO. Les quartiers de Mangalem et de Gorica se font face de part et d'autre de l'Osum, et un quartier du château domine la colline."
+  },
+  "gjirokaster": {
+    "summary": "Une vieille ville à flanc de colline, aux maisons de pierre et aux toits de dalles, sous son château.",
+    "body": "Gjirokastër est une ville sur le versant d'une vallée du sud, dont le centre historique est inscrit à l'UNESCO. Elle est bâtie en pierre grise, avec un château au-dessus du vieux bazar."
+  },
+  "kruje": {
+    "summary": "Une ville fortifiée au-dessus de la plaine, avec une vieille rue de bazar sous les remparts.",
+    "body": "Krujë se trouve à flanc de montagne au nord de Tirana. Une rue de bazar pavée monte vers le château."
+  },
+  "butrint": {
+    "summary": "Des ruines grecques, romaines et vénitiennes dans un parc national près de la frontière sud.",
+    "body": "Butrint est un site archéologique sur une péninsule près de la frontière grecque, avec des ruines de plusieurs époques dans un bois au bord d'une lagune."
+  },
+  "apollonia": {
+    "summary": "Les ruines d'une cité antique sur une colline près de Fier.",
+    "body": "Apollonia est un site archéologique sur une colline dominant la plaine, près de Fier."
+  },
+  "lezhe": {
+    "summary": "Une ville près de l'embouchure du Drin, dominée par un château.",
+    "body": "Lezhë est une ville du nord-ouest, proche de la côte, avec un château sur la colline derrière elle."
+  },
+  "alps-of-albania-national-park": {
+    "name": "Parc national des Alpes d'Albanie",
+    "summary": "Un parc national des Alpes albanaises qui inclut les vallées de Theth et de Valbona.",
+    "body": "Le parc national des Alpes d'Albanie a été créé en janvier 2022, en réunissant les anciens parcs nationaux de Theth et de la vallée de Valbona en une seule aire protégée."
+  },
+  "butrint-national-park": {
+    "name": "Parc national de Butrint",
+    "summary": "Forêt, lagune et site antique de Butrint près de la frontière sud.",
+    "body": "Le parc national de Butrint entoure le site archéologique de Butrint, avec des bois, des zones humides et une lagune."
+  },
+  "korab-koritnik-nature-park": {
+    "name": "Parc naturel de Korab-Koritnik",
+    "summary": "Un parc naturel sur la frontière orientale, autour du mont Korab.",
+    "body": "Le parc naturel de Korab-Koritnik couvre les hautes montagnes le long de la frontière orientale, dont le mont Korab."
+  },
+  "divjake-karavasta-national-park": {
+    "name": "Parc national de Divjakë-Karavasta",
+    "summary": "Lagunes, pinède et zones humides sur la côte centrale.",
+    "body": "Le parc national de Divjakë-Karavasta se trouve sur la côte adriatique, au centre du pays, autour de la lagune de Karavasta."
+  },
+  "tirana": {
+    "summary": "La capitale, organisée autour de la place Skanderbeg.",
+    "body": "Tirana est la capitale de l'Albanie. Son centre est la place Skanderbeg, avec le mont Dajti à l'est."
+  },
+  "mount-dajti": {
+    "name": "Mont Dajti",
+    "summary": "La montagne à la limite est de Tirana.",
+    "body": "Le mont Dajti s'élève directement à l'est de Tirana, dans un parc national."
+  },
+  "llogara-pass": {
+    "name": "Col de Llogara",
+    "summary": "Le col de montagne sur la route de Vlorë vers la Riviera.",
+    "body": "La route de montagne depuis Vlorë franchit le col de Llogara et descend vers la côte ionienne près de Palasë. Depuis juillet 2024, le tunnel de Llogara relie aussi Dukat et Palasë."
+  },
+  "blue-eye": {
+    "name": "Œil bleu (Syri i Kaltër)",
+    "summary": "Une source profonde d'eau bleue limpide dans les collines à l'intérieur des terres depuis Sarandë.",
+    "body": "L'Œil bleu est une source qui alimente la Bistrica, dans un bois entre Sarandë et Gjirokastër."
+  },
+  "osum-river": {
+    "name": "Osum",
+    "summary": "La rivière qui traverse des canyons et le centre de Berat.",
+    "body": "L'Osum coule dans des canyons du sud et traverse la ville de Berat."
+  },
+  "bistrica-river": {
+    "name": "Bistrica",
+    "summary": "Une courte rivière qui coule de l'Œil bleu vers la mer Ionienne.",
+    "body": "La Bistrica naît à la source de l'Œil bleu et parcourt environ 25 km vers la mer Ionienne, au sud de Sarandë."
+  },
+  "karaburun": {
+    "summary": "Une péninsule montagneuse de l'autre côté de la baie par rapport à Vlorë.",
+    "body": "Karaburun est une péninsule du côté ouest de la baie de Vlorë, et fait partie du parc national marin de Karaburun-Sazan."
+  },
+  "sazan-island": {
+    "name": "Île de Sazan",
+    "summary": "Une île à l'entrée de la baie de Vlorë.",
+    "body": "Sazan est une île au large de la pointe de la péninsule de Karaburun, à l'entrée de la baie de Vlorë. L'accès à l'île peut être restreint : renseignez-vous auprès d'un opérateur agréé."
+  },
+  "vlore": {
+    "summary": "Une ville côtière sur sa baie, près de l'endroit où l'Adriatique rencontre la mer Ionienne.",
+    "body": "Vlorë est une ville sur la baie de Vlorë, près de l'endroit où l'Adriatique rencontre la mer Ionienne."
+  },
+  "pogradec": {
+    "summary": "Une ville sur la rive albanaise du lac d'Ohrid.",
+    "body": "Pogradec est une ville sur la rive sud du lac d'Ohrid."
+  },
+  "himare": {
+    "summary": "Une ville côtière de la Riviera, avec un vieux village sur la colline au-dessus.",
+    "body": "Himarë est une ville de la côte ionienne, entre Dhërmi et Borsh, dominée par un vieux village fortifié."
+  }
+}
